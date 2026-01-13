@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "База даних фактів",
+  "description": "Схема для валідації об'єктів-фактів про комп'ютерні ігри або фізичні вправи в базі даних фактів.",
+  "type": "object",
+  "properties": {
+    "fact_id": { "type": "string", "description": "Унікальний ідентифікатор факту" },
+    "fact_type": { 
+      "type": "string",
+      "enum": ["game", "exercise"], 
+      "description": "Тип факту: game - комп'ютерна гра, exercise - фізична вправа" 
+    },
+    "fact_name": { "type": "string", "description": "Назва факту" },
+    "fact_description": { "type": ["string", "null"], "description": "Текстовий опис сценарію гри або фізичної вправи" },
+    "primary_goal": { "type": ["string", "null"], "description": "Основна мета" },
+    "primary_goal_source": { "type": ["string", "null"], "description": "Джерело даних для основної мети" },
+    "body_position": { "type": ["string", "null"], "description": "Положення тіла" },
+    "body_position_source": { "type": ["string", "null"], "description": "Джерело даних для положення тіла" },
+    "body_area": { "type": ["string", "null"], "description": "Область тіла" },
+    "body_area_source": { "type": ["string", "null"], "description": "Джерело даних для області тіла" },
+    "movement_dynamics": { "type": ["string", "null"], "description": "Динаміка рухів" },
+    "movement_dynamics_source": { "type": ["string", "null"], "description": "Джерело даних для динаміки рухів" },
+    "board_type": { "type": ["string", "null"], "description": "Тип дошки" },
+    "board_type_source": { "type": ["string", "null"], "description": "Джерело даних для типу дошки" },
+    "application_sphere": { "type": ["string", "null"], "description": "Сфера застосування" },
+    "application_sphere_source": { "type": ["string", "null"], "description": "Джерело даних для сфери застосування" },
+    "difficulty": { "type": ["string", "null"], "description": "Рівень складності" },
+    "difficulty_source": { "type": ["string", "null"], "description": "Джерело даних для рівня складності" },
+    "additional_devices": { "type": ["array", "null"], "items": { "type": "string" }, "description": "Додаткові пристрої" },
+    "additional_devices_source": { "type": ["string", "null"], "description": "Джерело даних для додаткових пристроїв" }
+  },
+  "required": ["fact_id", "fact_type", "fact_name"],
+  "allOf": [
+    {
+      "if": { "properties": { "fact_type": { "const": "game" } } },
+      "then": {
+        "properties": {
+          "game_system": { "type": "string", "description": "Назва ігрової системи, наприклад, PlankPad" },
+          "gameplay_bricks": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Типи GamePlay цеглинок"
+          }
+        },
+        "required": ["game_system"]
+      }
+    },
+    {
+      "if": { "properties": { "fact_type": { "const": "exercise" } } },
+      "then": {
+        "properties": {
+          "technique": { "type": "string", "description": "Методичні рекомендації із описом фізичних вправ, наприклад, CoolBoard" }
+        },
+        "required": ["technique"]
+      }
+    }
+  ]
+}
