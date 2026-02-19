@@ -121,11 +121,12 @@ def calibration_thread():
     calibration_data = []
     calibration_state = CalibrationState.CALIBRATING
     
-    for i in range(5, 0, -1):
-        print(f"{i}...")
-        if i == 1:
-            winsound.Beep(1000, 600)
+    for i in range(3, -1, -1):
+        if i == 0:
+            print(f"{i} .......")
+            winsound.Beep(1000, 700)
         else:
+            print(f"{i} ...")
             winsound.Beep(1000, 200)
         time.sleep(1)
         
