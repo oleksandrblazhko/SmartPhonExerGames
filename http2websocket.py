@@ -37,15 +37,121 @@ SENSOR_DATA = {
     "angle_y": 0
 }
 
-# URL-адреса HTTP-сервера, звідки беруться дані
-HTTP_SERVER_URL = "http://192.168.0.100:8080/get?accX&accY"
+# Базова частина IP-адреси
+BASE_IP = "192.168.0."
+DEFAULT_PORT = 8080
+
+# URL-адреса HTTP-сервера, звідки беруться дані (буде встановлена після пошуку)
+HTTP_SERVER_URL = None
 
 # Коефіцієнт масштабування для перетворення значень акселерометра в кути
 SCALING_FACTOR = 7.1
 
+# Коефіцієнт згладжування для фільтра (EMA)
+# 0.2 = сильне згладжування, 0.8 = слабке згладжування
+ALPHA = 0.3
+
+# Фільтровані значення
+filtered_accX = 0.0
+filtered_accY = 0.0
+
+# Файл конфігурації
+CONFIG_FILE = "config.json"
+
 def clamp(value, min_val, max_val):
     """Допоміжна функція, що обмежує значення в заданому діапазоні [min_val, max_val]."""
     return max(min_val, min(value, max_val))
+
+def load_config():
+    """
+    Завантажує конфігурацію з файлу.
+    Повертає збережену IP-адресу або None.
+    """
+    if os.path.exists(CONFIG_FILE):
+        try:
+            with open(CONFIG_FILE, 'r') as f:
+                config = json.load(f)
+                saved_ip = config.get("server_ip")
+                if saved_ip:
+                    print(f"Завантажено збережену адресу: {saved_ip}")
+                    return saved_ip
+        except (json.JSONDecodeError, IOError) as e:
+            print(f"Помилка читання конфігурації: {e}")
+    return None
+
+def save_config(ip_address):
+    """
+    Зберігає IP-адресу сервера у файл конфігурації.
+    """
+    try:
+        config = {"server_ip": ip_address}
+        with open(CONFIG_FILE, 'w') as f:
+            json.dump(config, f, indent=2)
+        print(f"Адресу збережено: {ip_address}")
+    except IOError as e:
+        print(f"Помилка запису конфігурації: {e}")
+
+async def check_server_available(session, ip_address):
+    """
+    Перевіряє доступність HTTP-сервера за вказаною IP-адресою.
+    Повертає True, якщо сервер доступний і повертає коректні дані.
+    """
+    url = f"http://{ip_address}:{DEFAULT_PORT}/get?accX&accY"
+    try:
+        async with session.get(url, timeout=aiohttp.ClientTimeout(total=2)) as response:
+            if response.status == 200:
+                data = await response.json()
+                # Перевіряємо, чи є дані в буфері (не null)
+                accX = data.get("buffer", {}).get("accX", {}).get("buffer", [None])[0]
+                accY = data.get("buffer", {}).get("accY", {}).get("buffer", [None])[0]
+                if accX is not None and accY is not None:
+                    return True, url
+    except (aiohttp.ClientError, asyncio.TimeoutError, json.JSONDecodeError, KeyError):
+        pass
+    return False, None
+
+async def find_server():
+    """
+    Шукає доступний HTTP-сервер, перевіряючи діапазони адрес 100-103 та 160-163.
+    Повертає URL знайденого сервера або None, якщо сервер не знайдено.
+    """
+    async with aiohttp.ClientSession() as session:
+        # Перший діапазон: 100-110
+        print("Пошук сервера в діапазоні 192.168.0.100-103...")
+        for i in range(100, 103):
+            ip = f"{BASE_IP}{i}"
+            available, url = await check_server_available(session, ip)
+            if available:
+                print(f"Знайдено сервер: {url}")
+                return url
+        
+        # Другий діапазон: 161-170
+        print("Пошук сервера в діапазоні 192.168.0.160-163...")
+        for i in range(160, 163):
+            ip = f"{BASE_IP}{i}"
+            available, url = await check_server_available(session, ip)
+            if available:
+                print(f"Знайдено сервер: {url}")
+                return url
+    
+    return None
+
+def get_user_ip():
+    """
+    Запитує у користувача власне значення IP-адреси.
+    """
+    while True:
+        try:
+            user_input = input("Введіть останнє число IP-адреси (наприклад, 111 або 165): ")
+            last_octet = int(user_input)
+            if 1 <= last_octet <= 254:
+                url = f"http://{BASE_IP}{last_octet}:{DEFAULT_PORT}/get?accX&accY"
+                print(f"Використовується адреса: {url}")
+                return url
+            else:
+                print("Число має бути в діапазоні від 1 до 254.")
+        except ValueError:
+            print("Будь ласка, введіть коректне число.")
 
 async def register_client(websocket):
     """
@@ -67,7 +173,7 @@ async def data_loop():
     Головний цикл програми: періодично запитує дані з HTTP-сервера,
     обчислює кути нахилу та транслює їх усім підключеним клієнтам.
     """
-    global calibration_state, delta_accX, delta_accY, calibration_data
+    global calibration_state, delta_accX, delta_accY, calibration_data, filtered_accX, filtered_accY
 
     async with aiohttp.ClientSession() as session:
         while True:
@@ -80,20 +186,24 @@ async def data_loop():
 
                         if calibration_state == CalibrationState.CALIBRATING:
                             calibration_data.append((accX, accY))
-                            continue 
+                            continue
 
                         if calibration_state == CalibrationState.DONE:
                             accX -= delta_accX
                             accY -= delta_accY
 
-                        ratio_x = clamp(accX / SCALING_FACTOR, -1.0, 1.0)
-                        ratio_y = clamp(accY / SCALING_FACTOR, -1.0, 1.0)
-                        
+                        # Застосовуємо фільтр низьких частот (EMA)
+                        filtered_accX = ALPHA * accX + (1 - ALPHA) * filtered_accX
+                        filtered_accY = ALPHA * accY + (1 - ALPHA) * filtered_accY
+
+                        ratio_x = clamp(filtered_accX / SCALING_FACTOR, -1.0, 1.0)
+                        ratio_y = clamp(filtered_accY / SCALING_FACTOR, -1.0, 1.0)
+
                         angle_x = math.degrees(math.asin(ratio_x))
                         angle_y = math.degrees(math.asin(ratio_y))
 
                         SENSOR_DATA.update({
-                            "accX": accX, "accY": accY,
+                            "accX": filtered_accX, "accY": filtered_accY,
                             "angle_x": angle_x, "angle_y": angle_y
                         })
                     else:
@@ -102,14 +212,17 @@ async def data_loop():
                 print(f"Помилка підключення до HTTP-сервера: {e}")
             except json.JSONDecodeError:
                 print("Помилка: не вдалося розкодувати JSON.")
-            
+
             if CONNECTED_CLIENTS:
-                message = json.dumps({"angle_x": SENSOR_DATA["angle_x"], "angle_y": SENSOR_DATA["angle_y"]})
+                message = json.dumps({
+                    "accX": SENSOR_DATA["accX"],
+                    "accY": SENSOR_DATA["accY"]
+                })
                 # Використовуємо gather з return_exceptions=True, щоб уникнути падіння циклу,
                 # якщо один з клієнтів від'єднався.
                 await asyncio.gather(*[client.send(message) for client in CONNECTED_CLIENTS], return_exceptions=True)
-            
-            await asyncio.sleep(0.02)
+
+            await asyncio.sleep(0.05)  # 20 Гц
 
 def calibration_thread():
     """
@@ -164,6 +277,42 @@ def input_handler():
 
 async def main_async():
     """Основна функція, яка запускає WebSocket-сервер та цикл обробки даних."""
+    global HTTP_SERVER_URL
+    
+    # Спроба завантажити збережену адресу з конфігурації
+    print("Перевірка доступності HTTP-сервера...")
+    saved_ip = load_config()
+    
+    server_url = None
+    
+    # Спершу перевіряємо збережену адресу
+    if saved_ip:
+        print(f"Перевірка збереженої адреси: {saved_ip}...")
+        async with aiohttp.ClientSession() as session:
+            available, url = await check_server_available(session, saved_ip)
+            if available:
+                print(f"Знайдено сервер за збереженою адресою: {url}")
+                server_url = url
+            else:
+                print("Збережена адреса недоступна. Пошук нового сервера...")
+    
+    # Якщо збережена адреса не працює, шукаємо сервер
+    if server_url is None:
+        server_url = await find_server()
+    
+    # Якщо сервер не знайдено, запитуємо адресу у користувача
+    if server_url is None:
+        print("\nНе вдалося знайти сервер у діапазонах 192.168.0.100-110 та 192.168.0.161-170.")
+        print("Будь ласка, введіть адресу сервера вручну.")
+        server_url = get_user_ip()
+    
+    # Зберігаємо робочу адресу в конфігурацію
+    # Витягуємо IP з URL для збереження
+    ip_to_save = server_url.split("//")[1].split(":")[0]
+    save_config(ip_to_save)
+    
+    HTTP_SERVER_URL = server_url
+    print(f"Підключення до сервера: {HTTP_SERVER_URL}")
     
     server = await websockets.serve(register_client, "localhost", 8767)
     data_task = asyncio.create_task(data_loop())
@@ -180,6 +329,8 @@ async def main_async():
         await server.wait_closed()
 
 def main():
+    global HTTP_SERVER_URL
+    
     input_thread = threading.Thread(target=input_handler)
     input_thread.daemon = True
     input_thread.start()
