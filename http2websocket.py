@@ -45,7 +45,8 @@ DEFAULT_PORT = 8080
 HTTP_SERVER_URL = None
 
 # Коефіцієнт масштабування для перетворення значень акселерометра в кути
-SCALING_FACTOR = 7.1
+# Визначено експериментально: accX=5.0 при 30°, accX=8.45 при 45°
+SCALING_FACTOR = 11.0
 
 # Коефіцієнт згладжування для фільтра (EMA)
 # 0.2 = сильне згладжування, 0.8 = слабке згладжування
@@ -216,7 +217,9 @@ async def data_loop():
             if CONNECTED_CLIENTS:
                 message = json.dumps({
                     "accX": SENSOR_DATA["accX"],
-                    "accY": SENSOR_DATA["accY"]
+                    "accY": SENSOR_DATA["accY"],
+                    "angle_x": SENSOR_DATA["angle_x"],
+                    "angle_y": SENSOR_DATA["angle_y"]
                 })
                 # Використовуємо gather з return_exceptions=True, щоб уникнути падіння циклу,
                 # якщо один з клієнтів від'єднався.
@@ -264,7 +267,7 @@ def input_handler():
     
     while True:
         key = keyboard.read_key()
-        if key == 'c' or key == 'C':
+        if key == 'f1' or key == 'F1':
             if calibration_state != CalibrationState.CALIBRATING:
                 cal_thread = threading.Thread(target=calibration_thread)
                 cal_thread.start()
@@ -318,7 +321,7 @@ async def main_async():
     data_task = asyncio.create_task(data_loop())
 
     print("WebSocket-сервер запущено на ws://localhost:8767")
-    print("Клавіші керування: C - калібрування стану спокою, Q - завершення роботи")
+    print("Клавіші керування: F1 - калібрування стану спокою, Q - завершення роботи")
     
     try:
         await data_task
