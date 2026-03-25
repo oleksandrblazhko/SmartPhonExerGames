@@ -113,13 +113,13 @@ async def check_server_available(session, ip_address):
 
 async def find_server():
     """
-    Шукає доступний HTTP-сервер, перевіряючи діапазони адрес 100-103 та 160-163.
+    Шукає доступний HTTP-сервер, перевіряючи діапазони адрес 100-105 та 160-165.
     Повертає URL знайденого сервера або None, якщо сервер не знайдено.
     """
     async with aiohttp.ClientSession() as session:
         # Перший діапазон: 100-110
-        print("Пошук сервера в діапазоні 192.168.0.100-103...")
-        for i in range(100, 103):
+        print("Пошук сервера в діапазоні 192.168.0.100-105...")
+        for i in range(100, 105):
             ip = f"{BASE_IP}{i}"
             available, url = await check_server_available(session, ip)
             if available:
@@ -127,8 +127,8 @@ async def find_server():
                 return url
         
         # Другий діапазон: 161-170
-        print("Пошук сервера в діапазоні 192.168.0.160-163...")
-        for i in range(160, 163):
+        print("Пошук сервера в діапазоні 192.168.0.160-165...")
+        for i in range(160, 165):
             ip = f"{BASE_IP}{i}"
             available, url = await check_server_available(session, ip)
             if available:
