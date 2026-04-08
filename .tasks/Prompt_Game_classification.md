@@ -10,11 +10,11 @@
 5) для кожного методу проведи статистичний аналіз результатів.
 
 # Context:
-1) описи ігор для трьох систем розміщено у файлах:  
+1) описи ігор для трьох систем розміщено у файлах каталогу Docs\ExerGamesExamples:  
 - Wii Fit - wii.md
 - PlankPad - plankpad.md
 - BoBo Balance - bobo.md
-2) опис критеріїв класифікації ігор розміщено у файлі Classification.md
+2) опис критеріїв класифікації ігор розміщено у файлі Docs\Results\Classification.md
 
 # Format:
 1) сформуй таблицю зі стовпцями:
@@ -22,5 +22,5 @@
 - назва гри;
 - кожний стовпець - окремий критерій класификації;
 2) використовуй md-формат таблиці;
-3) назва файлу з таблицею - Game_Classification_Result.md;
-4) назва файлу з результатами статистичного аналізу - Classification_Stat_Analyze_Result.md.
+3) назва файлу з таблицею - Docs\Results\Game_Classification_Result.md;
+4) назва файлу з результатами статистичного аналізу - Docs\Results\Classification_Stat_Analyze_Result.md.
