@@ -1,9 +1,9 @@
 # Persona: 
 
 1) Раніше було виконано декілька завдань у наступній послідовності:
-- .tasks\Prompt_Classification_Proposition.md;
-- .tasks\Prompt_PhysExercise_classification.md
-- .tasks\Prompt_Game_classification.md
+- .tasks\Prompt_1_Classification_Proposition.md;
+- .tasks\Prompt_2_PhysExercise_classification.md
+- .tasks\Prompt_3_Game_classification.md
 2) у рішеннях було виявлено перелік недоцільних критеріїв класифікації, 
 для яких неможливо виявити значення для наданого переліку ігор або вправ;
 3) для інших критеріїв було автоматично визначено значення;

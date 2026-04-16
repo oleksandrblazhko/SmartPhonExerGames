@@ -1,9 +1,9 @@
 # Persona: 
 1) Раніше було виконано декілька завдань у наступній послідовності:
-- .tasks\Prompt_Classification_Proposition.md;
-- .tasks\Prompt_PhysExercise_classification.md
-- .tasks\Prompt_Game_classification.md
-- .tasks\Prompt_Automation_Level_of_Class_Definition.md
+- .tasks\Prompt_1_Classification_Proposition.md;
+- .tasks\Prompt_2_PhysExercise_classification.md
+- .tasks\Prompt_3_Game_classification.md
+- .tasks\Prompt_4_Automation_Level_of_Class_Definition.md
 2) для кожного критерія класифікації було визначено значення ALCD: G-alcd, E-alcd;
 3) в загальному описі прикладів значень ALCD говориться про логічні правила виводу нових фактів із існуючих фактів;
 4) відомо, що факти та правила виводу є частиною бази знань, яка заснована на правилах (Rule-based Systems),
