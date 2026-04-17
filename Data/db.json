@@ -1,0 +1,42 @@
+{
+  "exerciseTypes": [
+    {
+      "id": "sit",
+      "name": "сидячи"
+    },
+    {
+      "id": "lie",
+      "name": "лежачи"
+    },
+    {
+      "id": "stand",
+      "name": "стоячи"
+    }
+  ],
+
+  "gameScenarios": [
+    {
+      "id": "collect",
+      "name": "збір бонусів"
+    },
+    {
+      "id": "escape",
+      "name": "втеча від перешкод"
+    }
+  ],
+
+  "players": [
+    {
+      "login": "player1",
+      "scenarioId": "collect",
+      "actionSpeed": 1.25,
+      "eventFrequency": 0.8
+    },
+    {
+      "login": "player2",
+      "scenarioId": "escape",
+      "actionSpeed": 0.9,
+      "eventFrequency": 1.4
+    }
+  ]
+}
