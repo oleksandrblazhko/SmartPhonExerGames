@@ -23,5 +23,5 @@
 - назва гри;
 - кожний стовпець - окремий критерій класификації;
 2) використовуй md-формат таблиці;
-3) назва файлу з таблицею - Docs\Results\Game_Classification_Result.md;
-4) назва файлу з результатами статистичного аналізу - Docs\Results\Classification_Stat_Analyze_Result.md.
+3) назва файлу з таблицею - Docs\Results\Game_Classification_Result_gem.md;
+4) назва файлу з результатами статистичного аналізу - Docs\Results\Classification_Stat_Analyze_Result_gem.md.
