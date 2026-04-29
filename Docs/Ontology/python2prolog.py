@@ -1,4 +1,5 @@
-# pip install pyswip
+# https://pyswip.org/
+#  pip install pyswip
 
 from pyswip import Prolog
 

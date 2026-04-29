@@ -7,8 +7,8 @@
 eats(wolf, meat).
 eats(hare, plant).
 
-is(hare, meat).
-is(grass, plant).
+meat(hare).
+plant(grass).
 
 % =========================
 % RULES
@@ -26,13 +26,11 @@ is(X, herbivore) :-
 
 % Rule 1: if A is meat and B eats meat → B eats A
 eats(B, A) :-
-    is(A, meat),
-    eats(B, meat),
-    B \= A.
+    meat(A),
+    eats(B, meat).
 
 
 % Rule 2: if A is plant and B eats plant → B eats A
 eats(B, A) :-
-    is(A, plant),
-    eats(B, plant),
-    B \= A.
+    plant(A),
+    eats(B, plant).
