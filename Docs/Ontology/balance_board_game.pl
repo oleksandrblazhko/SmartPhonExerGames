@@ -115,7 +115,11 @@ exercise(coordination, standing, lower, avoid, wobble, none).       % Tetromino
 - D – множина динамічних властивостей гри.
 */
 
-% 1. GAME MECHANICS (Mc)
+
+/* =========================================
+   GAME MECHANIC TYPES (Mc)
+========================================= */
+
 mechanic(create).
 mechanic(destroy).
 mechanic(avoid).
@@ -127,25 +131,59 @@ mechanic(random).
 mechanic(shoot).
 mechanic(manage).
 
-% template, uses
 
-template(soccer_heading,t101).
-uses(t101,match).
-uses(t101,avoid).
+/* =========================================
+   GAME MECHANIC TEMPLATES
+   template(TemplateName, MechanicSet)
+========================================= */
 
-template(ski_slalom,t102).
-uses(t102,move).
-uses(t102,avoid).
+% T1: Arcade navigation template
+template(t1_move_avoid,
+         [move, avoid]).
 
-template(fruit_slicer,t201).
-uses(t201,destroy).
-uses(t201,avoid).
+% T2: Balance / puzzle coordination template
+template(t2_move_match,
+         [move, match]).
 
-template(crazy_snowboard,t301).
-uses(t301,move).
-uses(t301,manage).
-uses(t301,create).
+% T3: Cognitive template
+template(t3_match_select,
+         [match, select]).
 
+% T4: Reactive shooter template
+template(t4_shoot_avoid_move,
+         [shoot, avoid, move]).
+
+% T5: Control-management template
+template(t5_manage_move,
+         [manage, move]).
+
+% T6: Destruction-reactive template
+template(t6_destroy_shoot_avoid,
+         [destroy, shoot, avoid]).
+
+% T7: Pure navigation template
+template(t7_move,
+         [move]).
+
+% T8: Locomotion template
+template(t8_move_step,
+         [move, step]).
+
+% T9: Static balance template
+template(t9_static_match,
+         [match]).
+
+% T10: Complex coordination template
+template(t10_move_step_match_select,
+         [move, step, match, select]).
+
+% T11: Plank-strength exergame template
+template(t11_plank_strength,
+         [move, destroy, shoot, match]).
+
+% T12: Hybrid arcade template
+template(t12_move_avoid_manage_match,
+         [move, avoid, manage, match]).
 
 
 % USERS
