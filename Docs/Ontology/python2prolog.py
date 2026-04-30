@@ -4,7 +4,7 @@
 from pyswip import Prolog
 
 prolog = Prolog()
-prolog.consult("animals.pl")
+prolog.consult("animal.pl")
 
 result = list(prolog.query("is(wolf, predator)"))
 
