@@ -1,3 +1,5 @@
+# https://pypi.org/project/triplet-extract/
+
 from triplet_extract import OpenIEExtractor
 
 extractor = OpenIEExtractor(
