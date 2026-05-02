@@ -1,10 +1,12 @@
 # https://pypi.org/project/triplet-extract/
+# https://github.com/adlumal/triplet-extract
 
 from triplet_extract import OpenIEExtractor
 
 extractor = OpenIEExtractor(
+    # deep_search=True,
     enable_clause_split=True,    # Split complex sentences into clauses
-    enable_entailment=True,      # Generate entailed shorter forms
+    enable_entailment=False,      # Generate entailed shorter forms
     min_confidence=1.0           # Filter low-confidence triplets
 )
 
@@ -16,8 +18,6 @@ A round continues until one participant wins the required number of rounds."""
 triplets = extractor.extract_triplet_objects(text)
 
 for t in triplets:
-    print(f"Subject: {t.subject}")
-    print(f"Relation: {t.relation}")
-    print(f"Object: {t.object}")
-    print(f"Confidence: {t.confidence}")
+    print(f"({t.subject},{t.relation},{t.object})");
+
     
