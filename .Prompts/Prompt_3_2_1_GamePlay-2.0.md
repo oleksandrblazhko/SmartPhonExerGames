@@ -54,6 +54,10 @@
 
 ## 2) Опис моделі Gameplay-Bricks 2.0 - Docs\ExerGamesExamples\GamePlayBricks-2.0.md
 
+## 3) Після аналізу перевір кількість ігор:
+- Wii Fit — 26
+- PlankPad — 10
+- BoBo Balance — 12
 
 # Format:
 

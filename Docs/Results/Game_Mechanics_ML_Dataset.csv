@@ -1,0 +1,49 @@
+System,Game,Goal_Achieve,Goal_Avoid,Goal_Destroy,Means_Create,Means_Manage,Means_Move,Means_Random,Means_Select,Means_Shoot,Means_Write
+Wii Fit,Soccer Heading,0,1,1,0,1,1,0,0,0,0
+Wii Fit,Ski Slalom,1,0,0,0,1,1,0,0,0,0
+Wii Fit,Table Tilt,1,0,0,0,0,1,0,0,0,0
+Wii Fit,Ski Jump,1,0,0,0,0,1,0,0,0,0
+Wii Fit,Tightrope Walk,1,1,0,0,0,1,0,0,0,0
+Wii Fit,Balance Bubble,1,1,0,0,0,1,0,0,0,0
+Wii Fit,Penguin Slide,0,0,1,0,1,1,0,0,0,0
+Wii Fit,Snowboard Slalom,1,0,0,0,0,1,0,0,0,0
+Wii Fit,Lotus Focus,1,0,0,0,0,0,0,0,0,0
+Wii Fit,Perfect 10,1,0,0,0,0,1,0,0,0,0
+Wii Fit,Rhythm Kung Fu,1,0,0,0,0,1,0,1,0,0
+Wii Fit,Bird's-Eye Bull's-Eye,1,0,0,0,1,1,0,0,0,0
+Wii Fit,Snowball Fight,0,1,1,0,1,1,0,0,1,0
+Wii Fit,Obstacle Course,1,1,0,0,0,1,0,0,0,0
+Wii Fit,Tilt City,1,0,0,0,1,1,0,0,0,0
+Wii Fit,Trampoline Target,1,0,0,0,0,1,0,0,0,0
+Wii Fit,Ultimate Obstacle Course,1,1,0,0,0,1,0,0,0,0
+Wii Fit,Core Luge,1,0,0,0,0,1,0,0,0,0
+Wii Fit,Hosedown,0,0,1,0,1,1,0,0,1,0
+Wii Fit,Scuba Search,0,0,1,0,1,1,0,0,0,0
+Wii Fit,Climbing,1,0,0,0,1,1,0,0,0,0
+Wii Fit,Dessert Course,1,1,0,0,1,1,0,0,0,0
+Wii Fit,Big Top Juggling,1,1,1,0,0,1,0,0,0,0
+Wii Fit,Skateboard Arena,1,0,1,0,0,1,0,0,0,0
+Wii Fit,Table Tilt Plus,1,0,0,0,1,1,0,0,0,0
+Wii Fit,Balance Bubble Plus,1,1,0,0,1,1,0,0,0,0
+PlankPad,Fruit Slicer,0,0,1,0,0,1,0,0,0,0
+PlankPad,Hopper,1,0,0,0,0,1,0,0,0,0
+PlankPad,Stix & Stones,0,1,0,0,0,1,0,0,0,0
+PlankPad,Meteor Madness,0,0,1,0,0,1,0,0,1,0
+PlankPad,Candy Monster,0,0,1,0,0,1,0,0,0,0
+PlankPad,Duck Shoot,1,0,0,0,0,1,0,0,1,0
+PlankPad,Snow Cruisin,0,1,0,0,0,1,0,0,0,0
+PlankPad,Pong Goal,1,0,0,0,0,1,0,0,0,0
+PlankPad,Wave Rider,0,1,0,0,0,1,0,0,0,0
+PlankPad,Gift Rush,1,0,0,0,0,1,0,0,0,0
+BoBo Balance,Crazy Snowboard,0,0,1,0,0,1,0,0,0,0
+BoBo Balance,Color Tunnel,0,1,0,0,0,1,0,0,0,0
+BoBo Balance,Space Ball,1,1,0,0,0,1,0,0,0,0
+BoBo Balance,Car,0,1,1,0,0,1,0,0,0,0
+BoBo Balance,Mini Golf,1,0,0,0,0,1,0,0,0,0
+BoBo Balance,Maze,1,0,0,0,0,1,0,0,0,0
+BoBo Balance,Fall Down,1,1,0,0,0,1,0,0,0,0
+BoBo Balance,Candy Rex,0,0,1,0,1,1,0,0,0,0
+BoBo Balance,Ice Adventure,1,0,1,0,0,1,0,0,0,0
+BoBo Balance,Submarine,0,1,1,0,0,1,0,0,0,0
+BoBo Balance,Harvest Rush,0,1,1,0,0,1,0,0,0,0
+BoBo Balance,Tetromino,0,1,0,0,0,1,0,0,0,0

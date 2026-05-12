@@ -1,0 +1,1074 @@
+[
+    {
+        "system": "Wii Fit",
+        "game": "Soccer Heading",
+        "mechanics": [
+            "Avoid",
+            "Destroy",
+            "Move"
+        ],
+        "included_mechanics": [
+            {
+                "name": "Avoid",
+                "explanation": ""
+            },
+            {
+                "name": "Destroy",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
+                "explanation": ""
+            }
+        ],
+        "excluded_or_uncertain": []
+    },
+    {
+        "system": "Wii Fit",
+        "game": "Ski Slalom",
+        "mechanics": [
+            "Achieve",
+            "Avoid",
+            "Move"
+        ],
+        "included_mechanics": [
+            {
+                "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Avoid",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
+                "explanation": ""
+            }
+        ],
+        "excluded_or_uncertain": []
+    },
+    {
+        "system": "Wii Fit",
+        "game": "Table Tilt",
+        "mechanics": [
+            "Achieve",
+            "Move"
+        ],
+        "included_mechanics": [
+            {
+                "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
+                "explanation": ""
+            }
+        ],
+        "excluded_or_uncertain": []
+    },
+    {
+        "system": "Wii Fit",
+        "game": "Ski Jump",
+        "mechanics": [
+            "Achieve",
+            "Move"
+        ],
+        "included_mechanics": [
+            {
+                "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
+                "explanation": ""
+            }
+        ],
+        "excluded_or_uncertain": []
+    },
+    {
+        "system": "Wii Fit",
+        "game": "Tightrope Walk",
+        "mechanics": [
+            "Achieve",
+            "Avoid",
+            "Move"
+        ],
+        "included_mechanics": [
+            {
+                "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Avoid",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
+                "explanation": ""
+            }
+        ],
+        "excluded_or_uncertain": []
+    },
+    {
+        "system": "Wii Fit",
+        "game": "Balance Bubble",
+        "mechanics": [
+            "Achieve",
+            "Avoid",
+            "Move"
+        ],
+        "included_mechanics": [
+            {
+                "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Avoid",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
+                "explanation": ""
+            }
+        ],
+        "excluded_or_uncertain": []
+    },
+    {
+        "system": "Wii Fit",
+        "game": "Penguin Slide",
+        "mechanics": [
+            "Destroy",
+            "Move"
+        ],
+        "included_mechanics": [
+            {
+                "name": "Destroy",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
+                "explanation": ""
+            }
+        ],
+        "excluded_or_uncertain": []
+    },
+    {
+        "system": "Wii Fit",
+        "game": "Snowboard Slalom",
+        "mechanics": [
+            "Achieve",
+            "Move"
+        ],
+        "included_mechanics": [
+            {
+                "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
+                "explanation": ""
+            }
+        ],
+        "excluded_or_uncertain": []
+    },
+    {
+        "system": "Wii Fit",
+        "game": "Lotus Focus",
+        "mechanics": [
+            "Achieve"
+        ],
+        "included_mechanics": [
+            {
+                "name": "Achieve",
+                "explanation": ""
+            }
+        ],
+        "excluded_or_uncertain": []
+    },
+    {
+        "system": "Wii Fit",
+        "game": "Perfect 10",
+        "mechanics": [
+            "Achieve",
+            "Move"
+        ],
+        "included_mechanics": [
+            {
+                "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
+                "explanation": ""
+            }
+        ],
+        "excluded_or_uncertain": []
+    },
+    {
+        "system": "Wii Fit",
+        "game": "Rhythm Kung Fu",
+        "mechanics": [
+            "Achieve",
+            "Move"
+        ],
+        "included_mechanics": [
+            {
+                "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
+                "explanation": ""
+            }
+        ],
+        "excluded_or_uncertain": []
+    },
+    {
+        "system": "Wii Fit",
+        "game": "Bird's-Eye Bull's-Eye",
+        "mechanics": [
+            "Achieve",
+            "Move",
+            "Manage"
+        ],
+        "included_mechanics": [
+            {
+                "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
+                "explanation": ""
+            },
+            {
+                "name": "Manage",
+                "explanation": ""
+            }
+        ],
+        "excluded_or_uncertain": []
+    },
+    {
+        "system": "Wii Fit",
+        "game": "Snowball Fight",
+        "mechanics": [
+            "Destroy",
+            "Avoid",
+            "Move",
+            "Shoot"
+        ],
+        "included_mechanics": [
+            {
+                "name": "Destroy",
+                "explanation": ""
+            },
+            {
+                "name": "Avoid",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
+                "explanation": ""
+            },
+            {
+                "name": "Shoot",
+                "explanation": ""
+            }
+        ],
+        "excluded_or_uncertain": []
+    },
+    {
+        "system": "Wii Fit",
+        "game": "Obstacle Course",
+        "mechanics": [
+            "Achieve",
+            "Avoid",
+            "Move"
+        ],
+        "included_mechanics": [
+            {
+                "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Avoid",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
+                "explanation": ""
+            }
+        ],
+        "excluded_or_uncertain": []
+    },
+    {
+        "system": "Wii Fit",
+        "game": "Tilt City",
+        "mechanics": [
+            "Achieve",
+            "Move"
+        ],
+        "included_mechanics": [
+            {
+                "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
+                "explanation": ""
+            }
+        ],
+        "excluded_or_uncertain": []
+    },
+    {
+        "system": "Wii Fit",
+        "game": "Trampoline Target",
+        "mechanics": [
+            "Achieve",
+            "Move"
+        ],
+        "included_mechanics": [
+            {
+                "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
+                "explanation": ""
+            }
+        ],
+        "excluded_or_uncertain": []
+    },
+    {
+        "system": "Wii Fit",
+        "game": "Ultimate Obstacle Course",
+        "mechanics": [
+            "Achieve",
+            "Avoid",
+            "Move"
+        ],
+        "included_mechanics": [
+            {
+                "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Avoid",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
+                "explanation": ""
+            }
+        ],
+        "excluded_or_uncertain": []
+    },
+    {
+        "system": "Wii Fit",
+        "game": "Core Luge",
+        "mechanics": [
+            "Achieve",
+            "Move"
+        ],
+        "included_mechanics": [
+            {
+                "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
+                "explanation": ""
+            }
+        ],
+        "excluded_or_uncertain": []
+    },
+    {
+        "system": "Wii Fit",
+        "game": "Hosedown",
+        "mechanics": [
+            "Destroy",
+            "Avoid",
+            "Move",
+            "Shoot"
+        ],
+        "included_mechanics": [
+            {
+                "name": "Destroy",
+                "explanation": ""
+            },
+            {
+                "name": "Avoid",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
+                "explanation": ""
+            },
+            {
+                "name": "Shoot",
+                "explanation": ""
+            }
+        ],
+        "excluded_or_uncertain": []
+    },
+    {
+        "system": "Wii Fit",
+        "game": "Scuba Search",
+        "mechanics": [
+            "Destroy",
+            "Avoid",
+            "Move",
+            "Manage"
+        ],
+        "included_mechanics": [
+            {
+                "name": "Destroy",
+                "explanation": ""
+            },
+            {
+                "name": "Avoid",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
+                "explanation": ""
+            },
+            {
+                "name": "Manage",
+                "explanation": ""
+            }
+        ],
+        "excluded_or_uncertain": []
+    },
+    {
+        "system": "Wii Fit",
+        "game": "Climbing",
+        "mechanics": [
+            "Achieve",
+            "Move",
+            "Select",
+            "Manage"
+        ],
+        "included_mechanics": [
+            {
+                "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
+                "explanation": ""
+            },
+            {
+                "name": "Select",
+                "explanation": ""
+            },
+            {
+                "name": "Manage",
+                "explanation": ""
+            }
+        ],
+        "excluded_or_uncertain": []
+    },
+    {
+        "system": "Wii Fit",
+        "game": "Dessert Course",
+        "mechanics": [
+            "Achieve",
+            "Avoid",
+            "Move",
+            "Manage"
+        ],
+        "included_mechanics": [
+            {
+                "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Avoid",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
+                "explanation": ""
+            },
+            {
+                "name": "Manage",
+                "explanation": ""
+            }
+        ],
+        "excluded_or_uncertain": []
+    },
+    {
+        "system": "Wii Fit",
+        "game": "Big Top Juggling",
+        "mechanics": [
+            "Achieve",
+            "Avoid",
+            "Move"
+        ],
+        "included_mechanics": [
+            {
+                "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Avoid",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
+                "explanation": ""
+            }
+        ],
+        "excluded_or_uncertain": []
+    },
+    {
+        "system": "Wii Fit",
+        "game": "Skateboard Arena",
+        "mechanics": [
+            "Achieve",
+            "Move"
+        ],
+        "included_mechanics": [
+            {
+                "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
+                "explanation": ""
+            }
+        ],
+        "excluded_or_uncertain": []
+    },
+    {
+        "system": "Wii Fit",
+        "game": "Table Tilt Plus",
+        "mechanics": [
+            "Achieve",
+            "Move",
+            "Manage"
+        ],
+        "included_mechanics": [
+            {
+                "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
+                "explanation": ""
+            },
+            {
+                "name": "Manage",
+                "explanation": ""
+            }
+        ],
+        "excluded_or_uncertain": []
+    },
+    {
+        "system": "Wii Fit",
+        "game": "Balance Bubble Plus",
+        "mechanics": [
+            "Achieve",
+            "Avoid",
+            "Move",
+            "Manage"
+        ],
+        "included_mechanics": [
+            {
+                "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Avoid",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
+                "explanation": ""
+            },
+            {
+                "name": "Manage",
+                "explanation": ""
+            }
+        ],
+        "excluded_or_uncertain": []
+    },
+    {
+        "system": "PlankPad",
+        "game": "Fruit Slicer",
+        "mechanics": [
+            "Destroy",
+            "Move"
+        ],
+        "included_mechanics": [
+            {
+                "name": "Destroy",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
+                "explanation": ""
+            }
+        ],
+        "excluded_or_uncertain": []
+    },
+    {
+        "system": "PlankPad",
+        "game": "Hopper",
+        "mechanics": [
+            "Achieve",
+            "Move"
+        ],
+        "included_mechanics": [
+            {
+                "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
+                "explanation": ""
+            }
+        ],
+        "excluded_or_uncertain": []
+    },
+    {
+        "system": "PlankPad",
+        "game": "Stix & Stones",
+        "mechanics": [
+            "Avoid",
+            "Move"
+        ],
+        "included_mechanics": [
+            {
+                "name": "Avoid",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
+                "explanation": ""
+            }
+        ],
+        "excluded_or_uncertain": []
+    },
+    {
+        "system": "PlankPad",
+        "game": "Meteor Madness",
+        "mechanics": [
+            "Destroy",
+            "Avoid",
+            "Move",
+            "Shoot"
+        ],
+        "included_mechanics": [
+            {
+                "name": "Destroy",
+                "explanation": ""
+            },
+            {
+                "name": "Avoid",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
+                "explanation": ""
+            },
+            {
+                "name": "Shoot",
+                "explanation": ""
+            }
+        ],
+        "excluded_or_uncertain": []
+    },
+    {
+        "system": "PlankPad",
+        "game": "Candy Monster",
+        "mechanics": [
+            "Destroy",
+            "Move"
+        ],
+        "included_mechanics": [
+            {
+                "name": "Destroy",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
+                "explanation": ""
+            }
+        ],
+        "excluded_or_uncertain": []
+    },
+    {
+        "system": "PlankPad",
+        "game": "Duck Shoot",
+        "mechanics": [
+            "Destroy",
+            "Move",
+            "Shoot"
+        ],
+        "included_mechanics": [
+            {
+                "name": "Destroy",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
+                "explanation": ""
+            },
+            {
+                "name": "Shoot",
+                "explanation": ""
+            }
+        ],
+        "excluded_or_uncertain": []
+    },
+    {
+        "system": "PlankPad",
+        "game": "Snow Cruisin",
+        "mechanics": [
+            "Avoid",
+            "Move"
+        ],
+        "included_mechanics": [
+            {
+                "name": "Avoid",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
+                "explanation": ""
+            }
+        ],
+        "excluded_or_uncertain": []
+    },
+    {
+        "system": "PlankPad",
+        "game": "Pong Goal",
+        "mechanics": [
+            "Achieve",
+            "Move"
+        ],
+        "included_mechanics": [
+            {
+                "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
+                "explanation": ""
+            }
+        ],
+        "excluded_or_uncertain": []
+    },
+    {
+        "system": "PlankPad",
+        "game": "Wave Rider",
+        "mechanics": [
+            "Avoid",
+            "Move"
+        ],
+        "included_mechanics": [
+            {
+                "name": "Avoid",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
+                "explanation": ""
+            }
+        ],
+        "excluded_or_uncertain": []
+    },
+    {
+        "system": "PlankPad",
+        "game": "Gift Rush",
+        "mechanics": [
+            "Achieve",
+            "Move"
+        ],
+        "included_mechanics": [
+            {
+                "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
+                "explanation": ""
+            }
+        ],
+        "excluded_or_uncertain": []
+    },
+    {
+        "system": "BoBo Balance",
+        "game": "Crazy Snowboard",
+        "mechanics": [
+            "Destroy",
+            "Achieve",
+            "Move"
+        ],
+        "included_mechanics": [
+            {
+                "name": "Destroy",
+                "explanation": ""
+            },
+            {
+                "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
+                "explanation": ""
+            }
+        ],
+        "excluded_or_uncertain": []
+    },
+    {
+        "system": "BoBo Balance",
+        "game": "Color Tunnel",
+        "mechanics": [
+            "Avoid",
+            "Move"
+        ],
+        "included_mechanics": [
+            {
+                "name": "Avoid",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
+                "explanation": ""
+            }
+        ],
+        "excluded_or_uncertain": []
+    },
+    {
+        "system": "BoBo Balance",
+        "game": "Space Ball",
+        "mechanics": [
+            "Achieve",
+            "Avoid",
+            "Move"
+        ],
+        "included_mechanics": [
+            {
+                "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Avoid",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
+                "explanation": ""
+            }
+        ],
+        "excluded_or_uncertain": []
+    },
+    {
+        "system": "BoBo Balance",
+        "game": "Car",
+        "mechanics": [
+            "Destroy",
+            "Avoid",
+            "Move"
+        ],
+        "included_mechanics": [
+            {
+                "name": "Destroy",
+                "explanation": ""
+            },
+            {
+                "name": "Avoid",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
+                "explanation": ""
+            }
+        ],
+        "excluded_or_uncertain": []
+    },
+    {
+        "system": "BoBo Balance",
+        "game": "Mini Golf",
+        "mechanics": [
+            "Achieve",
+            "Avoid",
+            "Move"
+        ],
+        "included_mechanics": [
+            {
+                "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Avoid",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
+                "explanation": ""
+            }
+        ],
+        "excluded_or_uncertain": []
+    },
+    {
+        "system": "BoBo Balance",
+        "game": "Maze",
+        "mechanics": [
+            "Achieve",
+            "Move"
+        ],
+        "included_mechanics": [
+            {
+                "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
+                "explanation": ""
+            }
+        ],
+        "excluded_or_uncertain": []
+    },
+    {
+        "system": "BoBo Balance",
+        "game": "Fall Down",
+        "mechanics": [
+            "Achieve",
+            "Avoid",
+            "Move"
+        ],
+        "included_mechanics": [
+            {
+                "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Avoid",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
+                "explanation": ""
+            }
+        ],
+        "excluded_or_uncertain": []
+    },
+    {
+        "system": "BoBo Balance",
+        "game": "Candy Rex",
+        "mechanics": [
+            "Destroy",
+            "Move",
+            "Manage"
+        ],
+        "included_mechanics": [
+            {
+                "name": "Destroy",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
+                "explanation": ""
+            },
+            {
+                "name": "Manage",
+                "explanation": ""
+            }
+        ],
+        "excluded_or_uncertain": []
+    },
+    {
+        "system": "BoBo Balance",
+        "game": "Ice Adventure",
+        "mechanics": [
+            "Destroy",
+            "Achieve",
+            "Move"
+        ],
+        "included_mechanics": [
+            {
+                "name": "Destroy",
+                "explanation": ""
+            },
+            {
+                "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
+                "explanation": ""
+            }
+        ],
+        "excluded_or_uncertain": []
+    },
+    {
+        "system": "BoBo Balance",
+        "game": "Submarine",
+        "mechanics": [
+            "Destroy",
+            "Avoid",
+            "Move"
+        ],
+        "included_mechanics": [
+            {
+                "name": "Destroy",
+                "explanation": ""
+            },
+            {
+                "name": "Avoid",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
+                "explanation": ""
+            }
+        ],
+        "excluded_or_uncertain": []
+    },
+    {
+        "system": "BoBo Balance",
+        "game": "Harvest Rush",
+        "mechanics": [
+            "Destroy",
+            "Avoid",
+            "Move"
+        ],
+        "included_mechanics": [
+            {
+                "name": "Destroy",
+                "explanation": ""
+            },
+            {
+                "name": "Avoid",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
+                "explanation": ""
+            }
+        ],
+        "excluded_or_uncertain": []
+    },
+    {
+        "system": "BoBo Balance",
+        "game": "Tetromino",
+        "mechanics": [
+            "Avoid",
+            "Move"
+        ],
+        "included_mechanics": [
+            {
+                "name": "Avoid",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
+                "explanation": ""
+            }
+        ],
+        "excluded_or_uncertain": []
+    }
+]
