@@ -1,13 +1,7 @@
 import re
 import json
+import sys
 from pathlib import Path
-
-# ============================================
-# Налаштування файлів
-# ============================================
-
-INPUT_MD_FILE = "Game_GamePlay_2.0_Result_1.md"
-OUTPUT_JSON_FILE = "Game_GamePlay_2.0_Result_1.json"
 
 # ============================================
 # Допоміжні функції
@@ -17,6 +11,7 @@ def clean_text(text: str) -> str:
     """
     Очищення markdown-тексту.
     """
+
     if text is None:
         return ""
 
@@ -35,6 +30,7 @@ def split_mechanics(mechanics_str: str):
     """
     Перетворення рядка механік у список.
     """
+
     if not mechanics_str.strip():
         return []
 
@@ -44,6 +40,7 @@ def split_mechanics(mechanics_str: str):
 def parse_explanations(text: str):
     """
     Розбір пояснень виду:
+
     **Avoid:** текст ...
     **Move:** текст ...
 
@@ -63,6 +60,7 @@ def parse_explanations(text: str):
     result = {}
 
     for mechanic, explanation in matches:
+
         mechanic = clean_text(mechanic)
         explanation = clean_text(explanation)
 
@@ -72,7 +70,7 @@ def parse_explanations(text: str):
 
 
 # ============================================
-# Основний парсер markdown-таблиці
+# Парсер markdown-таблиці
 # ============================================
 
 def parse_markdown_table(md_text: str):
@@ -93,7 +91,6 @@ def parse_markdown_table(md_text: str):
         if re.match(r'^\|\s*:?-+:?\s*\|', line):
             continue
 
-        # розбиваємо колонки
         columns = [c.strip() for c in line.strip("|").split("|")]
 
         # очікуємо 5 колонок
@@ -148,6 +145,7 @@ def parse_markdown_table(md_text: str):
 def save_json(data, output_path):
 
     with open(output_path, "w", encoding="utf-8") as f:
+
         json.dump(
             data,
             f,
@@ -162,19 +160,45 @@ def save_json(data, output_path):
 
 def main():
 
-    input_path = Path(INPUT_MD_FILE)
+    # перевірка аргументів
+    if len(sys.argv) != 2:
 
-    if not input_path.exists():
-        print(f"Файл не знайдено: {INPUT_MD_FILE}")
+        print("Використання:")
+        print("python md_to_json.py <markdown_file.md>")
+
         return
 
-    md_text = input_path.read_text(encoding="utf-8")
+    input_file = Path(sys.argv[1])
 
+    # перевірка існування
+    if not input_file.exists():
+
+        print(f"Файл не знайдено: {input_file}")
+
+        return
+
+    # перевірка розширення
+    if input_file.suffix.lower() != ".md":
+
+        print("Потрібно передати .md файл")
+
+        return
+
+    # формування json-імені
+    output_file = input_file.with_suffix(".json")
+
+    # читання markdown
+    md_text = input_file.read_text(encoding="utf-8")
+
+    # парсинг
     parsed_data = parse_markdown_table(md_text)
 
-    save_json(parsed_data, OUTPUT_JSON_FILE)
+    # збереження
+    save_json(parsed_data, output_file)
 
-    print(f"JSON успішно створено: {OUTPUT_JSON_FILE}")
+    print(f"JSON успішно створено:")
+    print(output_file)
+
     print(f"Кількість записів: {len(parsed_data)}")
 
 
