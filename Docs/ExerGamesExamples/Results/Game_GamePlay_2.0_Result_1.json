@@ -1,36 +1,7 @@
 [
-    {
-        "system": "Wii Fit",
-        "game": "Soccer Heading",
-        "mechanics": [
-            "Avoid",
-            "Destroy",
-            "Move"
-        ],
-        "included_mechanics": [
-            {
-                "name": "Avoid",
-                "explanation": "Гравець має уникати \"інших літаючих об'єктів\"."
-            },
-            {
-                "name": "Destroy",
-                "explanation": "Механіка інтерпретується як збір/захоплення об'єктів, що відповідає відбиванню \"футбольних м'ячів\"."
-            },
-            {
-                "name": "Move",
-                "explanation": "Гравець керує персонажем, \"нахиляючись на баланс-борді\"."
-            }
-        ],
-        "excluded_or_uncertain": [
-            {
-                "name": "Achieve",
-                "explanation": "Хоча є серії очок, основна мета — відбивати м'ячі та уникати перешкод, а не досягати певного стану чи позиції."
-            },
-            {
-                "name": "Shoot",
-                "explanation": "Гравець не запускає снаряд, а відбиває його тілом."
-            }
-        ]
+    {"system": "Wii Fit","game": "Soccer Heading","mechanics": ["Avoid","Destroy","Move"],"included_mechanics": [{"name": "Avoid","explanation": "Гравець має уникати \"інших літаючих об'єктів\"."},{"name": "Destroy","explanation": "Механіка інтерпретується як збір/захоплення об'єктів, що відповідає відбиванню \"футбольних м'ячів\"."},{"name": "Move","explanation": "Гравець керує персонажем, \"нахиляючись на баланс-борді\"."}],
+        "excluded_or_uncertain": [{"name": "Achieve","explanation": "Хоча є серії очок, основна мета — відбивати м'ячі та уникати перешкод, а не досягати певного стану чи позиції."},
+                                {"name": "Shoot","explanation": "Гравець не запускає снаряд, а відбиває його тілом."}]
     },
     {
         "system": "Wii Fit",
