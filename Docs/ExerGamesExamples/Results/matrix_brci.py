@@ -269,7 +269,7 @@ def main():
     # SAVE MARKDOWN
     # --------------------------------------------------------
 
-    output_file = BASE_DIR / "matrix3.md"
+    output_file = BASE_DIR / "matrix_brci.md"
 
     with open(output_file, "w", encoding="utf-8") as f:
         f.write("\n".join(lines))
