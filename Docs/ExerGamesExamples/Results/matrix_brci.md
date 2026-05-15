@@ -23,7 +23,9 @@
 | Wii Fit | Soccer Heading | 21 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Soccer Heading | 22 | 1 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Soccer Heading | 23 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
-| Wii Fit | Soccer Heading | BRCI(game_i) | 100.00% | 50.09% | 71.27% | 100.00% | 71.27% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% |
+| Wii Fit | Soccer Heading | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Wii Fit | Soccer Heading | 25 | 1 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Wii Fit | Soccer Heading | BRCI(game_i) | 92.32% | 50.72% | 68.00% | 100.00% | 73.12% | 92.32% | 100.00% | 100.00% | 100.00% | 100.00% |
 | Wii Fit | Ski Slalom | 1 | 0 | 1 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Ski Slalom | 2 | 0 | 1 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Ski Slalom | 3 | 1 | 1 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
@@ -47,7 +49,9 @@
 | Wii Fit | Ski Slalom | 21 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Ski Slalom | 22 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Ski Slalom | 23 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
-| Wii Fit | Ski Slalom | BRCI(game_i) | 71.27% | 100.00% | 100.00% | 100.00% | 61.44% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% |
+| Wii Fit | Ski Slalom | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Wii Fit | Ski Slalom | 25 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Wii Fit | Ski Slalom | BRCI(game_i) | 68.00% | 92.32% | 100.00% | 100.00% | 63.52% | 92.32% | 100.00% | 100.00% | 100.00% | 100.00% |
 | Wii Fit | Table Tilt | 1 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Table Tilt | 2 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Table Tilt | 3 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
@@ -71,7 +75,9 @@
 | Wii Fit | Table Tilt | 21 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Table Tilt | 22 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Table Tilt | 23 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
-| Wii Fit | Table Tilt | BRCI(game_i) | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% |
+| Wii Fit | Table Tilt | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Wii Fit | Table Tilt | 25 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Wii Fit | Table Tilt | BRCI(game_i) | 100.00% | 92.32% | 100.00% | 100.00% | 100.00% | 92.32% | 100.00% | 100.00% | 100.00% | 100.00% |
 | Wii Fit | Ski Jump | 1 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Ski Jump | 2 | 0 | 1 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Ski Jump | 3 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
@@ -95,7 +101,9 @@
 | Wii Fit | Ski Jump | 21 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Ski Jump | 22 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Ski Jump | 23 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
-| Wii Fit | Ski Jump | BRCI(game_i) | 100.00% | 100.00% | 100.00% | 100.00% | 91.68% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% |
+| Wii Fit | Ski Jump | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Wii Fit | Ski Jump | 25 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Wii Fit | Ski Jump | BRCI(game_i) | 100.00% | 92.32% | 100.00% | 100.00% | 92.32% | 92.32% | 100.00% | 100.00% | 100.00% | 100.00% |
 | Wii Fit | Tightrope Walk | 1 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Tightrope Walk | 2 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Tightrope Walk | 3 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
@@ -119,7 +127,9 @@
 | Wii Fit | Tightrope Walk | 21 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Tightrope Walk | 22 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Tightrope Walk | 23 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
-| Wii Fit | Tightrope Walk | BRCI(game_i) | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% |
+| Wii Fit | Tightrope Walk | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Wii Fit | Tightrope Walk | 25 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Wii Fit | Tightrope Walk | BRCI(game_i) | 92.32% | 92.32% | 100.00% | 100.00% | 100.00% | 92.32% | 100.00% | 100.00% | 100.00% | 100.00% |
 | Wii Fit | Balance Bubble | 1 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Balance Bubble | 2 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Balance Bubble | 3 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
@@ -143,7 +153,9 @@
 | Wii Fit | Balance Bubble | 21 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Balance Bubble | 22 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Balance Bubble | 23 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
-| Wii Fit | Balance Bubble | BRCI(game_i) | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% |
+| Wii Fit | Balance Bubble | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Wii Fit | Balance Bubble | 25 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Wii Fit | Balance Bubble | BRCI(game_i) | 92.32% | 92.32% | 100.00% | 100.00% | 100.00% | 92.32% | 100.00% | 100.00% | 100.00% | 100.00% |
 | Wii Fit | Penguin Slide | 1 | 0 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Penguin Slide | 2 | 0 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Penguin Slide | 3 | 0 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
@@ -167,7 +179,9 @@
 | Wii Fit | Penguin Slide | 21 | 0 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Penguin Slide | 22 | 0 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Penguin Slide | 23 | 0 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
-| Wii Fit | Penguin Slide | BRCI(game_i) | 91.68% | 50.85% | 100.00% | 100.00% | 91.68% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% |
+| Wii Fit | Penguin Slide | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Wii Fit | Penguin Slide | 25 | 0 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Wii Fit | Penguin Slide | BRCI(game_i) | 92.32% | 52.00% | 92.32% | 100.00% | 92.32% | 92.32% | 100.00% | 100.00% | 100.00% | 100.00% |
 | Wii Fit | Snowboard Slalom | 1 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Snowboard Slalom | 2 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Snowboard Slalom | 3 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
@@ -191,7 +205,9 @@
 | Wii Fit | Snowboard Slalom | 21 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Snowboard Slalom | 22 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Snowboard Slalom | 23 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
-| Wii Fit | Snowboard Slalom | BRCI(game_i) | 65.97% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% |
+| Wii Fit | Snowboard Slalom | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Wii Fit | Snowboard Slalom | 25 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Wii Fit | Snowboard Slalom | BRCI(game_i) | 68.00% | 92.32% | 100.00% | 100.00% | 100.00% | 92.32% | 100.00% | 100.00% | 100.00% | 100.00% |
 | Wii Fit | Lotus Focus | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Wii Fit | Lotus Focus | 2 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Wii Fit | Lotus Focus | 3 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -215,7 +231,9 @@
 | Wii Fit | Lotus Focus | 21 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Wii Fit | Lotus Focus | 22 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Wii Fit | Lotus Focus | 23 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Wii Fit | Lotus Focus | BRCI(game_i) | 100.00% | 100.00% | 100.00% | 100.00% | 84.12% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% |
+| Wii Fit | Lotus Focus | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Wii Fit | Lotus Focus | 25 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Wii Fit | Lotus Focus | BRCI(game_i) | 100.00% | 92.32% | 100.00% | 100.00% | 85.28% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% |
 | Wii Fit | Perfect 10 | 1 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 1 | 0 | 0 |
 | Wii Fit | Perfect 10 | 2 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 1 | 0 | 0 |
 | Wii Fit | Perfect 10 | 3 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 1 | 0 | 0 |
@@ -239,7 +257,9 @@
 | Wii Fit | Perfect 10 | 21 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 1 | 0 | 0 |
 | Wii Fit | Perfect 10 | 22 | 0 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Perfect 10 | 23 | 0 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
-| Wii Fit | Perfect 10 | BRCI(game_i) | 100.00% | 100.00% | 52.36% | 100.00% | 100.00% | 91.68% | 100.00% | 54.63% | 100.00% | 100.00% |
+| Wii Fit | Perfect 10 | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Wii Fit | Perfect 10 | 25 | 0 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Wii Fit | Perfect 10 | BRCI(game_i) | 100.00% | 92.32% | 52.00% | 100.00% | 100.00% | 85.28% | 100.00% | 56.48% | 100.00% | 100.00% |
 | Wii Fit | Rhythm Kung Fu | 1 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Rhythm Kung Fu | 2 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Wii Fit | Rhythm Kung Fu | 3 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
@@ -263,7 +283,9 @@
 | Wii Fit | Rhythm Kung Fu | 21 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Rhythm Kung Fu | 22 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Rhythm Kung Fu | 23 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
-| Wii Fit | Rhythm Kung Fu | BRCI(game_i) | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 54.63% | 100.00% | 84.12% | 100.00% | 100.00% |
+| Wii Fit | Rhythm Kung Fu | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Wii Fit | Rhythm Kung Fu | 25 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Wii Fit | Rhythm Kung Fu | BRCI(game_i) | 100.00% | 92.32% | 100.00% | 100.00% | 100.00% | 53.92% | 100.00% | 85.28% | 100.00% | 100.00% |
 | Wii Fit | Bird's-Eye Bull's-Eye | 1 | 0 | 1 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Bird's-Eye Bull's-Eye | 2 | 0 | 1 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Bird's-Eye Bull's-Eye | 3 | 0 | 1 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
@@ -287,7 +309,9 @@
 | Wii Fit | Bird's-Eye Bull's-Eye | 21 | 0 | 1 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Bird's-Eye Bull's-Eye | 22 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Bird's-Eye Bull's-Eye | 23 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
-| Wii Fit | Bird's-Eye Bull's-Eye | BRCI(game_i) | 100.00% | 100.00% | 100.00% | 100.00% | 77.32% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% |
+| Wii Fit | Bird's-Eye Bull's-Eye | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Wii Fit | Bird's-Eye Bull's-Eye | 25 | 0 | 1 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
+| Wii Fit | Bird's-Eye Bull's-Eye | BRCI(game_i) | 100.00% | 92.32% | 100.00% | 100.00% | 73.12% | 92.32% | 100.00% | 100.00% | 100.00% | 100.00% |
 | Wii Fit | Snowball Fight | 1 | 1 | 0 | 1 | 0 | 1 | 1 | 0 | 0 | 1 | 0 |
 | Wii Fit | Snowball Fight | 2 | 1 | 0 | 0 | 0 | 1 | 1 | 0 | 0 | 1 | 0 |
 | Wii Fit | Snowball Fight | 3 | 1 | 0 | 1 | 0 | 1 | 1 | 0 | 0 | 1 | 0 |
@@ -311,7 +335,9 @@
 | Wii Fit | Snowball Fight | 21 | 1 | 1 | 1 | 0 | 1 | 1 | 0 | 0 | 1 | 0 |
 | Wii Fit | Snowball Fight | 22 | 1 | 0 | 1 | 0 | 1 | 1 | 0 | 0 | 1 | 0 |
 | Wii Fit | Snowball Fight | 23 | 1 | 1 | 1 | 0 | 1 | 1 | 0 | 0 | 1 | 0 |
-| Wii Fit | Snowball Fight | BRCI(game_i) | 100.00% | 77.32% | 65.97% | 100.00% | 71.27% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% |
+| Wii Fit | Snowball Fight | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Wii Fit | Snowball Fight | 25 | 1 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 1 | 0 |
+| Wii Fit | Snowball Fight | BRCI(game_i) | 92.32% | 78.88% | 63.52% | 100.00% | 63.52% | 92.32% | 100.00% | 100.00% | 92.32% | 100.00% |
 | Wii Fit | Obstacle Course | 1 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Obstacle Course | 2 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Obstacle Course | 3 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
@@ -335,7 +361,9 @@
 | Wii Fit | Obstacle Course | 21 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Obstacle Course | 22 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Obstacle Course | 23 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
-| Wii Fit | Obstacle Course | BRCI(game_i) | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% |
+| Wii Fit | Obstacle Course | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Wii Fit | Obstacle Course | 25 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Wii Fit | Obstacle Course | BRCI(game_i) | 92.32% | 92.32% | 100.00% | 100.00% | 100.00% | 92.32% | 100.00% | 100.00% | 100.00% | 100.00% |
 | Wii Fit | Tilt City | 1 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Tilt City | 2 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Tilt City | 3 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
@@ -359,7 +387,9 @@
 | Wii Fit | Tilt City | 21 | 0 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Tilt City | 22 | 0 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Tilt City | 23 | 0 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
-| Wii Fit | Tilt City | BRCI(game_i) | 100.00% | 100.00% | 50.85% | 100.00% | 84.12% | 100.00% | 100.00% | 91.68% | 100.00% | 100.00% |
+| Wii Fit | Tilt City | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Wii Fit | Tilt City | 25 | 0 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Wii Fit | Tilt City | BRCI(game_i) | 100.00% | 92.32% | 50.72% | 100.00% | 85.28% | 92.32% | 100.00% | 92.32% | 100.00% | 100.00% |
 | Wii Fit | Trampoline Target | 1 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Trampoline Target | 2 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Wii Fit | Trampoline Target | 3 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
@@ -383,7 +413,9 @@
 | Wii Fit | Trampoline Target | 21 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Trampoline Target | 22 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Trampoline Target | 23 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
-| Wii Fit | Trampoline Target | BRCI(game_i) | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 77.32% | 100.00% | 100.00% | 100.00% | 100.00% |
+| Wii Fit | Trampoline Target | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Wii Fit | Trampoline Target | 25 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Wii Fit | Trampoline Target | BRCI(game_i) | 100.00% | 92.32% | 100.00% | 100.00% | 100.00% | 73.12% | 100.00% | 100.00% | 100.00% | 100.00% |
 | Wii Fit | Ultimate Obstacle Course | 1 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Ultimate Obstacle Course | 2 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Ultimate Obstacle Course | 3 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
@@ -407,7 +439,9 @@
 | Wii Fit | Ultimate Obstacle Course | 21 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Ultimate Obstacle Course | 22 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Ultimate Obstacle Course | 23 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
-| Wii Fit | Ultimate Obstacle Course | BRCI(game_i) | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% |
+| Wii Fit | Ultimate Obstacle Course | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Wii Fit | Ultimate Obstacle Course | 25 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Wii Fit | Ultimate Obstacle Course | BRCI(game_i) | 92.32% | 92.32% | 100.00% | 100.00% | 100.00% | 92.32% | 100.00% | 100.00% | 100.00% | 100.00% |
 | Wii Fit | Core Luge | 1 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Core Luge | 2 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Core Luge | 3 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
@@ -431,7 +465,9 @@
 | Wii Fit | Core Luge | 21 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Core Luge | 22 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Core Luge | 23 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
-| Wii Fit | Core Luge | BRCI(game_i) | 50.09% | 100.00% | 100.00% | 100.00% | 91.68% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% |
+| Wii Fit | Core Luge | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Wii Fit | Core Luge | 25 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Wii Fit | Core Luge | BRCI(game_i) | 50.08% | 92.32% | 100.00% | 100.00% | 92.32% | 92.32% | 100.00% | 100.00% | 100.00% | 100.00% |
 | Wii Fit | Hosedown | 1 | 0 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 1 | 0 |
 | Wii Fit | Hosedown | 2 | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 1 | 0 |
 | Wii Fit | Hosedown | 3 | 0 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 1 | 0 |
@@ -455,7 +491,9 @@
 | Wii Fit | Hosedown | 21 | 1 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 1 | 0 |
 | Wii Fit | Hosedown | 22 | 1 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 1 | 0 |
 | Wii Fit | Hosedown | 23 | 1 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 1 | 0 |
-| Wii Fit | Hosedown | BRCI(game_i) | 57.66% | 77.32% | 65.97% | 100.00% | 91.68% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% |
+| Wii Fit | Hosedown | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Wii Fit | Hosedown | 25 | 0 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 1 | 0 |
+| Wii Fit | Hosedown | BRCI(game_i) | 53.92% | 78.88% | 63.52% | 100.00% | 92.32% | 92.32% | 100.00% | 100.00% | 92.32% | 100.00% |
 | Wii Fit | Scuba Search | 1 | 1 | 0 | 1 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Scuba Search | 2 | 1 | 0 | 1 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Scuba Search | 3 | 1 | 0 | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0 |
@@ -479,7 +517,9 @@
 | Wii Fit | Scuba Search | 21 | 1 | 1 | 1 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Scuba Search | 22 | 1 | 0 | 1 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Scuba Search | 23 | 0 | 1 | 1 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
-| Wii Fit | Scuba Search | BRCI(game_i) | 71.27% | 71.27% | 100.00% | 100.00% | 100.00% | 71.27% | 100.00% | 100.00% | 100.00% | 100.00% |
+| Wii Fit | Scuba Search | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Wii Fit | Scuba Search | 25 | 0 | 0 | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0 |
+| Wii Fit | Scuba Search | BRCI(game_i) | 63.52% | 73.12% | 92.32% | 100.00% | 92.32% | 63.52% | 100.00% | 100.00% | 100.00% | 100.00% |
 | Wii Fit | Climbing | 1 | 0 | 1 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Climbing | 2 | 0 | 1 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Climbing | 3 | 1 | 1 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
@@ -503,7 +543,9 @@
 | Wii Fit | Climbing | 21 | 0 | 1 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Climbing | 22 | 0 | 1 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Climbing | 23 | 0 | 1 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
-| Wii Fit | Climbing | BRCI(game_i) | 54.63% | 100.00% | 100.00% | 100.00% | 100.00% | 84.12% | 100.00% | 84.12% | 100.00% | 100.00% |
+| Wii Fit | Climbing | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Wii Fit | Climbing | 25 | 1 | 1 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
+| Wii Fit | Climbing | BRCI(game_i) | 53.92% | 92.32% | 100.00% | 100.00% | 92.32% | 78.88% | 100.00% | 85.28% | 100.00% | 100.00% |
 | Wii Fit | Dessert Course | 1 | 1 | 1 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Dessert Course | 2 | 1 | 1 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Dessert Course | 3 | 1 | 1 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
@@ -527,7 +569,9 @@
 | Wii Fit | Dessert Course | 21 | 1 | 1 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Dessert Course | 22 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Dessert Course | 23 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
-| Wii Fit | Dessert Course | BRCI(game_i) | 77.32% | 100.00% | 100.00% | 100.00% | 84.12% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% |
+| Wii Fit | Dessert Course | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Wii Fit | Dessert Course | 25 | 1 | 1 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
+| Wii Fit | Dessert Course | BRCI(game_i) | 73.12% | 92.32% | 100.00% | 100.00% | 78.88% | 92.32% | 100.00% | 100.00% | 100.00% | 100.00% |
 | Wii Fit | Big Top Juggling | 1 | 1 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Big Top Juggling | 2 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Big Top Juggling | 3 | 1 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
@@ -551,7 +595,9 @@
 | Wii Fit | Big Top Juggling | 21 | 1 | 1 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Big Top Juggling | 22 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Big Top Juggling | 23 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
-| Wii Fit | Big Top Juggling | BRCI(game_i) | 100.00% | 84.12% | 54.63% | 100.00% | 77.32% | 84.12% | 100.00% | 100.00% | 100.00% | 100.00% |
+| Wii Fit | Big Top Juggling | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Wii Fit | Big Top Juggling | 25 | 1 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Wii Fit | Big Top Juggling | BRCI(game_i) | 92.32% | 78.88% | 53.92% | 100.00% | 78.88% | 78.88% | 100.00% | 100.00% | 100.00% | 100.00% |
 | Wii Fit | Skateboard Arena | 1 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Skateboard Arena | 2 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Skateboard Arena | 3 | 0 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
@@ -575,7 +621,9 @@
 | Wii Fit | Skateboard Arena | 21 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Skateboard Arena | 22 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Skateboard Arena | 23 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
-| Wii Fit | Skateboard Arena | BRCI(game_i) | 100.00% | 100.00% | 71.27% | 91.68% | 91.68% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% |
+| Wii Fit | Skateboard Arena | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Wii Fit | Skateboard Arena | 25 | 0 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Wii Fit | Skateboard Arena | BRCI(game_i) | 100.00% | 92.32% | 68.00% | 92.32% | 92.32% | 92.32% | 100.00% | 100.00% | 100.00% | 100.00% |
 | Wii Fit | Table Tilt Plus | 1 | 0 | 1 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Table Tilt Plus | 2 | 0 | 1 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Table Tilt Plus | 3 | 0 | 1 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
@@ -599,7 +647,9 @@
 | Wii Fit | Table Tilt Plus | 21 | 0 | 1 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Table Tilt Plus | 22 | 0 | 1 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Table Tilt Plus | 23 | 0 | 1 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
-| Wii Fit | Table Tilt Plus | BRCI(game_i) | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% |
+| Wii Fit | Table Tilt Plus | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Wii Fit | Table Tilt Plus | 25 | 0 | 1 | 1 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
+| Wii Fit | Table Tilt Plus | BRCI(game_i) | 100.00% | 92.32% | 92.32% | 100.00% | 92.32% | 92.32% | 100.00% | 100.00% | 100.00% | 100.00% |
 | Wii Fit | Balance Bubble Plus | 1 | 1 | 1 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Balance Bubble Plus | 2 | 1 | 1 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Balance Bubble Plus | 3 | 1 | 1 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
@@ -623,7 +673,9 @@
 | Wii Fit | Balance Bubble Plus | 21 | 1 | 1 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Balance Bubble Plus | 22 | 1 | 1 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | Wii Fit | Balance Bubble Plus | 23 | 1 | 1 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
-| Wii Fit | Balance Bubble Plus | BRCI(game_i) | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% |
+| Wii Fit | Balance Bubble Plus | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Wii Fit | Balance Bubble Plus | 25 | 1 | 1 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
+| Wii Fit | Balance Bubble Plus | BRCI(game_i) | 92.32% | 92.32% | 100.00% | 100.00% | 92.32% | 92.32% | 100.00% | 100.00% | 100.00% | 100.00% |
 | PlankPad | Fruit Slicer | 1 | 0 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | PlankPad | Fruit Slicer | 2 | 1 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | PlankPad | Fruit Slicer | 3 | 0 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
@@ -647,7 +699,9 @@
 | PlankPad | Fruit Slicer | 21 | 0 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | PlankPad | Fruit Slicer | 22 | 0 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | PlankPad | Fruit Slicer | 23 | 0 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
-| PlankPad | Fruit Slicer | BRCI(game_i) | 61.44% | 71.27% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% |
+| PlankPad | Fruit Slicer | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| PlankPad | Fruit Slicer | 25 | 0 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
+| PlankPad | Fruit Slicer | BRCI(game_i) | 63.52% | 73.12% | 92.32% | 100.00% | 100.00% | 92.32% | 100.00% | 100.00% | 100.00% | 100.00% |
 | PlankPad | Hopper | 1 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | PlankPad | Hopper | 2 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | PlankPad | Hopper | 3 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
@@ -671,7 +725,9 @@
 | PlankPad | Hopper | 21 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | PlankPad | Hopper | 22 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | PlankPad | Hopper | 23 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
-| PlankPad | Hopper | BRCI(game_i) | 52.36% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% |
+| PlankPad | Hopper | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| PlankPad | Hopper | 25 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
+| PlankPad | Hopper | BRCI(game_i) | 53.92% | 92.32% | 100.00% | 100.00% | 100.00% | 92.32% | 100.00% | 100.00% | 100.00% | 100.00% |
 | PlankPad | Stix & Stones | 1 | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | PlankPad | Stix & Stones | 2 | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | PlankPad | Stix & Stones | 3 | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
@@ -695,7 +751,9 @@
 | PlankPad | Stix & Stones | 21 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | PlankPad | Stix & Stones | 22 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | PlankPad | Stix & Stones | 23 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
-| PlankPad | Stix & Stones | BRCI(game_i) | 100.00% | 65.97% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% |
+| PlankPad | Stix & Stones | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| PlankPad | Stix & Stones | 25 | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
+| PlankPad | Stix & Stones | BRCI(game_i) | 92.32% | 68.00% | 100.00% | 100.00% | 100.00% | 92.32% | 100.00% | 100.00% | 100.00% | 100.00% |
 | PlankPad | Meteor Madness | 1 | 0 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 1 | 0 |
 | PlankPad | Meteor Madness | 2 | 0 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 1 | 0 |
 | PlankPad | Meteor Madness | 3 | 0 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 1 | 0 |
@@ -719,7 +777,9 @@
 | PlankPad | Meteor Madness | 21 | 1 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 1 | 0 |
 | PlankPad | Meteor Madness | 22 | 1 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 1 | 0 |
 | PlankPad | Meteor Madness | 23 | 1 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 1 | 0 |
-| PlankPad | Meteor Madness | BRCI(game_i) | 50.85% | 77.32% | 91.68% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% |
+| PlankPad | Meteor Madness | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| PlankPad | Meteor Madness | 25 | 0 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 1 | 0 |
+| PlankPad | Meteor Madness | BRCI(game_i) | 50.08% | 78.88% | 85.28% | 100.00% | 100.00% | 92.32% | 100.00% | 100.00% | 92.32% | 100.00% |
 | PlankPad | Candy Monster | 1 | 0 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | PlankPad | Candy Monster | 2 | 0 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | PlankPad | Candy Monster | 3 | 0 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
@@ -743,7 +803,9 @@
 | PlankPad | Candy Monster | 21 | 0 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | PlankPad | Candy Monster | 22 | 0 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | PlankPad | Candy Monster | 23 | 0 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
-| PlankPad | Candy Monster | BRCI(game_i) | 100.00% | 71.27% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% |
+| PlankPad | Candy Monster | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| PlankPad | Candy Monster | 25 | 0 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
+| PlankPad | Candy Monster | BRCI(game_i) | 100.00% | 73.12% | 92.32% | 100.00% | 100.00% | 92.32% | 100.00% | 100.00% | 100.00% | 100.00% |
 | PlankPad | Duck Shoot | 1 | 0 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 1 | 0 |
 | PlankPad | Duck Shoot | 2 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 1 | 0 |
 | PlankPad | Duck Shoot | 3 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 1 | 0 |
@@ -767,7 +829,9 @@
 | PlankPad | Duck Shoot | 21 | 0 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 1 | 0 |
 | PlankPad | Duck Shoot | 22 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 1 | 0 |
 | PlankPad | Duck Shoot | 23 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 1 | 0 |
-| PlankPad | Duck Shoot | BRCI(game_i) | 100.00% | 65.97% | 57.66% | 100.00% | 100.00% | 84.12% | 100.00% | 100.00% | 100.00% | 100.00% |
+| PlankPad | Duck Shoot | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| PlankPad | Duck Shoot | 25 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 |
+| PlankPad | Duck Shoot | BRCI(game_i) | 100.00% | 63.52% | 59.68% | 100.00% | 100.00% | 73.12% | 100.00% | 100.00% | 92.32% | 100.00% |
 | PlankPad | Snow Cruisin | 1 | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | PlankPad | Snow Cruisin | 2 | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | PlankPad | Snow Cruisin | 3 | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
@@ -790,7 +854,9 @@
 | PlankPad | Snow Cruisin | 21 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | PlankPad | Snow Cruisin | 22 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | PlankPad | Snow Cruisin | 23 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
-| PlankPad | Snow Cruisin | BRCI(game_i) | 100.00% | 64.88% | 100.00% | 100.00% | 76.45% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% |
+| PlankPad | Snow Cruisin | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| PlankPad | Snow Cruisin | 25 | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
+| PlankPad | Snow Cruisin | BRCI(game_i) | 92.01% | 67.01% | 100.00% | 100.00% | 78.12% | 92.01% | 100.00% | 100.00% | 100.00% | 100.00% |
 | PlankPad | Pong Goal | 1 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | PlankPad | Pong Goal | 2 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | PlankPad | Pong Goal | 3 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
@@ -814,7 +880,9 @@
 | PlankPad | Pong Goal | 21 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | PlankPad | Pong Goal | 22 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | PlankPad | Pong Goal | 23 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
-| PlankPad | Pong Goal | BRCI(game_i) | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% |
+| PlankPad | Pong Goal | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| PlankPad | Pong Goal | 25 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
+| PlankPad | Pong Goal | BRCI(game_i) | 100.00% | 92.32% | 100.00% | 100.00% | 100.00% | 92.32% | 100.00% | 100.00% | 100.00% | 100.00% |
 | PlankPad | Wave Rider | 1 | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | PlankPad | Wave Rider | 2 | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | PlankPad | Wave Rider | 3 | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
@@ -838,7 +906,9 @@
 | PlankPad | Wave Rider | 21 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | PlankPad | Wave Rider | 22 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | PlankPad | Wave Rider | 23 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
-| PlankPad | Wave Rider | BRCI(game_i) | 100.00% | 65.97% | 100.00% | 100.00% | 77.32% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% |
+| PlankPad | Wave Rider | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| PlankPad | Wave Rider | 25 | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
+| PlankPad | Wave Rider | BRCI(game_i) | 92.32% | 68.00% | 100.00% | 100.00% | 78.88% | 92.32% | 100.00% | 100.00% | 100.00% | 100.00% |
 | PlankPad | Gift Rush | 1 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | PlankPad | Gift Rush | 2 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | PlankPad | Gift Rush | 3 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
@@ -862,7 +932,9 @@
 | PlankPad | Gift Rush | 21 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 1 | 0 | 0 |
 | PlankPad | Gift Rush | 22 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 1 | 0 | 0 |
 | PlankPad | Gift Rush | 23 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 1 | 0 | 0 |
-| PlankPad | Gift Rush | BRCI(game_i) | 100.00% | 100.00% | 77.32% | 100.00% | 100.00% | 100.00% | 100.00% | 61.44% | 100.00% | 100.00% |
+| PlankPad | Gift Rush | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| PlankPad | Gift Rush | 25 | 0 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
+| PlankPad | Gift Rush | BRCI(game_i) | 100.00% | 92.32% | 73.12% | 100.00% | 100.00% | 92.32% | 100.00% | 63.52% | 100.00% | 100.00% |
 | BoBo Balance | Crazy Snowboard | 1 | 0 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | BoBo Balance | Crazy Snowboard | 2 | 0 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | BoBo Balance | Crazy Snowboard | 3 | 0 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
@@ -885,7 +957,9 @@
 | BoBo Balance | Crazy Snowboard | 21 | 1 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | BoBo Balance | Crazy Snowboard | 22 | 1 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | BoBo Balance | Crazy Snowboard | 23 | 1 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
-| BoBo Balance | Crazy Snowboard | BRCI(game_i) | 53.72% | 64.88% | 100.00% | 91.32% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% |
+| BoBo Balance | Crazy Snowboard | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| BoBo Balance | Crazy Snowboard | 25 | 0 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
+| BoBo Balance | Crazy Snowboard | BRCI(game_i) | 55.56% | 58.68% | 92.01% | 92.01% | 100.00% | 92.01% | 100.00% | 100.00% | 100.00% | 100.00% |
 | BoBo Balance | Color Tunnel | 1 | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | BoBo Balance | Color Tunnel | 2 | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | BoBo Balance | Color Tunnel | 3 | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
@@ -908,7 +982,9 @@
 | BoBo Balance | Color Tunnel | 21 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | BoBo Balance | Color Tunnel | 22 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | BoBo Balance | Color Tunnel | 23 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
-| BoBo Balance | Color Tunnel | BRCI(game_i) | 100.00% | 60.33% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% |
+| BoBo Balance | Color Tunnel | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| BoBo Balance | Color Tunnel | 25 | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
+| BoBo Balance | Color Tunnel | BRCI(game_i) | 92.01% | 62.50% | 100.00% | 100.00% | 100.00% | 92.01% | 100.00% | 100.00% | 100.00% | 100.00% |
 | BoBo Balance | Space Ball | 1 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | BoBo Balance | Space Ball | 2 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | BoBo Balance | Space Ball | 3 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
@@ -931,7 +1007,9 @@
 | BoBo Balance | Space Ball | 21 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | BoBo Balance | Space Ball | 22 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | BoBo Balance | Space Ball | 23 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
-| BoBo Balance | Space Ball | BRCI(game_i) | 91.32% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% |
+| BoBo Balance | Space Ball | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| BoBo Balance | Space Ball | 25 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
+| BoBo Balance | Space Ball | BRCI(game_i) | 84.72% | 92.01% | 100.00% | 100.00% | 100.00% | 92.01% | 100.00% | 100.00% | 100.00% | 100.00% |
 | BoBo Balance | Car | 1 | 1 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | BoBo Balance | Car | 2 | 1 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | BoBo Balance | Car | 3 | 1 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
@@ -954,7 +1032,9 @@
 | BoBo Balance | Car | 21 | 1 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | BoBo Balance | Car | 22 | 1 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | BoBo Balance | Car | 23 | 1 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
-| BoBo Balance | Car | BRCI(game_i) | 100.00% | 60.33% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% |
+| BoBo Balance | Car | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| BoBo Balance | Car | 25 | 1 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
+| BoBo Balance | Car | BRCI(game_i) | 92.01% | 62.50% | 92.01% | 100.00% | 100.00% | 92.01% | 100.00% | 100.00% | 100.00% | 100.00% |
 | BoBo Balance | Mini Golf | 1 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | BoBo Balance | Mini Golf | 2 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | BoBo Balance | Mini Golf | 3 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
@@ -977,7 +1057,9 @@
 | BoBo Balance | Mini Golf | 21 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | BoBo Balance | Mini Golf | 22 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | BoBo Balance | Mini Golf | 23 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
-| BoBo Balance | Mini Golf | BRCI(game_i) | 70.25% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% |
+| BoBo Balance | Mini Golf | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| BoBo Balance | Mini Golf | 25 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
+| BoBo Balance | Mini Golf | BRCI(game_i) | 62.50% | 92.01% | 100.00% | 100.00% | 100.00% | 92.01% | 100.00% | 100.00% | 100.00% | 100.00% |
 | BoBo Balance | Maze | 1 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | BoBo Balance | Maze | 2 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | BoBo Balance | Maze | 3 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
@@ -1000,7 +1082,9 @@
 | BoBo Balance | Maze | 21 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | BoBo Balance | Maze | 22 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | BoBo Balance | Maze | 23 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
-| BoBo Balance | Maze | BRCI(game_i) | 53.72% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% |
+| BoBo Balance | Maze | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| BoBo Balance | Maze | 25 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
+| BoBo Balance | Maze | BRCI(game_i) | 55.56% | 92.01% | 100.00% | 100.00% | 100.00% | 92.01% | 100.00% | 100.00% | 100.00% | 100.00% |
 | BoBo Balance | Fall Down | 1 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | BoBo Balance | Fall Down | 2 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | BoBo Balance | Fall Down | 3 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
@@ -1023,7 +1107,9 @@
 | BoBo Balance | Fall Down | 21 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | BoBo Balance | Fall Down | 22 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | BoBo Balance | Fall Down | 23 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
-| BoBo Balance | Fall Down | BRCI(game_i) | 53.72% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% |
+| BoBo Balance | Fall Down | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| BoBo Balance | Fall Down | 25 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| BoBo Balance | Fall Down | BRCI(game_i) | 53.12% | 92.01% | 100.00% | 100.00% | 100.00% | 84.72% | 100.00% | 100.00% | 100.00% | 100.00% |
 | BoBo Balance | Candy Rex | 1 | 0 | 0 | 1 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | BoBo Balance | Candy Rex | 2 | 0 | 0 | 1 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | BoBo Balance | Candy Rex | 3 | 0 | 0 | 1 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
@@ -1046,7 +1132,9 @@
 | BoBo Balance | Candy Rex | 21 | 0 | 1 | 1 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | BoBo Balance | Candy Rex | 22 | 0 | 1 | 1 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | BoBo Balance | Candy Rex | 23 | 0 | 1 | 1 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
-| BoBo Balance | Candy Rex | BRCI(game_i) | 100.00% | 70.25% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% |
+| BoBo Balance | Candy Rex | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| BoBo Balance | Candy Rex | 25 | 0 | 0 | 1 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
+| BoBo Balance | Candy Rex | BRCI(game_i) | 100.00% | 72.22% | 92.01% | 100.00% | 92.01% | 92.01% | 100.00% | 100.00% | 100.00% | 100.00% |
 | BoBo Balance | Ice Adventure | 1 | 0 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | BoBo Balance | Ice Adventure | 2 | 0 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | BoBo Balance | Ice Adventure | 3 | 0 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
@@ -1069,7 +1157,9 @@
 | BoBo Balance | Ice Adventure | 21 | 1 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | BoBo Balance | Ice Adventure | 22 | 1 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | BoBo Balance | Ice Adventure | 23 | 1 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
-| BoBo Balance | Ice Adventure | BRCI(game_i) | 53.72% | 76.45% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% |
+| BoBo Balance | Ice Adventure | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| BoBo Balance | Ice Adventure | 25 | 0 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
+| BoBo Balance | Ice Adventure | BRCI(game_i) | 55.56% | 72.22% | 92.01% | 100.00% | 100.00% | 92.01% | 100.00% | 100.00% | 100.00% | 100.00% |
 | BoBo Balance | Submarine | 1 | 1 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | BoBo Balance | Submarine | 2 | 1 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | BoBo Balance | Submarine | 3 | 1 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
@@ -1092,7 +1182,9 @@
 | BoBo Balance | Submarine | 21 | 1 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | BoBo Balance | Submarine | 22 | 1 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | BoBo Balance | Submarine | 23 | 1 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
-| BoBo Balance | Submarine | BRCI(game_i) | 100.00% | 60.33% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% |
+| BoBo Balance | Submarine | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| BoBo Balance | Submarine | 25 | 1 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
+| BoBo Balance | Submarine | BRCI(game_i) | 92.01% | 62.50% | 92.01% | 100.00% | 100.00% | 92.01% | 100.00% | 100.00% | 100.00% | 100.00% |
 | BoBo Balance | Harvest Rush | 1 | 1 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | BoBo Balance | Harvest Rush | 2 | 1 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | BoBo Balance | Harvest Rush | 3 | 1 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
@@ -1115,7 +1207,9 @@
 | BoBo Balance | Harvest Rush | 21 | 1 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | BoBo Balance | Harvest Rush | 22 | 1 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | BoBo Balance | Harvest Rush | 23 | 1 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
-| BoBo Balance | Harvest Rush | BRCI(game_i) | 100.00% | 64.88% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% |
+| BoBo Balance | Harvest Rush | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| BoBo Balance | Harvest Rush | 25 | 1 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
+| BoBo Balance | Harvest Rush | BRCI(game_i) | 92.01% | 67.01% | 92.01% | 100.00% | 100.00% | 92.01% | 100.00% | 100.00% | 100.00% | 100.00% |
 | BoBo Balance | Tetromino | 1 | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | BoBo Balance | Tetromino | 2 | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | BoBo Balance | Tetromino | 3 | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
@@ -1138,5 +1232,7 @@
 | BoBo Balance | Tetromino | 21 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | BoBo Balance | Tetromino | 22 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | BoBo Balance | Tetromino | 23 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
-| BoBo Balance | Tetromino | BRCI(game_i) | 100.00% | 60.33% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% |
-| ALL | ALL | Mean BRCI | 87.10% | 85.65% | 92.90% | 99.65% | 94.23% | 96.82% | 100.00% | 97.42% | 100.00% | 100.00% |
+| BoBo Balance | Tetromino | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| BoBo Balance | Tetromino | 25 | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
+| BoBo Balance | Tetromino | BRCI(game_i) | 92.01% | 62.50% | 100.00% | 100.00% | 100.00% | 92.01% | 100.00% | 100.00% | 100.00% | 100.00% |
+| ALL | ALL | Mean BRCI | 84.01% | 81.58% | 90.66% | 99.67% | 93.36% | 89.34% | 100.00% | 97.56% | 99.36% | 100.00% |
