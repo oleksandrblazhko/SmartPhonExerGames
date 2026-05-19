@@ -4,19 +4,15 @@
         "game": "Soccer Heading",
         "included_mechanics": [
             {
-                "name": "Move",
-                "explanation": ""
-            },
-            {
                 "name": "Avoid",
                 "explanation": ""
             },
             {
-                "name": "Destroy",
+                "name": "Achieve",
                 "explanation": ""
             },
             {
-                "name": "Achieve",
+                "name": "Move",
                 "explanation": ""
             }
         ],
@@ -27,15 +23,15 @@
         "game": "Ski Slalom",
         "included_mechanics": [
             {
-                "name": "Move",
-                "explanation": ""
-            },
-            {
                 "name": "Avoid",
                 "explanation": ""
             },
             {
                 "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
                 "explanation": ""
             }
         ],
@@ -46,11 +42,11 @@
         "game": "Table Tilt",
         "included_mechanics": [
             {
-                "name": "Move",
+                "name": "Achieve",
                 "explanation": ""
             },
             {
-                "name": "Achieve",
+                "name": "Move",
                 "explanation": ""
             }
         ],
@@ -61,11 +57,11 @@
         "game": "Ski Jump",
         "included_mechanics": [
             {
-                "name": "Move",
+                "name": "Achieve",
                 "explanation": ""
             },
             {
-                "name": "Achieve",
+                "name": "Move",
                 "explanation": ""
             }
         ],
@@ -76,15 +72,15 @@
         "game": "Tightrope Walk",
         "included_mechanics": [
             {
-                "name": "Move",
-                "explanation": ""
-            },
-            {
                 "name": "Avoid",
                 "explanation": ""
             },
             {
                 "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
                 "explanation": ""
             }
         ],
@@ -95,15 +91,15 @@
         "game": "Balance Bubble",
         "included_mechanics": [
             {
-                "name": "Move",
-                "explanation": ""
-            },
-            {
                 "name": "Avoid",
                 "explanation": ""
             },
             {
                 "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
                 "explanation": ""
             }
         ],
@@ -114,15 +110,15 @@
         "game": "Penguin Slide",
         "included_mechanics": [
             {
+                "name": "Achieve",
+                "explanation": ""
+            },
+            {
                 "name": "Move",
                 "explanation": ""
             },
             {
                 "name": "Destroy",
-                "explanation": ""
-            },
-            {
-                "name": "Achieve",
                 "explanation": ""
             }
         ],
@@ -133,11 +129,15 @@
         "game": "Snowboard Slalom",
         "included_mechanics": [
             {
-                "name": "Move",
+                "name": "Avoid",
                 "explanation": ""
             },
             {
                 "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
                 "explanation": ""
             }
         ],
@@ -159,15 +159,15 @@
         "game": "Perfect 10",
         "included_mechanics": [
             {
-                "name": "Move",
-                "explanation": ""
-            },
-            {
                 "name": "Achieve",
                 "explanation": ""
             },
             {
-                "name": "Destroy",
+                "name": "Move",
+                "explanation": ""
+            },
+            {
+                "name": "Manage",
                 "explanation": ""
             }
         ],
@@ -178,11 +178,11 @@
         "game": "Rhythm Kung Fu",
         "included_mechanics": [
             {
-                "name": "Move",
+                "name": "Achieve",
                 "explanation": ""
             },
             {
-                "name": "Achieve",
+                "name": "Move",
                 "explanation": ""
             }
         ],
@@ -193,11 +193,11 @@
         "game": "Bird's-Eye Bull's-Eye",
         "included_mechanics": [
             {
-                "name": "Move",
+                "name": "Achieve",
                 "explanation": ""
             },
             {
-                "name": "Achieve",
+                "name": "Move",
                 "explanation": ""
             }
         ],
@@ -208,11 +208,15 @@
         "game": "Snowball Fight",
         "included_mechanics": [
             {
-                "name": "Move",
+                "name": "Avoid",
                 "explanation": ""
             },
             {
-                "name": "Shoot",
+                "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
                 "explanation": ""
             },
             {
@@ -220,7 +224,7 @@
                 "explanation": ""
             },
             {
-                "name": "Avoid",
+                "name": "Shoot",
                 "explanation": ""
             },
             {
@@ -235,15 +239,15 @@
         "game": "Obstacle Course",
         "included_mechanics": [
             {
-                "name": "Move",
-                "explanation": ""
-            },
-            {
                 "name": "Avoid",
                 "explanation": ""
             },
             {
                 "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
                 "explanation": ""
             }
         ],
@@ -254,15 +258,11 @@
         "game": "Tilt City",
         "included_mechanics": [
             {
-                "name": "Move",
-                "explanation": ""
-            },
-            {
                 "name": "Achieve",
                 "explanation": ""
             },
             {
-                "name": "Destroy",
+                "name": "Move",
                 "explanation": ""
             }
         ],
@@ -273,11 +273,11 @@
         "game": "Trampoline Target",
         "included_mechanics": [
             {
-                "name": "Move",
+                "name": "Achieve",
                 "explanation": ""
             },
             {
-                "name": "Achieve",
+                "name": "Move",
                 "explanation": ""
             }
         ],
@@ -288,15 +288,15 @@
         "game": "Ultimate Obstacle Course",
         "included_mechanics": [
             {
-                "name": "Move",
-                "explanation": ""
-            },
-            {
                 "name": "Avoid",
                 "explanation": ""
             },
             {
                 "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
                 "explanation": ""
             }
         ],
@@ -307,15 +307,15 @@
         "game": "Core Luge",
         "included_mechanics": [
             {
-                "name": "Move",
-                "explanation": ""
-            },
-            {
                 "name": "Avoid",
                 "explanation": ""
             },
             {
                 "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
                 "explanation": ""
             }
         ],
@@ -326,11 +326,15 @@
         "game": "Hosedown",
         "included_mechanics": [
             {
-                "name": "Move",
+                "name": "Avoid",
                 "explanation": ""
             },
             {
-                "name": "Shoot",
+                "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
                 "explanation": ""
             },
             {
@@ -338,7 +342,7 @@
                 "explanation": ""
             },
             {
-                "name": "Avoid",
+                "name": "Shoot",
                 "explanation": ""
             }
         ],
@@ -349,6 +353,14 @@
         "game": "Scuba Search",
         "included_mechanics": [
             {
+                "name": "Avoid",
+                "explanation": ""
+            },
+            {
+                "name": "Achieve",
+                "explanation": ""
+            },
+            {
                 "name": "Move",
                 "explanation": ""
             },
@@ -359,10 +371,6 @@
             {
                 "name": "Manage",
                 "explanation": ""
-            },
-            {
-                "name": "Avoid",
-                "explanation": ""
             }
         ],
         "excluded_or_uncertain": []
@@ -372,15 +380,19 @@
         "game": "Climbing",
         "included_mechanics": [
             {
+                "name": "Achieve",
+                "explanation": ""
+            },
+            {
                 "name": "Move",
                 "explanation": ""
             },
             {
-                "name": "Manage",
+                "name": "Select",
                 "explanation": ""
             },
             {
-                "name": "Achieve",
+                "name": "Manage",
                 "explanation": ""
             }
         ],
@@ -391,15 +403,19 @@
         "game": "Dessert Course",
         "included_mechanics": [
             {
-                "name": "Move",
-                "explanation": ""
-            },
-            {
                 "name": "Avoid",
                 "explanation": ""
             },
             {
                 "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
+                "explanation": ""
+            },
+            {
+                "name": "Manage",
                 "explanation": ""
             }
         ],
@@ -410,15 +426,15 @@
         "game": "Big Top Juggling",
         "included_mechanics": [
             {
-                "name": "Move",
-                "explanation": ""
-            },
-            {
                 "name": "Avoid",
                 "explanation": ""
             },
             {
                 "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
                 "explanation": ""
             }
         ],
@@ -429,11 +445,11 @@
         "game": "Skateboard Arena",
         "included_mechanics": [
             {
-                "name": "Move",
+                "name": "Achieve",
                 "explanation": ""
             },
             {
-                "name": "Achieve",
+                "name": "Move",
                 "explanation": ""
             }
         ],
@@ -444,11 +460,11 @@
         "game": "Table Tilt Plus",
         "included_mechanics": [
             {
-                "name": "Move",
+                "name": "Achieve",
                 "explanation": ""
             },
             {
-                "name": "Achieve",
+                "name": "Move",
                 "explanation": ""
             },
             {
@@ -463,15 +479,15 @@
         "game": "Balance Bubble Plus",
         "included_mechanics": [
             {
-                "name": "Move",
-                "explanation": ""
-            },
-            {
                 "name": "Avoid",
                 "explanation": ""
             },
             {
                 "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
                 "explanation": ""
             },
             {
@@ -486,15 +502,15 @@
         "game": "Fruit Slicer",
         "included_mechanics": [
             {
+                "name": "Achieve",
+                "explanation": ""
+            },
+            {
                 "name": "Move",
                 "explanation": ""
             },
             {
                 "name": "Destroy",
-                "explanation": ""
-            },
-            {
-                "name": "Achieve",
                 "explanation": ""
             }
         ],
@@ -505,15 +521,11 @@
         "game": "Hopper",
         "included_mechanics": [
             {
-                "name": "Move",
-                "explanation": ""
-            },
-            {
                 "name": "Achieve",
                 "explanation": ""
             },
             {
-                "name": "Avoid",
+                "name": "Move",
                 "explanation": ""
             }
         ],
@@ -524,15 +536,15 @@
         "game": "Stix & Stones",
         "included_mechanics": [
             {
-                "name": "Move",
-                "explanation": ""
-            },
-            {
                 "name": "Avoid",
                 "explanation": ""
             },
             {
                 "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
                 "explanation": ""
             }
         ],
@@ -543,11 +555,15 @@
         "game": "Meteor Madness",
         "included_mechanics": [
             {
-                "name": "Move",
+                "name": "Avoid",
                 "explanation": ""
             },
             {
-                "name": "Shoot",
+                "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
                 "explanation": ""
             },
             {
@@ -555,7 +571,7 @@
                 "explanation": ""
             },
             {
-                "name": "Avoid",
+                "name": "Shoot",
                 "explanation": ""
             }
         ],
@@ -566,15 +582,15 @@
         "game": "Candy Monster",
         "included_mechanics": [
             {
+                "name": "Achieve",
+                "explanation": ""
+            },
+            {
                 "name": "Move",
                 "explanation": ""
             },
             {
                 "name": "Destroy",
-                "explanation": ""
-            },
-            {
-                "name": "Achieve",
                 "explanation": ""
             }
         ],
@@ -585,7 +601,15 @@
         "game": "Duck Shoot",
         "included_mechanics": [
             {
+                "name": "Achieve",
+                "explanation": ""
+            },
+            {
                 "name": "Move",
+                "explanation": ""
+            },
+            {
+                "name": "Destroy",
                 "explanation": ""
             },
             {
@@ -593,7 +617,7 @@
                 "explanation": ""
             },
             {
-                "name": "Achieve",
+                "name": "Select",
                 "explanation": ""
             }
         ],
@@ -604,15 +628,15 @@
         "game": "Snow Cruisin",
         "included_mechanics": [
             {
-                "name": "Move",
-                "explanation": ""
-            },
-            {
                 "name": "Avoid",
                 "explanation": ""
             },
             {
                 "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
                 "explanation": ""
             }
         ],
@@ -623,11 +647,15 @@
         "game": "Pong Goal",
         "included_mechanics": [
             {
-                "name": "Move",
+                "name": "Avoid",
                 "explanation": ""
             },
             {
                 "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
                 "explanation": ""
             }
         ],
@@ -638,15 +666,15 @@
         "game": "Wave Rider",
         "included_mechanics": [
             {
-                "name": "Move",
-                "explanation": ""
-            },
-            {
                 "name": "Avoid",
                 "explanation": ""
             },
             {
                 "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
                 "explanation": ""
             }
         ],
@@ -657,11 +685,11 @@
         "game": "Gift Rush",
         "included_mechanics": [
             {
-                "name": "Move",
+                "name": "Achieve",
                 "explanation": ""
             },
             {
-                "name": "Achieve",
+                "name": "Move",
                 "explanation": ""
             },
             {
@@ -676,19 +704,11 @@
         "game": "Crazy Snowboard",
         "included_mechanics": [
             {
-                "name": "Move",
-                "explanation": ""
-            },
-            {
-                "name": "Destroy",
-                "explanation": ""
-            },
-            {
                 "name": "Achieve",
                 "explanation": ""
             },
             {
-                "name": "Avoid",
+                "name": "Move",
                 "explanation": ""
             }
         ],
@@ -699,15 +719,15 @@
         "game": "Color Tunnel",
         "included_mechanics": [
             {
-                "name": "Move",
-                "explanation": ""
-            },
-            {
                 "name": "Avoid",
                 "explanation": ""
             },
             {
                 "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
                 "explanation": ""
             }
         ],
@@ -718,15 +738,15 @@
         "game": "Space Ball",
         "included_mechanics": [
             {
-                "name": "Move",
-                "explanation": ""
-            },
-            {
                 "name": "Avoid",
                 "explanation": ""
             },
             {
                 "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
                 "explanation": ""
             }
         ],
@@ -737,19 +757,15 @@
         "game": "Car",
         "included_mechanics": [
             {
-                "name": "Move",
-                "explanation": ""
-            },
-            {
                 "name": "Avoid",
                 "explanation": ""
             },
             {
-                "name": "Destroy",
+                "name": "Achieve",
                 "explanation": ""
             },
             {
-                "name": "Achieve",
+                "name": "Move",
                 "explanation": ""
             }
         ],
@@ -760,15 +776,15 @@
         "game": "Mini Golf",
         "included_mechanics": [
             {
-                "name": "Move",
-                "explanation": ""
-            },
-            {
                 "name": "Avoid",
                 "explanation": ""
             },
             {
                 "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
                 "explanation": ""
             }
         ],
@@ -779,15 +795,11 @@
         "game": "Maze",
         "included_mechanics": [
             {
-                "name": "Move",
-                "explanation": ""
-            },
-            {
                 "name": "Achieve",
                 "explanation": ""
             },
             {
-                "name": "Avoid",
+                "name": "Move",
                 "explanation": ""
             }
         ],
@@ -798,15 +810,15 @@
         "game": "Fall Down",
         "included_mechanics": [
             {
-                "name": "Move",
-                "explanation": ""
-            },
-            {
                 "name": "Avoid",
                 "explanation": ""
             },
             {
                 "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
                 "explanation": ""
             }
         ],
@@ -816,6 +828,10 @@
         "system": "BoBo Balance",
         "game": "Candy Rex",
         "included_mechanics": [
+            {
+                "name": "Achieve",
+                "explanation": ""
+            },
             {
                 "name": "Move",
                 "explanation": ""
@@ -827,10 +843,6 @@
             {
                 "name": "Manage",
                 "explanation": ""
-            },
-            {
-                "name": "Achieve",
-                "explanation": ""
             }
         ],
         "excluded_or_uncertain": []
@@ -840,19 +852,19 @@
         "game": "Ice Adventure",
         "included_mechanics": [
             {
-                "name": "Move",
-                "explanation": ""
-            },
-            {
-                "name": "Destroy",
-                "explanation": ""
-            },
-            {
                 "name": "Avoid",
                 "explanation": ""
             },
             {
                 "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
+                "explanation": ""
+            },
+            {
+                "name": "Destroy",
                 "explanation": ""
             }
         ],
@@ -863,19 +875,15 @@
         "game": "Submarine",
         "included_mechanics": [
             {
-                "name": "Move",
-                "explanation": ""
-            },
-            {
-                "name": "Destroy",
-                "explanation": ""
-            },
-            {
                 "name": "Avoid",
                 "explanation": ""
             },
             {
                 "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
                 "explanation": ""
             }
         ],
@@ -886,19 +894,19 @@
         "game": "Harvest Rush",
         "included_mechanics": [
             {
-                "name": "Move",
-                "explanation": ""
-            },
-            {
-                "name": "Destroy",
-                "explanation": ""
-            },
-            {
                 "name": "Avoid",
                 "explanation": ""
             },
             {
                 "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
+                "explanation": ""
+            },
+            {
+                "name": "Destroy",
                 "explanation": ""
             }
         ],
@@ -909,15 +917,15 @@
         "game": "Tetromino",
         "included_mechanics": [
             {
-                "name": "Move",
-                "explanation": ""
-            },
-            {
                 "name": "Avoid",
                 "explanation": ""
             },
             {
                 "name": "Achieve",
+                "explanation": ""
+            },
+            {
+                "name": "Move",
                 "explanation": ""
             }
         ],

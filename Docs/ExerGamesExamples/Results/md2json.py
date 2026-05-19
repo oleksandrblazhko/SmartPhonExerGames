@@ -2,6 +2,27 @@ import re
 import json
 import sys
 from pathlib import Path
+from dataclasses import dataclass, asdict
+from typing import List, Dict
+
+
+# ============================================
+# Data Classes
+# ============================================
+
+@dataclass
+class Mechanic:
+    name: str
+    explanation: str
+
+
+@dataclass
+class GameRow:
+    system: str
+    game: str
+    included_mechanics: List[Mechanic]
+    excluded_or_uncertain: List[Mechanic]
+
 
 # ============================================
 # Допоміжні функції
@@ -12,56 +33,85 @@ def clean_text(text: str) -> str:
     Очищення markdown-тексту.
     """
 
-    if text is None:
+    if not text:
         return ""
 
-    text = text.strip()
+    text = text.replace("<br>", " ")
 
-    # прибираємо markdown bold
-    text = text.replace("**", "")
-
-    # прибираємо зайві пробіли
     text = re.sub(r"\s+", " ", text)
 
     return text.strip()
 
 
-def split_mechanics(mechanics_str: str):
+def normalize_mechanic_name(name: str) -> str:
+    """
+    Нормалізація назви механіки.
+
+    Прибирає:
+    - *
+    - **
+    - ***
+    - `
+    - зайві пробіли
+    """
+
+    if not name:
+        return ""
+
+    name = name.strip()
+
+    # прибираємо markdown formatting
+    name = re.sub(r"^[`*]+", "", name)
+    name = re.sub(r"[`*]+$", "", name)
+
+    # нормалізація пробілів
+    name = re.sub(r"\s+", " ", name)
+
+    return name.strip()
+
+
+def split_mechanics(mechanics_str: str) -> List[str]:
     """
     Перетворення рядка механік у список.
     """
 
-    if not mechanics_str.strip():
+    if not mechanics_str:
         return []
 
-    return [m.strip() for m in mechanics_str.split(",")]
+    return [
+        normalize_mechanic_name(m)
+        for m in mechanics_str.split(",")
+        if m.strip()
+    ]
 
 
-def parse_explanations(text: str):
+def parse_explanations(text: str) -> Dict[str, str]:
     """
-    Розбір пояснень виду:
+    Парсинг пояснень виду:
 
-    **Avoid:** текст ...
-    **Move:** текст ...
-
-    у структуру:
-    {
-        "Avoid": "...",
-        "Move": "..."
-    }
+    **Move**: text
+    **Avoid**: text
+    `Destroy`: text
+    *Manage*: text
     """
 
-    text = text.replace("\n", " ")
+    if not text:
+        return {}
 
-    pattern = r"\*\*(.*?)\:\*\*\s*(.*?)(?=\s*\*\*.*?\:\*\*|$)"
+    text = text.replace("<br>", "\n")
 
-    matches = re.findall(pattern, text)
+    pattern = re.compile(
+        r"\*\*(.*?)\*\*\s*:\s*(.*?)(?=\n\s*\*\*.*?\*\*\s*:|$)",
+        re.DOTALL
+    )
 
     result = {}
 
+    matches = pattern.findall(text)
+
     for mechanic, explanation in matches:
 
-        mechanic = clean_text(mechanic)
+        mechanic = normalize_mechanic_name(mechanic)
         explanation = clean_text(explanation)
 
         result[mechanic] = explanation
@@ -69,11 +119,34 @@ def parse_explanations(text: str):
     return result
 
 
+def is_separator_line(line: str) -> bool:
+    """
+    Перевірка markdown separator line.
+    """
+
+    return bool(
+        re.match(r'^\|[\s:\-\|]+\|$', line)
+    )
+
+
+def split_markdown_row(line: str) -> List[str]:
+    """
+    Безпечний split markdown row.
+    """
+
+    columns = re.split(
+        r'(?<!\\)\|',
+        line.strip("|")
+    )
+
+    return [c.strip() for c in columns]
+
+
 # ============================================
 # Парсер markdown-таблиці
 # ============================================
 
-def parse_markdown_table(md_text: str):
+def parse_markdown_table(md_text: str) -> List[GameRow]:
 
     lines = md_text.splitlines()
 
@@ -87,51 +160,86 @@ def parse_markdown_table(md_text: str):
         if not line.startswith("|"):
             continue
 
-        # пропускаємо separator
-        if re.match(r'^\|\s*:?-+:?\s*\|', line):
+        # separator line
+        if is_separator_line(line):
             continue
 
-        columns = [c.strip() for c in line.strip("|").split("|")]
+        columns = split_markdown_row(line)
 
         # очікуємо 5 колонок
         if len(columns) != 5:
             continue
 
-        # пропускаємо header
+        # header row
         if columns[0] == "Назва системи":
             continue
 
         system_name = clean_text(columns[0])
         game_name = clean_text(columns[1])
 
-        mechanics = split_mechanics(clean_text(columns[2]))
+        mechanics = split_mechanics(
+            clean_text(columns[2])
+        )
 
-        included_explanations = parse_explanations(columns[3])
-        excluded_explanations = parse_explanations(columns[4])
+        included_explanations = parse_explanations(
+            columns[3]
+        )
 
-        row = {
-            "system": system_name,
-            "game": game_name,
+        excluded_explanations = parse_explanations(
+            columns[4]
+        )
 
-            "mechanics": mechanics,
+        # included mechanics
+        included_mechanics = []
 
-            "included_mechanics": [
-                {
-                    "name": mechanic,
-                    "explanation": included_explanations.get(mechanic, "")
-                }
-                for mechanic in mechanics
-            ],
+        used_mechanics = set()
 
-            "excluded_or_uncertain": [
-                {
-                    "name": mechanic,
-                    "explanation": explanation
-                }
-                for mechanic, explanation
-                in excluded_explanations.items()
-            ]
-        }
+        for mechanic in mechanics:
+
+            included_mechanics.append(
+                Mechanic(
+                    name=mechanic,
+                    explanation=included_explanations.get(
+                        mechanic,
+                        ""
+                    )
+                )
+            )
+
+            used_mechanics.add(mechanic)
+
+        # додаємо механіки,
+        # які є у поясненнях,
+        # але відсутні у mechanics
+        for mechanic, explanation in included_explanations.items():
+
+            if mechanic not in used_mechanics:
+
+                included_mechanics.append(
+                    Mechanic(
+                        name=mechanic,
+                        explanation=explanation
+                    )
+                )
+
+        # excluded mechanics
+        excluded_mechanics = []
+
+        for mechanic, explanation in excluded_explanations.items():
+
+            excluded_mechanics.append(
+                Mechanic(
+                    name=mechanic,
+                    explanation=explanation
+                )
+            )
+
+        row = GameRow(
+            system=system_name,
+            game=game_name,
+            included_mechanics=included_mechanics,
+            excluded_or_uncertain=excluded_mechanics
+        )
 
         rows.append(row)
 
@@ -142,12 +250,20 @@ def parse_markdown_table(md_text: str):
 # Збереження JSON
 # ============================================
 
-def save_json(data, output_path):
+def save_json(data: List[GameRow], output_path: Path):
+    """
+    Збереження JSON.
+    """
+
+    serializable_data = [
+        asdict(row)
+        for row in data
+    ]
 
     with open(output_path, "w", encoding="utf-8") as f:
 
         json.dump(
-            data,
+            serializable_data,
             f,
             ensure_ascii=False,
             indent=4
@@ -187,19 +303,46 @@ def main():
     # формування json-імені
     output_file = input_file.with_suffix(".json")
 
-    # читання markdown
-    md_text = input_file.read_text(encoding="utf-8")
+    try:
+
+        # читання markdown
+        md_text = input_file.read_text(
+            encoding="utf-8"
+        )
+
+    except UnicodeDecodeError:
+
+        print("Помилка читання UTF-8")
+
+        return
+
+    except Exception as e:
+
+        print(f"Помилка читання файлу: {e}")
+
+        return
 
     # парсинг
     parsed_data = parse_markdown_table(md_text)
 
-    # збереження
-    save_json(parsed_data, output_file)
+    try:
 
-    print(f"JSON успішно створено:")
+        # збереження
+        save_json(parsed_data, output_file)
+
+    except Exception as e:
+
+        print(f"Помилка запису JSON: {e}")
+
+        return
+
+    print("JSON успішно створено:")
     print(output_file)
 
-    print(f"Кількість записів: {len(parsed_data)}")
+    print(
+        f"Кількість записів: "
+        f"{len(parsed_data)}"
+    )
 
 
 if __name__ == "__main__":

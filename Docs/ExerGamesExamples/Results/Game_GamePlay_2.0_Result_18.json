@@ -2,11 +2,6 @@
     {
         "system": "BoBo Balance",
         "game": "Crazy Snowboard",
-        "mechanics": [
-            "Move",
-            "Destroy",
-            "Avoid"
-        ],
         "included_mechanics": [
             {
                 "name": "Move",
@@ -26,10 +21,6 @@
     {
         "system": "BoBo Balance",
         "game": "Color Tunnel",
-        "mechanics": [
-            "Move",
-            "Avoid"
-        ],
         "included_mechanics": [
             {
                 "name": "Move",
@@ -45,11 +36,6 @@
     {
         "system": "BoBo Balance",
         "game": "Space Ball",
-        "mechanics": [
-            "Move",
-            "Achieve",
-            "Avoid"
-        ],
         "included_mechanics": [
             {
                 "name": "Move",
@@ -69,11 +55,6 @@
     {
         "system": "BoBo Balance",
         "game": "Car",
-        "mechanics": [
-            "Move",
-            "Destroy",
-            "Avoid"
-        ],
         "included_mechanics": [
             {
                 "name": "Move",
@@ -93,11 +74,6 @@
     {
         "system": "BoBo Balance",
         "game": "Mini Golf",
-        "mechanics": [
-            "Move",
-            "Achieve",
-            "Avoid"
-        ],
         "included_mechanics": [
             {
                 "name": "Move",
@@ -117,10 +93,6 @@
     {
         "system": "BoBo Balance",
         "game": "Maze",
-        "mechanics": [
-            "Move",
-            "Achieve"
-        ],
         "included_mechanics": [
             {
                 "name": "Move",
@@ -136,10 +108,6 @@
     {
         "system": "BoBo Balance",
         "game": "Fall Down",
-        "mechanics": [
-            "Move",
-            "Achieve"
-        ],
         "included_mechanics": [
             {
                 "name": "Move",
@@ -155,11 +123,6 @@
     {
         "system": "BoBo Balance",
         "game": "Candy Rex",
-        "mechanics": [
-            "Move",
-            "Destroy",
-            "Manage"
-        ],
         "included_mechanics": [
             {
                 "name": "Move",
@@ -179,11 +142,6 @@
     {
         "system": "BoBo Balance",
         "game": "Ice Adventure",
-        "mechanics": [
-            "Move",
-            "Destroy",
-            "Avoid"
-        ],
         "included_mechanics": [
             {
                 "name": "Move",
@@ -203,11 +161,6 @@
     {
         "system": "BoBo Balance",
         "game": "Submarine",
-        "mechanics": [
-            "Move",
-            "Destroy",
-            "Avoid"
-        ],
         "included_mechanics": [
             {
                 "name": "Move",
@@ -227,11 +180,6 @@
     {
         "system": "BoBo Balance",
         "game": "Harvest Rush",
-        "mechanics": [
-            "Move",
-            "Destroy",
-            "Avoid"
-        ],
         "included_mechanics": [
             {
                 "name": "Move",
@@ -251,10 +199,6 @@
     {
         "system": "BoBo Balance",
         "game": "Tetromino",
-        "mechanics": [
-            "Move",
-            "Avoid"
-        ],
         "included_mechanics": [
             {
                 "name": "Move",
@@ -270,10 +214,6 @@
     {
         "system": "PlankPad",
         "game": "Fruit Slicer",
-        "mechanics": [
-            "Move",
-            "Destroy"
-        ],
         "included_mechanics": [
             {
                 "name": "Move",
@@ -289,11 +229,6 @@
     {
         "system": "PlankPad",
         "game": "Hopper",
-        "mechanics": [
-            "Move",
-            "Achieve",
-            "Avoid"
-        ],
         "included_mechanics": [
             {
                 "name": "Move",
@@ -313,10 +248,6 @@
     {
         "system": "PlankPad",
         "game": "Stix & Stones",
-        "mechanics": [
-            "Move",
-            "Avoid"
-        ],
         "included_mechanics": [
             {
                 "name": "Move",
@@ -332,12 +263,6 @@
     {
         "system": "PlankPad",
         "game": "Meteor Madness",
-        "mechanics": [
-            "Move",
-            "Shoot",
-            "Destroy",
-            "Avoid"
-        ],
         "included_mechanics": [
             {
                 "name": "Move",
@@ -361,10 +286,6 @@
     {
         "system": "PlankPad",
         "game": "Candy Monster",
-        "mechanics": [
-            "Move",
-            "Destroy"
-        ],
         "included_mechanics": [
             {
                 "name": "Move",
@@ -380,11 +301,6 @@
     {
         "system": "PlankPad",
         "game": "Duck Shoot",
-        "mechanics": [
-            "Move",
-            "Shoot",
-            "Achieve"
-        ],
         "included_mechanics": [
             {
                 "name": "Move",
@@ -404,11 +320,6 @@
     {
         "system": "PlankPad",
         "game": "Snow Cruisin",
-        "mechanics": [
-            "Move",
-            "Avoid",
-            "Manage"
-        ],
         "included_mechanics": [
             {
                 "name": "Move",
@@ -428,10 +339,6 @@
     {
         "system": "PlankPad",
         "game": "Pong Goal",
-        "mechanics": [
-            "Move",
-            "Achieve"
-        ],
         "included_mechanics": [
             {
                 "name": "Move",
@@ -447,11 +354,6 @@
     {
         "system": "PlankPad",
         "game": "Wave Rider",
-        "mechanics": [
-            "Move",
-            "Avoid",
-            "Manage"
-        ],
         "included_mechanics": [
             {
                 "name": "Move",
@@ -471,11 +373,6 @@
     {
         "system": "PlankPad",
         "game": "Gift Rush",
-        "mechanics": [
-            "Move",
-            "Achieve",
-            "Select"
-        ],
         "included_mechanics": [
             {
                 "name": "Move",
@@ -495,11 +392,6 @@
     {
         "system": "Wii Fit",
         "game": "Soccer Heading",
-        "mechanics": [
-            "Move",
-            "Avoid",
-            "Achieve"
-        ],
         "included_mechanics": [
             {
                 "name": "Move",
@@ -519,11 +411,6 @@
     {
         "system": "Wii Fit",
         "game": "Ski Slalom",
-        "mechanics": [
-            "Move",
-            "Achieve",
-            "Avoid"
-        ],
         "included_mechanics": [
             {
                 "name": "Move",
@@ -543,10 +430,6 @@
     {
         "system": "Wii Fit",
         "game": "Table Tilt",
-        "mechanics": [
-            "Move",
-            "Achieve"
-        ],
         "included_mechanics": [
             {
                 "name": "Move",
@@ -562,10 +445,6 @@
     {
         "system": "Wii Fit",
         "game": "Ski Jump",
-        "mechanics": [
-            "Move",
-            "Achieve"
-        ],
         "included_mechanics": [
             {
                 "name": "Move",
@@ -581,11 +460,6 @@
     {
         "system": "Wii Fit",
         "game": "Tightrope Walk",
-        "mechanics": [
-            "Move",
-            "Avoid",
-            "Achieve"
-        ],
         "included_mechanics": [
             {
                 "name": "Move",
@@ -605,11 +479,6 @@
     {
         "system": "Wii Fit",
         "game": "Balance Bubble",
-        "mechanics": [
-            "Move",
-            "Avoid",
-            "Achieve"
-        ],
         "included_mechanics": [
             {
                 "name": "Move",
@@ -629,11 +498,6 @@
     {
         "system": "Wii Fit",
         "game": "Penguin Slide",
-        "mechanics": [
-            "Move",
-            "Destroy",
-            "Avoid"
-        ],
         "included_mechanics": [
             {
                 "name": "Move",
@@ -653,11 +517,6 @@
     {
         "system": "Wii Fit",
         "game": "Snowboard Slalom",
-        "mechanics": [
-            "Move",
-            "Achieve",
-            "Avoid"
-        ],
         "included_mechanics": [
             {
                 "name": "Move",
@@ -677,9 +536,6 @@
     {
         "system": "Wii Fit",
         "game": "Lotus Focus",
-        "mechanics": [
-            "Achieve"
-        ],
         "included_mechanics": [
             {
                 "name": "Achieve",
@@ -691,11 +547,6 @@
     {
         "system": "Wii Fit",
         "game": "Perfect 10",
-        "mechanics": [
-            "Move",
-            "Achieve",
-            "Destroy"
-        ],
         "included_mechanics": [
             {
                 "name": "Move",
@@ -715,10 +566,6 @@
     {
         "system": "Wii Fit",
         "game": "Rhythm Kung Fu",
-        "mechanics": [
-            "Move",
-            "Achieve"
-        ],
         "included_mechanics": [
             {
                 "name": "Move",
@@ -734,10 +581,6 @@
     {
         "system": "Wii Fit",
         "game": "Bird's-Eye Bull's-Eye",
-        "mechanics": [
-            "Move",
-            "Achieve"
-        ],
         "included_mechanics": [
             {
                 "name": "Move",
@@ -753,13 +596,6 @@
     {
         "system": "Wii Fit",
         "game": "Snowball Fight",
-        "mechanics": [
-            "Move",
-            "Shoot",
-            "Destroy",
-            "Manage",
-            "Avoid"
-        ],
         "included_mechanics": [
             {
                 "name": "Move",
@@ -787,11 +623,6 @@
     {
         "system": "Wii Fit",
         "game": "Obstacle Course",
-        "mechanics": [
-            "Move",
-            "Avoid",
-            "Achieve"
-        ],
         "included_mechanics": [
             {
                 "name": "Move",
@@ -811,11 +642,6 @@
     {
         "system": "Wii Fit",
         "game": "Tilt City",
-        "mechanics": [
-            "Move",
-            "Achieve",
-            "Destroy"
-        ],
         "included_mechanics": [
             {
                 "name": "Move",
@@ -835,10 +661,6 @@
     {
         "system": "Wii Fit",
         "game": "Trampoline Target",
-        "mechanics": [
-            "Move",
-            "Achieve"
-        ],
         "included_mechanics": [
             {
                 "name": "Move",
@@ -854,11 +676,6 @@
     {
         "system": "Wii Fit",
         "game": "Ultimate Obstacle Course",
-        "mechanics": [
-            "Move",
-            "Avoid",
-            "Achieve"
-        ],
         "included_mechanics": [
             {
                 "name": "Move",
@@ -878,11 +695,6 @@
     {
         "system": "Wii Fit",
         "game": "Core Luge",
-        "mechanics": [
-            "Move",
-            "Achieve",
-            "Avoid"
-        ],
         "included_mechanics": [
             {
                 "name": "Move",
@@ -902,12 +714,6 @@
     {
         "system": "Wii Fit",
         "game": "Hosedown",
-        "mechanics": [
-            "Move",
-            "Shoot",
-            "Destroy",
-            "Avoid"
-        ],
         "included_mechanics": [
             {
                 "name": "Move",
@@ -931,12 +737,6 @@
     {
         "system": "Wii Fit",
         "game": "Scuba Search",
-        "mechanics": [
-            "Move",
-            "Destroy",
-            "Manage",
-            "Avoid"
-        ],
         "included_mechanics": [
             {
                 "name": "Move",
@@ -960,11 +760,6 @@
     {
         "system": "Wii Fit",
         "game": "Climbing",
-        "mechanics": [
-            "Move",
-            "Manage",
-            "Achieve"
-        ],
         "included_mechanics": [
             {
                 "name": "Move",
@@ -984,12 +779,6 @@
     {
         "system": "Wii Fit",
         "game": "Dessert Course",
-        "mechanics": [
-            "Move",
-            "Achieve",
-            "Avoid",
-            "Manage"
-        ],
         "included_mechanics": [
             {
                 "name": "Move",
@@ -1013,11 +802,6 @@
     {
         "system": "Wii Fit",
         "game": "Big Top Juggling",
-        "mechanics": [
-            "Move",
-            "Avoid",
-            "Achieve"
-        ],
         "included_mechanics": [
             {
                 "name": "Move",
@@ -1037,10 +821,6 @@
     {
         "system": "Wii Fit",
         "game": "Skateboard Arena",
-        "mechanics": [
-            "Move",
-            "Achieve"
-        ],
         "included_mechanics": [
             {
                 "name": "Move",
@@ -1056,11 +836,6 @@
     {
         "system": "Wii Fit",
         "game": "Table Tilt Plus",
-        "mechanics": [
-            "Move",
-            "Achieve",
-            "Manage"
-        ],
         "included_mechanics": [
             {
                 "name": "Move",
@@ -1080,12 +855,6 @@
     {
         "system": "Wii Fit",
         "game": "Balance Bubble Plus",
-        "mechanics": [
-            "Move",
-            "Avoid",
-            "Achieve",
-            "Manage"
-        ],
         "included_mechanics": [
             {
                 "name": "Move",

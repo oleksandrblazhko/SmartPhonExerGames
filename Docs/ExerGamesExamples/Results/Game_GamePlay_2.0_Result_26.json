@@ -1,1124 +1,1134 @@
 [
     {
-        "system": "Wii Fit",
-        "game": "Soccer Heading",
-        "mechanics": [
-            "Avoid",
-            "Destroy",
-            "Move",
-            "Achieve"
-        ],
+        "system": "**Wii Fit**",
+        "game": "**Soccer Heading**",
         "included_mechanics": [
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "Гравець повинен \"уникати інших літаючих об'єктів\"."
             },
             {
                 "name": "Destroy",
-                "explanation": ""
+                "explanation": "Гравець \"відштовхує головою футбольні м'ячі\", що відповідає механіці збору/захоплення об'єктів для отримання очок."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Гравець керує персонажем, \"нахиляючись на баланс-борді\"."
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "Гравець повинен \"розташувати\" (position) себе на шляху м'яча для його відбиття."
             }
         ],
-        "excluded_or_uncertain": []
-    },
-    {
-        "system": "Wii Fit",
-        "game": "Ski Slalom",
-        "mechanics": [
-            "Achieve",
-            "Move",
-            "Avoid"
-        ],
-        "included_mechanics": [
-            {
-                "name": "Achieve",
-                "explanation": ""
-            },
-            {
-                "name": "Move",
-                "explanation": ""
-            },
-            {
-                "name": "Avoid",
-                "explanation": ""
-            }
-        ],
-        "excluded_or_uncertain": []
-    },
-    {
-        "system": "Wii Fit",
-        "game": "Table Tilt",
-        "mechanics": [
-            "Achieve",
-            "Move"
-        ],
-        "included_mechanics": [
-            {
-                "name": "Achieve",
-                "explanation": ""
-            },
-            {
-                "name": "Move",
-                "explanation": ""
-            }
-        ],
-        "excluded_or_uncertain": []
-    },
-    {
-        "system": "Wii Fit",
-        "game": "Ski Jump",
-        "mechanics": [
-            "Achieve",
-            "Move"
-        ],
-        "included_mechanics": [
-            {
-                "name": "Achieve",
-                "explanation": ""
-            },
-            {
-                "name": "Move",
-                "explanation": ""
-            }
-        ],
-        "excluded_or_uncertain": []
-    },
-    {
-        "system": "Wii Fit",
-        "game": "Tightrope Walk",
-        "mechanics": [
-            "Achieve",
-            "Move",
-            "Avoid"
-        ],
-        "included_mechanics": [
-            {
-                "name": "Achieve",
-                "explanation": ""
-            },
-            {
-                "name": "Move",
-                "explanation": ""
-            },
-            {
-                "name": "Avoid",
-                "explanation": ""
-            }
-        ],
-        "excluded_or_uncertain": []
-    },
-    {
-        "system": "Wii Fit",
-        "game": "Balance Bubble",
-        "mechanics": [
-            "Achieve",
-            "Move",
-            "Avoid"
-        ],
-        "included_mechanics": [
-            {
-                "name": "Achieve",
-                "explanation": ""
-            },
-            {
-                "name": "Move",
-                "explanation": ""
-            },
-            {
-                "name": "Avoid",
-                "explanation": ""
-            }
-        ],
-        "excluded_or_uncertain": []
-    },
-    {
-        "system": "Wii Fit",
-        "game": "Penguin Slide",
-        "mechanics": [
-            "Destroy",
-            "Move",
-            "Achieve"
-        ],
-        "included_mechanics": [
-            {
-                "name": "Destroy",
-                "explanation": ""
-            },
-            {
-                "name": "Move",
-                "explanation": ""
-            },
-            {
-                "name": "Achieve",
-                "explanation": ""
-            }
-        ],
-        "excluded_or_uncertain": []
-    },
-    {
-        "system": "Wii Fit",
-        "game": "Snowboard Slalom",
-        "mechanics": [
-            "Achieve",
-            "Move",
-            "Avoid"
-        ],
-        "included_mechanics": [
-            {
-                "name": "Achieve",
-                "explanation": ""
-            },
-            {
-                "name": "Move",
-                "explanation": ""
-            },
-            {
-                "name": "Avoid",
-                "explanation": ""
-            }
-        ],
-        "excluded_or_uncertain": []
-    },
-    {
-        "system": "Wii Fit",
-        "game": "Lotus Focus",
-        "mechanics": [
-            "Achieve"
-        ],
-        "included_mechanics": [
-            {
-                "name": "Achieve",
-                "explanation": ""
-            }
-        ],
-        "excluded_or_uncertain": []
-    },
-    {
-        "system": "Wii Fit",
-        "game": "Perfect 10",
-        "mechanics": [
-            "Destroy",
-            "Move",
-            "Achieve"
-        ],
-        "included_mechanics": [
-            {
-                "name": "Destroy",
-                "explanation": ""
-            },
-            {
-                "name": "Move",
-                "explanation": ""
-            },
-            {
-                "name": "Achieve",
-                "explanation": ""
-            }
-        ],
-        "excluded_or_uncertain": []
-    },
-    {
-        "system": "Wii Fit",
-        "game": "Rhythm Kung Fu",
-        "mechanics": [
-            "Achieve",
-            "Move"
-        ],
-        "included_mechanics": [
-            {
-                "name": "Achieve",
-                "explanation": ""
-            },
-            {
-                "name": "Move",
-                "explanation": ""
-            }
-        ],
-        "excluded_or_uncertain": []
-    },
-    {
-        "system": "Wii Fit",
-        "game": "Bird's-Eye Bull's-Eye",
-        "mechanics": [
-            "Achieve",
-            "Move",
-            "Manage"
-        ],
-        "included_mechanics": [
-            {
-                "name": "Achieve",
-                "explanation": ""
-            },
-            {
-                "name": "Move",
-                "explanation": ""
-            },
+        "excluded_or_uncertain": [
             {
                 "name": "Manage",
-                "explanation": ""
-            }
-        ],
-        "excluded_or_uncertain": []
-    },
-    {
-        "system": "Wii Fit",
-        "game": "Snowball Fight",
-        "mechanics": [
-            "Destroy",
-            "Move",
-            "Shoot",
-            "Avoid",
-            "Manage"
-        ],
-        "included_mechanics": [
-            {
-                "name": "Destroy",
-                "explanation": ""
-            },
-            {
-                "name": "Move",
-                "explanation": ""
+                "explanation": "Відсутнє управління ресурсами, такими як боєприпаси чи паливо."
             },
             {
                 "name": "Shoot",
-                "explanation": ""
+                "explanation": "Гравець не запускає снаряди."
+            }
+        ]
+    },
+    {
+        "system": "**Wii Fit**",
+        "game": "**Ski Slalom**",
+        "included_mechanics": [
+            {
+                "name": "Achieve",
+                "explanation": "Мета гри - \"пройти слалом якнайшвидше\", що є досягненням цільового стану (фінішу)."
+            },
+            {
+                "name": "Move",
+                "explanation": "Гравець \"керує рухом лиж, нахиляючись вліво та вправо\"."
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "Гравець повинен уникати пропуску воріт, оскільки це призводить до штрафу (\"Пропуск позначеної ділянки призводить до штрафу\")."
+            }
+        ],
+        "excluded_or_uncertain": [
+            {
+                "name": "Destroy",
+                "explanation": "Немає об'єктів для знищення чи збору."
+            }
+        ]
+    },
+    {
+        "system": "**Wii Fit**",
+        "game": "**Table Tilt**",
+        "included_mechanics": [
+            {
+                "name": "Achieve",
+                "explanation": "Мета - \"провести м'ячі в спеціальні отвори\", що є завданням на досягнення певної конфігурації (позиціонування)."
+            },
+            {
+                "name": "Move",
+                "explanation": "Гравець \"керує нахилом платформ, нахиляючи тіло\"."
+            }
+        ],
+        "excluded_or_uncertain": [
+            {
+                "name": "Avoid",
+                "explanation": "Хоча гравець опосередковано уникає падіння м'ячів, основна мета - позиціонування, а не уникнення явних перешкод."
+            }
+        ]
+    },
+    {
+        "system": "**Wii Fit**",
+        "game": "**Ski Jump**",
+        "included_mechanics": [
+            {
+                "name": "Achieve",
+                "explanation": "Мета - \"досягти максимальної відстані\", що є цільовим станом."
+            },
+            {
+                "name": "Move",
+                "explanation": "Гравець \"отримує контроль за швидкістю та рівновагою\", присідаючи та розгинаючи коліна."
+            }
+        ],
+        "excluded_or_uncertain": [
+            {
+                "name": "Avoid",
+                "explanation": "Немає явних перешкод для уникнення."
+            }
+        ]
+    },
+    {
+        "system": "**Wii Fit**",
+        "game": "**Tightrope Walk**",
+        "included_mechanics": [
+            {
+                "name": "Achieve",
+                "explanation": "Мета - \"перетнути тісний канат\", що є досягненням кінцевої точки."
+            },
+            {
+                "name": "Move",
+                "explanation": "Гравець \"повинен йти на місці\", щоб рухатися вперед."
+            },
+            {
+                "name": "Avoid",
+                "explanation": "Гравець повинен \"уникати перешкод\", таких як \"чорна роботизована щелепа\"."
+            }
+        ],
+        "excluded_or_uncertain": [
+            {
+                "name": "Destroy",
+                "explanation": "Немає об'єктів для знищення або збору."
+            }
+        ]
+    },
+    {
+        "system": "**Wii Fit**",
+        "game": "**Balance Bubble**",
+        "included_mechanics": [
+            {
+                "name": "Achieve",
+                "explanation": "Мета - \"провести свого Mii безпечно вниз річкою\", що є досягненням кінцевої точки."
+            },
+            {
+                "name": "Move",
+                "explanation": "Гравець керує рухом, \"нахиленням у різні боки\"."
+            },
+            {
+                "name": "Avoid",
+                "explanation": "Гравець повинен \"уникати перешкод\", таких як \"шматки стін, бджоли\"."
+            }
+        ],
+        "excluded_or_uncertain": [
+            {
+                "name": "Destroy",
+                "explanation": "Немає об'єктів для знищення або збору."
+            }
+        ]
+    },
+    {
+        "system": "**Wii Fit**",
+        "game": "**Penguin Slide**",
+        "included_mechanics": [
+            {
+                "name": "Destroy",
+                "explanation": "Мета - \"ловити рибу\", що відповідає механіці збору об'єктів."
+            },
+            {
+                "name": "Move",
+                "explanation": "Гравець \"рухає крижину\", \"нахиляючи тіло ліворуч та праворуч\"."
+            },
+            {
+                "name": "Achieve",
+                "explanation": "Мета - набрати очки, що досягається збором риби. Падіння у воду перериває процес, тому утримання на крижині є підзадачею."
+            }
+        ],
+        "excluded_or_uncertain": [
+            {
+                "name": "Avoid",
+                "explanation": "Хоча гравець уникає падіння у воду, це є наслідком невдалого руху, а не уникненням зовнішніх перешкод."
+            }
+        ]
+    },
+    {
+        "system": "**Wii Fit**",
+        "game": "**Snowboard Slalom**",
+        "included_mechanics": [
+            {
+                "name": "Achieve",
+                "explanation": "Мета - \"проходити між ворітьми на сноуборді\", що є послідовним досягненням позицій."
+            },
+            {
+                "name": "Move",
+                "explanation": "Керування здійснюється \"нахиленням вправо або вліво\"."
+            },
+            {
+                "name": "Avoid",
+                "explanation": "Подібно до Ski Slalom, гравець повинен уникати пропуску воріт."
+            }
+        ],
+        "excluded_or_uncertain": [
+            {
+                "name": "Destroy",
+                "explanation": "Немає об'єктів для знищення чи збору."
+            }
+        ]
+    },
+    {
+        "system": "**Wii Fit**",
+        "game": "**Lotus Focus**",
+        "included_mechanics": [
+            {
+                "name": "Achieve",
+                "explanation": "Мета - \"залишатися якомога нерухомішим\", що є класичним прикладом механіки \"Утримання\" (Maintain), підтипу Achieve."
+            }
+        ],
+        "excluded_or_uncertain": [
+            {
+                "name": "Move",
+                "explanation": "Відсутність руху є ціллю, а не засобом. Гравець не керує рухом об'єкта."
+            }
+        ]
+    },
+    {
+        "system": "**Wii Fit**",
+        "game": "**Perfect 10**",
+        "included_mechanics": [
+            {
+                "name": "Destroy",
+                "explanation": "Гравець \"вдаряє грибочки\", що є формою збору/захоплення для досягнення суми."
+            },
+            {
+                "name": "Move",
+                "explanation": "Гравець \"рухається над ними\" для взаємодії."
+            },
+            {
+                "name": "Achieve",
+                "explanation": "Мета - \"додати до цільової суми\", що є досягненням конкретного числового стану."
+            }
+        ],
+        "excluded_or_uncertain": [
+            {
+                "name": "Select",
+                "explanation": "Хоча гравець обирає, які грибочки вдарити, дія є фізичною (рух над ними), а не вибором з меню чи інтерфейсу."
+            }
+        ]
+    },
+    {
+        "system": "**Wii Fit**",
+        "game": "**Rhythm Kung Fu**",
+        "included_mechanics": [
+            {
+                "name": "Achieve",
+                "explanation": "Гравець повинен \"імітувати рухи ... в потрібний момент\", що є досягненням правильної послідовності дій та позицій."
+            },
+            {
+                "name": "Move",
+                "explanation": "Гравець виконує рухи, що є формою керування аватаром."
+            }
+        ],
+        "excluded_or_uncertain": [
+            {
+                "name": "Select",
+                "explanation": "Механіка схожа на відтворення послідовності, що в моделі Gameplay Bricks належить до Achieve, а не Select."
+            }
+        ]
+    },
+    {
+        "system": "**Wii Fit**",
+        "game": "**Bird's-Eye Bull's-Eye**",
+        "included_mechanics": [
+            {
+                "name": "Achieve",
+                "explanation": "Мета - \"приземлитися на цілі\", що є завданням на позиціонування."
+            },
+            {
+                "name": "Move",
+                "explanation": "Гравець керує польотом, \"махаючи руками\"."
             },
             {
                 "name": "Manage",
-                "explanation": ""
+                "explanation": "Гравець керує часом (\"Приземлення на цілі забезпечує додатковий час\"), який є ресурсом."
             }
         ],
-        "excluded_or_uncertain": []
-    },
-    {
-        "system": "Wii Fit",
-        "game": "Obstacle Course",
-        "mechanics": [
-            "Achieve",
-            "Move",
-            "Avoid"
-        ],
-        "included_mechanics": [
+        "excluded_or_uncertain": [
             {
-                "name": "Achieve",
-                "explanation": ""
-            },
-            {
-                "name": "Move",
-                "explanation": ""
-            },
-            {
-                "name": "Avoid",
-                "explanation": ""
+                "name": "Shoot",
+                "explanation": "Гравець не запускає снаряди; він сам є снарядом."
             }
-        ],
-        "excluded_or_uncertain": []
+        ]
     },
     {
-        "system": "Wii Fit",
-        "game": "Tilt City",
-        "mechanics": [
-            "Achieve",
-            "Move",
-            "Destroy"
-        ],
-        "included_mechanics": [
-            {
-                "name": "Achieve",
-                "explanation": ""
-            },
-            {
-                "name": "Move",
-                "explanation": ""
-            },
-            {
-                "name": "Destroy",
-                "explanation": ""
-            }
-        ],
-        "excluded_or_uncertain": []
-    },
-    {
-        "system": "Wii Fit",
-        "game": "Trampoline Target",
-        "mechanics": [
-            "Achieve",
-            "Move"
-        ],
-        "included_mechanics": [
-            {
-                "name": "Achieve",
-                "explanation": ""
-            },
-            {
-                "name": "Move",
-                "explanation": ""
-            }
-        ],
-        "excluded_or_uncertain": []
-    },
-    {
-        "system": "Wii Fit",
-        "game": "Ultimate Obstacle Course",
-        "mechanics": [
-            "Achieve",
-            "Move",
-            "Avoid"
-        ],
-        "included_mechanics": [
-            {
-                "name": "Achieve",
-                "explanation": ""
-            },
-            {
-                "name": "Move",
-                "explanation": ""
-            },
-            {
-                "name": "Avoid",
-                "explanation": ""
-            }
-        ],
-        "excluded_or_uncertain": []
-    },
-    {
-        "system": "Wii Fit",
-        "game": "Core Luge",
-        "mechanics": [
-            "Achieve",
-            "Move"
-        ],
-        "included_mechanics": [
-            {
-                "name": "Achieve",
-                "explanation": ""
-            },
-            {
-                "name": "Move",
-                "explanation": ""
-            }
-        ],
-        "excluded_or_uncertain": []
-    },
-    {
-        "system": "Wii Fit",
-        "game": "Hosedown",
-        "mechanics": [
-            "Destroy",
-            "Move",
-            "Shoot",
-            "Avoid"
-        ],
+        "system": "**Wii Fit**",
+        "game": "**Snowball Fight**",
         "included_mechanics": [
             {
                 "name": "Destroy",
-                "explanation": ""
+                "explanation": "Мета - \"влучити в Miis і сніговиків\"."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Гравець рухається, \"нахиленням на Wii Balance Board\"."
             },
             {
                 "name": "Shoot",
-                "explanation": ""
+                "explanation": "Гравець \"кидає сніжки\", що є запуском снаряда."
             },
             {
                 "name": "Avoid",
-                "explanation": ""
-            }
-        ],
-        "excluded_or_uncertain": []
-    },
-    {
-        "system": "Wii Fit",
-        "game": "Scuba Search",
-        "mechanics": [
-            "Destroy",
-            "Manage",
-            "Avoid"
-        ],
-        "included_mechanics": [
-            {
-                "name": "Destroy",
-                "explanation": ""
+                "explanation": "Гравець повинен уникати ворожих сніжків (\"втрачає життя, коли його влучає сніжком супротивник\")."
             },
             {
                 "name": "Manage",
-                "explanation": ""
-            },
-            {
-                "name": "Avoid",
-                "explanation": ""
+                "explanation": "Гравець керує обмеженим ресурсом - \"три життя\"."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Select",
+                "explanation": "Кнопка 'A' використовується для дії (Shoot), а не для вибору з опцій."
+            }
+        ]
     },
     {
-        "system": "Wii Fit",
-        "game": "Climbing",
-        "mechanics": [
-            "Achieve",
-            "Move",
-            "Manage",
-            "Avoid"
-        ],
+        "system": "**Wii Fit**",
+        "game": "**Obstacle Course**",
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "Мета - пройти курс, що є досягненням кінцевої точки."
             },
             {
                 "name": "Move",
-                "explanation": ""
-            },
-            {
-                "name": "Manage",
-                "explanation": ""
+                "explanation": "Гравець \"крокує на місці, щоб йти або бігти\"."
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "Гравець повинен \"уникати перешкод\"."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Destroy",
+                "explanation": "Немає об'єктів для знищення."
+            }
+        ]
     },
     {
-        "system": "Wii Fit",
-        "game": "Dessert Course",
-        "mechanics": [
-            "Achieve",
-            "Move",
-            "Manage",
-            "Avoid"
-        ],
+        "system": "**Wii Fit**",
+        "game": "**Tilt City**",
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "Мета - доставити м'ячі до відповідних труб, що є завданням на позиціонування."
             },
             {
                 "name": "Move",
-                "explanation": ""
-            },
-            {
-                "name": "Manage",
-                "explanation": ""
-            },
-            {
-                "name": "Avoid",
-                "explanation": ""
-            }
-        ],
-        "excluded_or_uncertain": []
-    },
-    {
-        "system": "Wii Fit",
-        "game": "Big Top Juggling",
-        "mechanics": [
-            "Achieve",
-            "Move",
-            "Destroy",
-            "Avoid"
-        ],
-        "included_mechanics": [
-            {
-                "name": "Achieve",
-                "explanation": ""
-            },
-            {
-                "name": "Move",
-                "explanation": ""
+                "explanation": "Гравець керує рухом, \"зсув ваги на баланс-борді\"."
             },
             {
                 "name": "Destroy",
-                "explanation": ""
-            },
-            {
-                "name": "Avoid",
-                "explanation": ""
+                "explanation": "Механіка \"збору\" м'ячів для переміщення їх до труб."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Avoid",
+                "explanation": "Уникнення падіння є частиною завдання на позиціонування, а не основною метою."
+            }
+        ]
     },
     {
-        "system": "Wii Fit",
-        "game": "Skateboard Arena",
-        "mechanics": [
-            "Achieve",
-            "Move",
-            "Destroy"
-        ],
+        "system": "**Wii Fit**",
+        "game": "**Trampoline Target**",
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "Мета - \"досягти максимальної висоти\", що є цільовим станом."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Гравець керує стрибками, \"вигинаючи коліна\"."
+            }
+        ],
+        "excluded_or_uncertain": [
+            {
+                "name": "Avoid",
+                "explanation": "Немає перешкод для уникнення."
+            }
+        ]
+    },
+    {
+        "system": "**Wii Fit**",
+        "game": "**Ultimate Obstacle Course**",
+        "included_mechanics": [
+            {
+                "name": "Achieve",
+                "explanation": "Мета - \"прокласти собі шлях через випробувальний курс\", що є досягненням кінцевої точки."
             },
+            {
+                "name": "Move",
+                "explanation": "Гравець керує рухом, використовуючи \"рухи кроку для контролю темпу та напрямку\"."
+            },
+            {
+                "name": "Avoid",
+                "explanation": "Назва гри \"Obstacle Course\" прямо вказує на необхідність уникати перешкод."
+            }
+        ],
+        "excluded_or_uncertain": [
             {
                 "name": "Destroy",
-                "explanation": ""
+                "explanation": "Немає об'єктів для знищення."
             }
-        ],
-        "excluded_or_uncertain": []
+        ]
     },
     {
-        "system": "Wii Fit",
-        "game": "Table Tilt Plus",
-        "mechanics": [
-            "Achieve",
-            "Move",
-            "Manage"
-        ],
+        "system": "**Wii Fit**",
+        "game": "**Core Luge**",
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "Мета - з'їхати з траси, що є досягненням кінцевої точки."
             },
             {
                 "name": "Move",
-                "explanation": ""
-            },
-            {
-                "name": "Manage",
-                "explanation": ""
+                "explanation": "Гравець керує санчатами, \"нахиляючи тіло для керування\"."
             }
         ],
-        "excluded_or_uncertain": []
-    },
-    {
-        "system": "Wii Fit",
-        "game": "Balance Bubble Plus",
-        "mechanics": [
-            "Achieve",
-            "Move",
-            "Avoid",
-            "Manage"
-        ],
-        "included_mechanics": [
-            {
-                "name": "Achieve",
-                "explanation": ""
-            },
-            {
-                "name": "Move",
-                "explanation": ""
-            },
+        "excluded_or_uncertain": [
             {
                 "name": "Avoid",
-                "explanation": ""
-            },
-            {
-                "name": "Manage",
-                "explanation": ""
+                "explanation": "Хоча гравець має залишатися на трасі, явних перешкод для уникнення не описано."
             }
-        ],
-        "excluded_or_uncertain": []
+        ]
     },
     {
-        "system": "PlankPad",
-        "game": "Fruit Slicer",
-        "mechanics": [
-            "Destroy",
-            "Move",
-            "Avoid"
-        ],
+        "system": "**Wii Fit**",
+        "game": "**Hosedown**",
         "included_mechanics": [
             {
                 "name": "Destroy",
-                "explanation": ""
+                "explanation": "Мета - захиститися від цілей, вистрілюючи в них водою."
             },
             {
                 "name": "Move",
-                "explanation": ""
-            },
-            {
-                "name": "Avoid",
-                "explanation": ""
-            }
-        ],
-        "excluded_or_uncertain": []
-    },
-    {
-        "system": "PlankPad",
-        "game": "Hopper",
-        "mechanics": [
-            "Achieve",
-            "Move",
-            "Avoid"
-        ],
-        "included_mechanics": [
-            {
-                "name": "Achieve",
-                "explanation": ""
-            },
-            {
-                "name": "Move",
-                "explanation": ""
-            },
-            {
-                "name": "Avoid",
-                "explanation": ""
-            }
-        ],
-        "excluded_or_uncertain": []
-    },
-    {
-        "system": "PlankPad",
-        "game": "Stix & Stones",
-        "mechanics": [
-            "Move",
-            "Avoid"
-        ],
-        "included_mechanics": [
-            {
-                "name": "Move",
-                "explanation": ""
-            },
-            {
-                "name": "Avoid",
-                "explanation": ""
-            }
-        ],
-        "excluded_or_uncertain": []
-    },
-    {
-        "system": "PlankPad",
-        "game": "Meteor Madness",
-        "mechanics": [
-            "Destroy",
-            "Move",
-            "Shoot",
-            "Avoid"
-        ],
-        "included_mechanics": [
-            {
-                "name": "Destroy",
-                "explanation": ""
-            },
-            {
-                "name": "Move",
-                "explanation": ""
+                "explanation": "Гравець керує прицілом (\"рух Wii U GamePad для прицілювання\")."
             },
             {
                 "name": "Shoot",
-                "explanation": ""
+                "explanation": "Гравець \"вистрілює водою по наближаються цілям\"."
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "Гравець повинен уникати \"Miis, що кидають бруд\"."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Manage",
+                "explanation": "Немає опису обмежених ресурсів, як-от кількість води чи життя."
+            }
+        ]
     },
     {
-        "system": "PlankPad",
-        "game": "Candy Monster",
-        "mechanics": [
-            "Destroy",
-            "Move"
-        ],
+        "system": "**Wii Fit**",
+        "game": "**Scuba Search**",
         "included_mechanics": [
             {
                 "name": "Destroy",
-                "explanation": ""
-            },
-            {
-                "name": "Move",
-                "explanation": ""
-            }
-        ],
-        "excluded_or_uncertain": []
-    },
-    {
-        "system": "PlankPad",
-        "game": "Duck Shoot",
-        "mechanics": [
-            "Shoot",
-            "Move",
-            "Achieve"
-        ],
-        "included_mechanics": [
-            {
-                "name": "Shoot",
-                "explanation": ""
-            },
-            {
-                "name": "Move",
-                "explanation": ""
-            },
-            {
-                "name": "Achieve",
-                "explanation": ""
-            }
-        ],
-        "excluded_or_uncertain": []
-    },
-    {
-        "system": "PlankPad",
-        "game": "Snow Cruisin",
-        "mechanics": [
-            "Move",
-            "Avoid"
-        ],
-        "included_mechanics": [
-            {
-                "name": "Move",
-                "explanation": ""
-            },
-            {
-                "name": "Avoid",
-                "explanation": ""
-            }
-        ],
-        "excluded_or_uncertain": []
-    },
-    {
-        "system": "PlankPad",
-        "game": "Pong Goal",
-        "mechanics": [
-            "Achieve",
-            "Move"
-        ],
-        "included_mechanics": [
-            {
-                "name": "Achieve",
-                "explanation": ""
-            },
-            {
-                "name": "Move",
-                "explanation": ""
-            }
-        ],
-        "excluded_or_uncertain": []
-    },
-    {
-        "system": "PlankPad",
-        "game": "Wave Rider",
-        "mechanics": [
-            "Move",
-            "Avoid"
-        ],
-        "included_mechanics": [
-            {
-                "name": "Move",
-                "explanation": ""
-            },
-            {
-                "name": "Avoid",
-                "explanation": ""
-            }
-        ],
-        "excluded_or_uncertain": []
-    },
-    {
-        "system": "PlankPad",
-        "game": "Gift Rush",
-        "mechanics": [
-            "Destroy",
-            "Move",
-            "Achieve"
-        ],
-        "included_mechanics": [
-            {
-                "name": "Destroy",
-                "explanation": ""
-            },
-            {
-                "name": "Move",
-                "explanation": ""
-            },
-            {
-                "name": "Achieve",
-                "explanation": ""
-            }
-        ],
-        "excluded_or_uncertain": []
-    },
-    {
-        "system": "BoBo Balance",
-        "game": "Crazy Snowboard",
-        "mechanics": [
-            "Destroy",
-            "Move",
-            "Achieve"
-        ],
-        "included_mechanics": [
-            {
-                "name": "Destroy",
-                "explanation": ""
-            },
-            {
-                "name": "Move",
-                "explanation": ""
-            },
-            {
-                "name": "Achieve",
-                "explanation": ""
-            }
-        ],
-        "excluded_or_uncertain": []
-    },
-    {
-        "system": "BoBo Balance",
-        "game": "Color Tunnel",
-        "mechanics": [
-            "Move",
-            "Avoid"
-        ],
-        "included_mechanics": [
-            {
-                "name": "Move",
-                "explanation": ""
-            },
-            {
-                "name": "Avoid",
-                "explanation": ""
-            }
-        ],
-        "excluded_or_uncertain": []
-    },
-    {
-        "system": "BoBo Balance",
-        "game": "Space Ball",
-        "mechanics": [
-            "Achieve",
-            "Move",
-            "Avoid"
-        ],
-        "included_mechanics": [
-            {
-                "name": "Achieve",
-                "explanation": ""
-            },
-            {
-                "name": "Move",
-                "explanation": ""
-            },
-            {
-                "name": "Avoid",
-                "explanation": ""
-            }
-        ],
-        "excluded_or_uncertain": []
-    },
-    {
-        "system": "BoBo Balance",
-        "game": "Car",
-        "mechanics": [
-            "Destroy",
-            "Move",
-            "Avoid"
-        ],
-        "included_mechanics": [
-            {
-                "name": "Destroy",
-                "explanation": ""
-            },
-            {
-                "name": "Move",
-                "explanation": ""
-            },
-            {
-                "name": "Avoid",
-                "explanation": ""
-            }
-        ],
-        "excluded_or_uncertain": []
-    },
-    {
-        "system": "BoBo Balance",
-        "game": "Mini Golf",
-        "mechanics": [
-            "Achieve",
-            "Move",
-            "Avoid"
-        ],
-        "included_mechanics": [
-            {
-                "name": "Achieve",
-                "explanation": ""
-            },
-            {
-                "name": "Move",
-                "explanation": ""
-            },
-            {
-                "name": "Avoid",
-                "explanation": ""
-            }
-        ],
-        "excluded_or_uncertain": []
-    },
-    {
-        "system": "BoBo Balance",
-        "game": "Maze",
-        "mechanics": [
-            "Achieve",
-            "Move"
-        ],
-        "included_mechanics": [
-            {
-                "name": "Achieve",
-                "explanation": ""
-            },
-            {
-                "name": "Move",
-                "explanation": ""
-            }
-        ],
-        "excluded_or_uncertain": []
-    },
-    {
-        "system": "BoBo Balance",
-        "game": "Fall Down",
-        "mechanics": [
-            "Achieve",
-            "Move",
-            "Avoid"
-        ],
-        "included_mechanics": [
-            {
-                "name": "Achieve",
-                "explanation": ""
-            },
-            {
-                "name": "Move",
-                "explanation": ""
-            },
-            {
-                "name": "Avoid",
-                "explanation": ""
-            }
-        ],
-        "excluded_or_uncertain": []
-    },
-    {
-        "system": "BoBo Balance",
-        "game": "Candy Rex",
-        "mechanics": [
-            "Destroy",
-            "Move",
-            "Manage"
-        ],
-        "included_mechanics": [
-            {
-                "name": "Destroy",
-                "explanation": ""
-            },
-            {
-                "name": "Move",
-                "explanation": ""
+                "explanation": "Гравець повинен \"збирати рибу та скарби\", що є механікою збору."
             },
             {
                 "name": "Manage",
-                "explanation": ""
+                "explanation": "Гравець керує обмеженим ресурсом - \"кисень не опуститься до нуля\"."
+            },
+            {
+                "name": "Avoid",
+                "explanation": "Гравець повинен \"уникати перешкод\"."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Move",
+                "explanation": "Немає детального опису способу керування рухом. Частково, оскільки гравець плаває, але спосіб керування не вказаний."
+            }
+        ]
     },
     {
-        "system": "BoBo Balance",
-        "game": "Ice Adventure",
-        "mechanics": [
-            "Destroy",
-            "Move",
-            "Achieve"
-        ],
+        "system": "**Wii Fit**",
+        "game": "**Climbing**",
         "included_mechanics": [
             {
-                "name": "Destroy",
-                "explanation": ""
+                "name": "Achieve",
+                "explanation": "Мета - \"підійматися на вершину стіни\", що є досягненням кінцевої точки."
             },
             {
                 "name": "Move",
+                "explanation": "Гравець керує рухом, \"використовуючи обидві руки, щоб триматися за каміння\"."
+            },
+            {
+                "name": "Manage",
+                "explanation": "Гравець керує витривалістю (\"Гравець втрачає витривалість, якщо не тримається за камінь\")."
+            },
+            {
+                "name": "Avoid",
+                "explanation": "Гравець повинен уникати падіння, що є результатом втрати витривалості або неправильних дій."
+            }
+        ],
+        "excluded_or_uncertain": [
+            {
+                "name": "Select",
+                "explanation": "Вибір каменів є частиною руху, а не вибором з інтерфейсу."
+            }
+        ]
+    },
+    {
+        "system": "**Wii Fit**",
+        "game": "**Dessert Course**",
+        "included_mechanics": [
+            {
+                "name": "Achieve",
+                "explanation": "Мета - \"доставляти замовлення клієнтам\", що є завданням на позиціонування."
+            },
+            {
+                "name": "Move",
+                "explanation": "Гравець рухається, \"рухаючись на місці на Wii Balance Board\"."
+            },
+            {
+                "name": "Manage",
+                "explanation": "Гра є на час (\"Є обмеження за часом\").<br**Avoid**: Гравець повинен уникати зіткнень з іншими офіціантами."
+            },
+            {
+                "name": "Avoid",
                 "explanation": ""
+            }
+        ],
+        "excluded_or_uncertain": [
+            {
+                "name": "Destroy",
+                "explanation": "Немає об'єктів для знищення чи збору."
+            }
+        ]
+    },
+    {
+        "system": "**Wii Fit**",
+        "game": "**Big Top Juggling**",
+        "included_mechanics": [
+            {
+                "name": "Achieve",
+                "explanation": "Мета - утримувати м'ячі в повітрі, що є механікою утримання (Maintain)."
+            },
+            {
+                "name": "Move",
+                "explanation": "Гравець \"нахиляється вліво та вправо, щоб рухати м'яч ногами\"."
+            },
+            {
+                "name": "Destroy",
+                "explanation": "Гравець \"ловить м'ячі\", що є формою збору."
+            },
+            {
+                "name": "Avoid",
+                "explanation": "Гравець повинен \"уникати бомб\"."
+            }
+        ],
+        "excluded_or_uncertain": [
+            {
+                "name": "Manage",
+                "explanation": "Немає опису управління ресурсами."
+            }
+        ]
+    },
+    {
+        "system": "**Wii Fit**",
+        "game": "**Skateboard Arena**",
+        "included_mechanics": [
+            {
+                "name": "Achieve",
+                "explanation": "Мета - \"заробити якнайбільше очок\", виконуючи трюки, що є досягненням цільового стану."
+            },
+            {
+                "name": "Move",
+                "explanation": "Гравець керує скейтбордом, \"нахиляючись вліво та вправо для повороту\" та \"штовхаючи скейтборд\"."
+            },
+            {
+                "name": "Destroy",
+                "explanation": "Частково. Виконання трюків можна інтерпретувати як \"захоплення\" можливостей для отримання очок."
+            }
+        ],
+        "excluded_or_uncertain": [
+            {
+                "name": "Avoid",
+                "explanation": "Немає явних перешкод для уникнення у режимі \"Вільний\"."
+            }
+        ]
+    },
+    {
+        "system": "**Wii Fit**",
+        "game": "**Table Tilt Plus**",
+        "included_mechanics": [
+            {
+                "name": "Achieve",
+                "explanation": "Мета - \"нахилити м'ячі ... у кожен слот\", що є завданням на позиціонування."
+            },
+            {
+                "name": "Move",
+                "explanation": "Гравець керує нахилом платформи."
+            },
+            {
+                "name": "Manage",
+                "explanation": "Гра на час, але час є ресурсом, що поповнюється (\"отримує додаткові 6 секунд\")."
+            }
+        ],
+        "excluded_or_uncertain": [
+            {
+                "name": "Avoid",
+                "explanation": "Немає явних перешкод."
+            }
+        ]
+    },
+    {
+        "system": "**Wii Fit**",
+        "game": "**Balance Bubble Plus**",
+        "included_mechanics": [
+            {
+                "name": "Achieve",
+                "explanation": "Мета - \"досягти кінця курсу\", що є досягненням кінцевої точки."
+            },
+            {
+                "name": "Move",
+                "explanation": "Керування здійснюється \"нахиленням вліво, вправо, вперед та назад\"."
+            },
+            {
+                "name": "Avoid",
+                "explanation": "Гравець повинен \"уникати перешкод\"."
+            },
+            {
+                "name": "Manage",
+                "explanation": "Є обмеження за часом (\"Гравець має 2 хвилини\")."
+            }
+        ],
+        "excluded_or_uncertain": [
+            {
+                "name": "Destroy",
+                "explanation": "Немає об'єктів для збору."
+            }
+        ]
+    },
+    {
+        "system": "**PlankPad**",
+        "game": "**Fruit Slicer**",
+        "included_mechanics": [
+            {
+                "name": "Destroy",
+                "explanation": "Гравець повинен \"розрізати фрукти\", що є формою знищення/збору."
+            },
+            {
+                "name": "Move",
+                "explanation": "Гравець \"керує воїном-ніндзя, переміщуючи його вліво та вправо\"."
+            },
+            {
+                "name": "Avoid",
+                "explanation": "Імпліцитно, гравець має уникати пропуску фруктів (якщо це веде до програшу, що типово для таких ігор). Опис не детальний."
+            }
+        ],
+        "excluded_or_uncertain": [
+            {
+                "name": "Achieve",
+                "explanation": "Основна дія - знищення, а не досягнення позиції чи стану."
+            }
+        ]
+    },
+    {
+        "system": "**PlankPad**",
+        "game": "**Hopper**",
+        "included_mechanics": [
+            {
+                "name": "Achieve",
+                "explanation": "Мета - допомогти жабі дістатися кудись, стрибаючи по листю, що є досягненням послідовності позицій."
+            },
+            {
+                "name": "Move",
+                "explanation": "Гравець \"керує жабою, нахиляючи дошку\"."
+            },
+            {
+                "name": "Avoid",
+                "explanation": "Імпліцитно, гравець має уникати падіння у воду."
+            }
+        ],
+        "excluded_or_uncertain": [
+            {
+                "name": "Destroy",
+                "explanation": "Немає об'єктів для збору."
+            }
+        ]
+    },
+    {
+        "system": "**PlankPad**",
+        "game": "**Stix & Stones**",
+        "included_mechanics": [
+            {
+                "name": "Move",
+                "explanation": "Гравець \"керує велосипедом\"."
+            },
+            {
+                "name": "Avoid",
+                "explanation": "Гравець повинен \"ухилятися від перешкод на дорозі\"."
+            }
+        ],
+        "excluded_or_uncertain": [
+            {
+                "name": "Achieve",
+                "explanation": "Основна мета - уникнення, а не досягнення фінішу, який не згаданий як головна ціль."
+            }
+        ]
+    },
+    {
+        "system": "**PlankPad**",
+        "game": "**Meteor Madness**",
+        "included_mechanics": [
+            {
+                "name": "Destroy",
+                "explanation": "Мета - \"знищення метеоритів\"."
+            },
+            {
+                "name": "Move",
+                "explanation": "Гравець \"керує космічним кораблем, переміщуючи його\"."
+            },
+            {
+                "name": "Shoot",
+                "explanation": "Гравець здійснює \"стрільбу\" для знищення метеоритів."
+            },
+            {
+                "name": "Avoid",
+                "explanation": "Гравець повинен уникати зіткнення з метеоритами."
+            }
+        ],
+        "excluded_or_uncertain": [
+            {
+                "name": "Manage",
+                "explanation": "Немає опису управління ресурсами (життя, боєприпаси)."
+            }
+        ]
+    },
+    {
+        "system": "**PlankPad**",
+        "game": "**Candy Monster**",
+        "included_mechanics": [
+            {
+                "name": "Destroy",
+                "explanation": "Гравець \"ловить їжу, що падає\", що є механікою збору."
+            },
+            {
+                "name": "Move",
+                "explanation": "Гравець \"керує монстром, переміщуючи його вліво та вправо\"."
+            }
+        ],
+        "excluded_or_uncertain": [
+            {
+                "name": "Avoid",
+                "explanation": "Не описано об'єктів, яких потрібно уникати."
+            }
+        ]
+    },
+    {
+        "system": "**PlankPad**",
+        "game": "**Duck Shoot**",
+        "included_mechanics": [
+            {
+                "name": "Shoot",
+                "explanation": "Мета - \"зробити постріл\" у качок."
+            },
+            {
+                "name": "Move",
+                "explanation": "Гравець \"керує прицілом рушниці, переміщуючи його\"."
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "Потрібно \"утримувати приціл на качках протягом кількох секунд\", що є підтипом \"утримання\" (Maintain) механіки Achieve."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Destroy",
+                "explanation": "Хоча качок \"збивають\", основна дія гравця - це прицілювання та утримання (Achieve/Shoot), а не саме знищення як головна ігрова петля."
+            }
+        ]
     },
     {
-        "system": "BoBo Balance",
-        "game": "Submarine",
-        "mechanics": [
-            "Destroy",
-            "Move",
-            "Avoid"
+        "system": "**PlankPad**",
+        "game": "**Snow Cruisin**",
+        "included_mechanics": [
+            {
+                "name": "Move",
+                "explanation": "Гравець \"керує гірськолижником, прискорюючи або сповільнюючи його рух\"."
+            },
+            {
+                "name": "Avoid",
+                "explanation": "Гравець повинен \"ухилятися від перешкод на трасі\"."
+            }
         ],
+        "excluded_or_uncertain": [
+            {
+                "name": "Achieve",
+                "explanation": "Мета - процес ухилення, а не досягнення фінішної лінії."
+            }
+        ]
+    },
+    {
+        "system": "**PlankPad**",
+        "game": "**Pong Goal**",
+        "included_mechanics": [
+            {
+                "name": "Achieve",
+                "explanation": "Мета - \"відбивати м'яч\", не даючи йому вийти за межі поля, що є механікою утримання (Maintain)."
+            },
+            {
+                "name": "Move",
+                "explanation": "Гравець \"керує ракеткою, переміщуючи її\"."
+            }
+        ],
+        "excluded_or_uncertain": [
+            {
+                "name": "Shoot",
+                "explanation": "Відбиття м'яча в Pong-подібних іграх класифікується як Achieve (утримання), а не запуск снаряда."
+            }
+        ]
+    },
+    {
+        "system": "**PlankPad**",
+        "game": "**Wave Rider**",
+        "included_mechanics": [
+            {
+                "name": "Move",
+                "explanation": "Гравець \"керує серфінгістом, прискорюючи або сповільнюючи його рух\"."
+            },
+            {
+                "name": "Avoid",
+                "explanation": "Гравець повинен \"ухилятися від перешкод на воді\"."
+            }
+        ],
+        "excluded_or_uncertain": [
+            {
+                "name": "Achieve",
+                "explanation": "Основна мета - ухилення, а не досягнення фінішу."
+            }
+        ]
+    },
+    {
+        "system": "**PlankPad**",
+        "game": "**Gift Rush**",
         "included_mechanics": [
             {
                 "name": "Destroy",
-                "explanation": ""
+                "explanation": "Мета - збір подарунків (\"щоб вони потрапили у відповідні мішки\")."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Гравець \"керує падінням ... подарунків, переміщуючи їх\"."
             },
             {
-                "name": "Avoid",
-                "explanation": ""
+                "name": "Achieve",
+                "explanation": "Потрібно сортувати подарунки у \"відповідні мішки\", що є завданням на позиціонування/конфігурацію."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Avoid",
+                "explanation": "Немає об'єктів для уникнення."
+            }
+        ]
     },
     {
-        "system": "BoBo Balance",
-        "game": "Harvest Rush",
-        "mechanics": [
-            "Destroy",
-            "Move",
-            "Avoid"
-        ],
+        "system": "**BoBo Balance**",
+        "game": "**Crazy Snowboard**",
         "included_mechanics": [
             {
                 "name": "Destroy",
-                "explanation": ""
+                "explanation": "Гравець повинен \"збирати святкові фігурки\"."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Гравець \"керує сноубордистом, нахиляючись вліво та вправо\"."
             },
             {
-                "name": "Avoid",
-                "explanation": ""
+                "name": "Achieve",
+                "explanation": "Виконання трюків для отримання бонусів є досягненням певних станів/дій."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Avoid",
+                "explanation": "Немає явного опису перешкод, яких потрібно уникати."
+            }
+        ]
     },
     {
-        "system": "BoBo Balance",
-        "game": "Tetromino",
-        "mechanics": [
-            "Move",
-            "Avoid"
-        ],
+        "system": "**BoBo Balance**",
+        "game": "**Color Tunnel**",
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Гравець \"керує космічним кораблем, нахиляючи дошку\"."
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "Мета - \"уникати фіолетових кристалів\"."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Achieve",
+                "explanation": "Мета - нескінченний процес уникнення, а не досягнення кінцевої точки."
+            }
+        ]
+    },
+    {
+        "system": "**BoBo Balance**",
+        "game": "**Space Ball**",
+        "included_mechanics": [
+            {
+                "name": "Achieve",
+                "explanation": "Мета - \"провести кульку ... до фінішної точки\"."
+            },
+            {
+                "name": "Move",
+                "explanation": "Гравець \"керує платформою в космосі, нахиляючись\"."
+            },
+            {
+                "name": "Avoid",
+                "explanation": "Гравець повинен провести кульку \"повз перешкоди\"."
+            }
+        ],
+        "excluded_or_uncertain": [
+            {
+                "name": "Destroy",
+                "explanation": "Немає об'єктів для збору."
+            }
+        ]
+    },
+    {
+        "system": "**BoBo Balance**",
+        "game": "**Car**",
+        "included_mechanics": [
+            {
+                "name": "Destroy",
+                "explanation": "Гравець повинен \"збирати монети\"."
+            },
+            {
+                "name": "Move",
+                "explanation": "Гравець \"керує автомобілем, нахиляючись вліво, вправо, вперед і назад\"."
+            },
+            {
+                "name": "Avoid",
+                "explanation": "Гравець повинен \"уникати мін\"."
+            }
+        ],
+        "excluded_or_uncertain": [
+            {
+                "name": "Achieve",
+                "explanation": "Опис фокусується на зборі та уникненні, а не на досягненні фінішу."
+            }
+        ]
+    },
+    {
+        "system": "**BoBo Balance**",
+        "game": "**Mini Golf**",
+        "included_mechanics": [
+            {
+                "name": "Achieve",
+                "explanation": "Мета - \"забити її в лунку\", що є класичним завданням на позиціонування."
+            },
+            {
+                "name": "Move",
+                "explanation": "Гравець \"використовує баланс, щоб направити кульку\"."
+            },
+            {
+                "name": "Avoid",
+                "explanation": "Гравець повинен \"уникати перешкод\" на полі."
+            }
+        ],
+        "excluded_or_uncertain": [
+            {
+                "name": "Shoot",
+                "explanation": "Удар по м'ячу в гольфі тут реалізований через постійне керування (Move), а не як один запуск снаряда."
+            }
+        ]
+    },
+    {
+        "system": "**BoBo Balance**",
+        "game": "**Maze**",
+        "included_mechanics": [
+            {
+                "name": "Achieve",
+                "explanation": "Мета - \"провести її через лабіринт до чорної діри\"."
+            },
+            {
+                "name": "Move",
+                "explanation": "Гравець \"керує кулькою, нахиляючи платформу\"."
+            }
+        ],
+        "excluded_or_uncertain": [
+            {
+                "name": "Avoid",
+                "explanation": "Немає явних рухомих перешкод, проходження лабіринту - це завдання на навігацію (Move/Achieve)."
+            }
+        ]
+    },
+    {
+        "system": "**BoBo Balance**",
+        "game": "**Fall Down**",
+        "included_mechanics": [
+            {
+                "name": "Achieve",
+                "explanation": "Мета - не дати кульці торкнутися верху екрана, що є механікою утримання (Maintain)."
+            },
+            {
+                "name": "Move",
+                "explanation": "Гравець \"нахиляє дошку вліво та вправо\", щоб рухати кульку."
+            },
+            {
+                "name": "Avoid",
+                "explanation": "Гравець повинен уникати верхньої частини екрану, яка діє як рухома \"перешкода\"."
+            }
+        ],
+        "excluded_or_uncertain": [
+            {
+                "name": "Destroy",
+                "explanation": "Немає об'єктів для збору."
+            }
+        ]
+    },
+    {
+        "system": "**BoBo Balance**",
+        "game": "**Candy Rex**",
+        "included_mechanics": [
+            {
+                "name": "Destroy",
+                "explanation": "Гравець \"збирає солодощі, що падають\"."
+            },
+            {
+                "name": "Move",
+                "explanation": "Гравець \"керує динозавром, переміщуючи його вліво і вправо\"."
+            },
+            {
+                "name": "Manage",
+                "explanation": "Час є ресурсом, що поповнюється (\"Кожна цукерка додає час до таймера\")."
+            }
+        ],
+        "excluded_or_uncertain": [
+            {
+                "name": "Avoid",
+                "explanation": "Немає об'єктів для уникнення."
+            }
+        ]
+    },
+    {
+        "system": "**BoBo Balance**",
+        "game": "**Ice Adventure**",
+        "included_mechanics": [
+            {
+                "name": "Destroy",
+                "explanation": "Мета - \"розбивати яйця пінгвінів\"."
+            },
+            {
+                "name": "Move",
+                "explanation": "Гравець \"нахиляє крижану гойдалку ..., щоб рухати кульку\"."
+            },
+            {
+                "name": "Achieve",
+                "explanation": "Потрібно \"не дати кульці впасти\", що є механікою утримання (Maintain)."
+            }
+        ],
+        "excluded_or_uncertain": [
+            {
+                "name": "Avoid",
+                "explanation": "Уникнення падіння є частиною механіки Achieve, а не уникненням зовнішніх перешкод."
+            }
+        ]
+    },
+    {
+        "system": "**BoBo Balance**",
+        "game": "**Submarine**",
+        "included_mechanics": [
+            {
+                "name": "Destroy",
+                "explanation": "Гравець повинен \"збирати монети\"."
+            },
+            {
+                "name": "Move",
+                "explanation": "Гравець \"керує підводним човном\"."
+            },
+            {
+                "name": "Avoid",
+                "explanation": "Гравець повинен \"уникати мін\"."
+            }
+        ],
+        "excluded_or_uncertain": [
+            {
+                "name": "Achieve",
+                "explanation": "Основна мета - збір та уникнення, а не досягнення кінцевої точки."
+            }
+        ]
+    },
+    {
+        "system": "**BoBo Balance**",
+        "game": "**Harvest Rush**",
+        "included_mechanics": [
+            {
+                "name": "Destroy",
+                "explanation": "Мета - \"зрізати кукурудзу та пшеницю\", що є формою збору."
+            },
+            {
+                "name": "Move",
+                "explanation": "Гравець керує комбайном, \"нахиляючись вліво та вправо\"."
+            },
+            {
+                "name": "Avoid",
+                "explanation": "Гравець повинен \"уникати перешкод\"."
+            }
+        ],
+        "excluded_or_uncertain": [
+            {
+                "name": "Achieve",
+                "explanation": "Основна мета - збір та уникнення."
+            }
+        ]
+    },
+    {
+        "system": "**BoBo Balance**",
+        "game": "**Tetromino**",
+        "included_mechanics": [
+            {
+                "name": "Move",
+                "explanation": "Гравець контролює персонажа, \"нахиляючись вліво та вправо\"."
+            },
+            {
+                "name": "Avoid",
+                "explanation": "Мета - \"ухилятися від падаючих фігур тетроміно\"."
+            }
+        ],
+        "excluded_or_uncertain": [
+            {
+                "name": "Achieve",
+                "explanation": "Мета - нескінченний процес ухилення, а не досягнення цільового стану."
+            }
+        ]
     }
 ]

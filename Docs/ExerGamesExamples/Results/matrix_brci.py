@@ -105,6 +105,39 @@ def brci(values):
     return score * 100
 
 
+def format_brci(score: float) -> str:
+    """
+    Форматування BRCI:
+    - округлення до цілого
+    - червоний, якщо < 100
+    """
+
+    value = round(score)
+
+    if value < 100:
+        return f'<span style="color:red">{value}%</span>'
+
+def format_brci(score: float) -> str:
+    """
+    Форматування BRCI:
+    - 100% → без кольору
+    - 90–99% → жовтий
+    - < 90% → червоний
+    - округлення до цілого
+    """
+
+    value = round(score)
+
+    if value < 90:
+        return f'<span style="color:red">{value}%</span>'
+
+    if value < 100:
+        return f'<span style="color:orange">{value}%</span>'
+
+    return f"{value}%"
+    
+
+
 # ============================================================
 # MAIN
 # ============================================================
@@ -145,7 +178,13 @@ def main():
             system = row.get("system", "").strip()
             game = row.get("game", "").strip()
 
-            mechanics = set(row.get("mechanics", []))
+            mechanics = {
+               mechanic.get("name", "").strip()
+               for mechanic in row.get(
+                   "included_mechanics",
+                  []
+               )
+            }
 
             key = (system, game)
 
@@ -264,6 +303,53 @@ def main():
         mean_row.append(f"{mean_score:.2f}%")
 
     lines.append("| " + " | ".join(mean_row) + " |")
+
+    # --------------------------------------------------------
+    # GAME SUMMARY TABLE (FINAL RESULTS PER GAME)
+    # --------------------------------------------------------
+
+    lines.append("")
+    lines.append("## Game Summary (Final BRCI per Game)")
+    lines.append("")
+
+    summary_header = ["system", "game", "BRCI(game_i)"] + MECHANICS
+    summary_separator = ["---"] * len(summary_header)
+
+    lines.append("| " + " | ".join(summary_header) + " |")
+    lines.append("| " + " | ".join(summary_separator) + " |")
+
+    for system, game in ordered_games:
+
+        experiment_map = game_data[(system, game)]
+
+        per_mechanic = {
+            mechanic: []
+            for mechanic in MECHANICS
+        }
+
+        # rebuild binary vectors across experiments
+        for experiment_number in sorted(experiment_map.keys()):
+
+            mechanics = experiment_map[experiment_number]
+
+            for mechanic in MECHANICS:
+
+                value = 1 if mechanic in mechanics else 0
+                per_mechanic[mechanic].append(value)
+
+        row = [
+            system,
+            game,
+            "BRCI"
+        ]
+
+        for mechanic in MECHANICS:
+
+            score = brci(per_mechanic[mechanic])
+            # row.append(f"{score:.2f}%")
+            row.append(format_brci(score))
+
+        lines.append("| " + " | ".join(row) + " |")    
 
     # --------------------------------------------------------
     # SAVE MARKDOWN
