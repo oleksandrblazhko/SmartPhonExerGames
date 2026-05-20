@@ -128,10 +128,10 @@ def format_brci(score: float) -> str:
 
     value = round(score)
 
-    if value < 90:
+    if value < 60:
         return f'<span style="color:red">{value}%</span>'
 
-    if value < 100:
+    if value < 90:
         return f'<span style="color:orange">{value}%</span>'
 
     return f"{value}%"
