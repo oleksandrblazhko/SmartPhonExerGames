@@ -5,15 +5,15 @@
         "included_mechanics": [
             {
                 "name": "Avoid",
-                "explanation": "Гравець повинен уникати літаючих об'єктів, що не є м'ячами. **Destroy**: Гравець \"знищує\" (відбиває) футбольні м'ячі. **Move**: Керування здійснюється нахилами тіла для переміщення Mii в шлях м'яча."
+                "explanation": "Гравець повинен уникати літаючих об'єктів, що не є м'ячами."
             },
             {
                 "name": "Destroy",
-                "explanation": ""
+                "explanation": "Гравець \"знищує\" (відбиває) футбольні м'ячі."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Керування здійснюється нахилами тіла для переміщення Mii в шлях м'яча."
             }
         ],
         "excluded_or_uncertain": [
@@ -29,15 +29,15 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "Ціль - пройти трасу, перетинаючи позначені ділянки (ворота). **Avoid**: Гравець повинен уникати пропуску воріт, щоб не отримати штрафний час. **Move**: Керування лижами здійснюється нахилами тіла вліво/вправо та вперед для прискорення."
+                "explanation": "Ціль - пройти трасу, перетинаючи позначені ділянки (ворота)."
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "Гравець повинен уникати пропуску воріт, щоб не отримати штрафний час."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Керування лижами здійснюється нахилами тіла вліво/вправо та вперед для прискорення."
             }
         ],
         "excluded_or_uncertain": [
@@ -53,11 +53,11 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "Ціль - провести м'ячі в спеціальні отвори на платформах. **Move**: Керування платформою здійснюється нахилами тіла в різні боки."
+                "explanation": "Ціль - провести м'ячі в спеціальні отвори на платформах."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Керування платформою здійснюється нахилами тіла в різні боки."
             }
         ],
         "excluded_or_uncertain": [
@@ -73,16 +73,20 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "Ціль - досягти максимальної відстані стрибка. **Move**: Гравець контролює швидкість (присідання) та рівновагу (розгинання колін) рухами на дошці."
+                "explanation": "Ціль - досягти максимальної відстані стрибка."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Гравець контролює швидкість (присідання) та рівновагу (розгинання колін) рухами на дошці."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Avoid, Destroy",
+                "name": "Avoid",
+                "explanation": ","
+            },
+            {
+                "name": "Destroy",
                 "explanation": "У грі відсутні елементи уникнення перешкод або знищення цілей."
             }
         ]
@@ -93,15 +97,15 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "Ціль - дійти до кінця канату. **Avoid**: Гравець повинен уникати перешкод, таких як \"роботизована щелепа\", перестрибуючи їх. **Move**: Гравець імітує ходьбу та стрибки на дошці."
+                "explanation": "Ціль - дійти до кінця канату."
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "Гравець повинен уникати перешкод, таких як \"роботизована щелепа\", перестрибуючи їх."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Гравець імітує ходьбу та стрибки на дошці."
             }
         ],
         "excluded_or_uncertain": [
@@ -117,15 +121,15 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "Ціль - безпечно провести Mii вниз по річці. **Avoid**: Гравець повинен уникати перешкод, таких як стіни та бджоли. **Move**: Керування бульбашкою здійснюється нахилами тіла."
+                "explanation": "Ціль - безпечно провести Mii вниз по річці."
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "Гравець повинен уникати перешкод, таких як стіни та бджоли."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Керування бульбашкою здійснюється нахилами тіла."
             }
         ],
         "excluded_or_uncertain": [
@@ -141,16 +145,20 @@
         "included_mechanics": [
             {
                 "name": "Destroy",
-                "explanation": "Механіка реалізована як збір (ловля) риби. **Move**: Гравець рухає крижину нахилами тіла вліво та вправо."
+                "explanation": "Механіка реалізована як збір (ловля) риби."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Гравець рухає крижину нахилами тіла вліво та вправо."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Achieve, Avoid",
+                "name": "Achieve",
+                "explanation": ","
+            },
+            {
+                "name": "Avoid",
                 "explanation": "Основна ціль - збір риби, а не досягнення фінішу чи уникнення статичних перешкод."
             }
         ]
@@ -161,11 +169,11 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "Ціль - пройти між встановленим набором воріт на трасі. **Move**: Керування сноубордом здійснюється нахилами вправо або вліво."
+                "explanation": "Ціль - пройти між встановленим набором воріт на трасі."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Керування сноубордом здійснюється нахилами вправо або вліво."
             }
         ],
         "excluded_or_uncertain": [
@@ -186,7 +194,15 @@
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Move, Avoid, Destroy",
+                "name": "Move",
+                "explanation": ","
+            },
+            {
+                "name": "Avoid",
+                "explanation": ","
+            },
+            {
+                "name": "Destroy",
                 "explanation": "Гра побудована на відсутності руху, тому інші активні механіки не застосовуються."
             }
         ]
@@ -197,11 +213,11 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "Ціль - досягти цільової суми, яка показана на екрані. **Move**: Гравець взаємодіє з грибочками, рухаючись над ними."
+                "explanation": "Ціль - досягти цільової суми, яка показана на екрані."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Гравець взаємодіє з грибочками, рухаючись над ними."
             }
         ],
         "excluded_or_uncertain": [
@@ -217,11 +233,11 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "Ціль - відтворити послідовність рухів. **Move**: Гравець виконує рухи ногами та руками, імітуючи дії на екрані."
+                "explanation": "Ціль - відтворити послідовність рухів."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Гравець виконує рухи ногами та руками, імітуючи дії на екрані."
             }
         ],
         "excluded_or_uncertain": [
@@ -237,15 +253,15 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "Ціль - приземлитися на цілі. **Move**: Гравець махає руками, щоб літати. **Manage**: Гравець керує ресурсом \"час\", який поповнюється приземленням на цілі."
+                "explanation": "Ціль - приземлитися на цілі."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Гравець махає руками, щоб літати."
             },
             {
                 "name": "Manage",
-                "explanation": ""
+                "explanation": "Гравець керує ресурсом \"час\", який поповнюється приземленням на цілі."
             }
         ],
         "excluded_or_uncertain": [
@@ -261,19 +277,19 @@
         "included_mechanics": [
             {
                 "name": "Destroy",
-                "explanation": "Ціль - влучити в Miis і сніговиків. **Avoid**: Потрібно уникати сніжків супротивника. **Move**: Гравець рухається вліво/вправо нахилами дошки. **Shoot**: Гравець кидає сніжки."
+                "explanation": "Ціль - влучити в Miis і сніговиків."
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "Потрібно уникати сніжків супротивника."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Гравець рухається вліво/вправо нахилами дошки."
             },
             {
                 "name": "Shoot",
-                "explanation": ""
+                "explanation": "Гравець кидає сніжки."
             }
         ],
         "excluded_or_uncertain": [
@@ -289,15 +305,15 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "Ціль - пробігти курс до кінця. **Avoid**: Потрібно уникати перешкод. **Move**: Гравець біжить і стрибає, виконуючи рухи на дошці."
+                "explanation": "Ціль - пробігти курс до кінця."
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "Потрібно уникати перешкод."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Гравець біжить і стрибає, виконуючи рухи на дошці."
             }
         ],
         "excluded_or_uncertain": [
@@ -313,11 +329,11 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "Ціль - перемістити м'ячі до труб відповідного кольору. **Move**: Керування м'ячами відбувається через нахили дошки та Wii Remote."
+                "explanation": "Ціль - перемістити м'ячі до труб відповідного кольору."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Керування м'ячами відбувається через нахили дошки та Wii Remote."
             }
         ],
         "excluded_or_uncertain": [
@@ -333,16 +349,20 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "Ціль - досягти максимальної висоти стрибка. **Move**: Гравець стрибає, згинаючи та розгинаючи коліна."
+                "explanation": "Ціль - досягти максимальної висоти стрибка."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Гравець стрибає, згинаючи та розгинаючи коліна."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Avoid, Destroy",
+                "name": "Avoid",
+                "explanation": ","
+            },
+            {
+                "name": "Destroy",
                 "explanation": "У грі немає перешкод чи об'єктів для збору."
             }
         ]
@@ -353,15 +373,15 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "Ціль - пройти курс якнайшвидше. **Avoid**: Потрібно уникати перешкод. **Move**: Гравець контролює темп та напрямок, включаючи рух вбік."
+                "explanation": "Ціль - пройти курс якнайшвидше."
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "Потрібно уникати перешкод."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Гравець контролює темп та напрямок, включаючи рух вбік."
             }
         ],
         "excluded_or_uncertain": [
@@ -377,11 +397,11 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "Ціль - з'їхати по трасі до кінця. **Move**: Керування санчатами здійснюється нахилами тіла."
+                "explanation": "Ціль - з'їхати по трасі до кінця."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Керування санчатами здійснюється нахилами тіла."
             }
         ],
         "excluded_or_uncertain": [
@@ -397,19 +417,19 @@
         "included_mechanics": [
             {
                 "name": "Destroy",
-                "explanation": "Ціль - \"затопити\" цілі (Miis, істоти бруду). **Avoid**: Потрібно захищатися від атак. **Move**: Прицілювання відбувається рухом Wii U GamePad. **Shoot**: Гравець вистрілює водою кроками на дошці."
+                "explanation": "Ціль - \"затопити\" цілі (Miis, істоти бруду)."
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "Потрібно захищатися від атак."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Прицілювання відбувається рухом Wii U GamePad."
             },
             {
                 "name": "Shoot",
-                "explanation": ""
+                "explanation": "Гравець вистрілює водою кроками на дошці."
             }
         ],
         "excluded_or_uncertain": [
@@ -425,19 +445,19 @@
         "included_mechanics": [
             {
                 "name": "Destroy",
-                "explanation": "Механіка реалізована як збір риби та скарбів. **Avoid**: Гравець повинен уникати перешкод. **Move**: Гравець плаває, керуючи рухом. **Manage**: Гравець керує ресурсом \"кисень\"."
+                "explanation": "Механіка реалізована як збір риби та скарбів."
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "Гравець повинен уникати перешкод."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Гравець плаває, керуючи рухом."
             },
             {
                 "name": "Manage",
-                "explanation": ""
+                "explanation": "Гравець керує ресурсом \"кисень\"."
             }
         ],
         "excluded_or_uncertain": []
@@ -448,19 +468,19 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "Ціль - піднятися на вершину стіни. **Move**: Гравець рухається вгору по стіні. **Select**: Гравець вибирає, за який камінь триматися. **Manage**: Гравець керує ресурсом \"витривалість\"."
+                "explanation": "Ціль - піднятися на вершину стіни."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Гравець рухається вгору по стіні."
             },
             {
                 "name": "Select",
-                "explanation": ""
+                "explanation": "Гравець вибирає, за який камінь триматися."
             },
             {
                 "name": "Manage",
-                "explanation": ""
+                "explanation": "Гравець керує ресурсом \"витривалість\"."
             }
         ],
         "excluded_or_uncertain": [
@@ -476,19 +496,19 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "Ціль - доставити десерти клієнтам. **Avoid**: У просунутому рівні потрібно уникати інших офіціантів. **Move**: Гравець рухається, крокуючи на місці. **Manage**: Є обмеження за часом."
+                "explanation": "Ціль - доставити десерти клієнтам."
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "У просунутому рівні потрібно уникати інших офіціантів."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Гравець рухається, крокуючи на місці."
             },
             {
                 "name": "Manage",
-                "explanation": ""
+                "explanation": "Є обмеження за часом."
             }
         ],
         "excluded_or_uncertain": [
@@ -504,15 +524,15 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "Механіка типу \"утримання\" - потрібно продовжувати жонглювати. **Avoid**: Потрібно уникати бомб. **Move**: Гравець рухає м'яч ногами, нахиляючись вліво та вправо."
+                "explanation": "Механіка типу \"утримання\" - потрібно продовжувати жонглювати."
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "Потрібно уникати бомб."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Гравець рухає м'яч ногами, нахиляючись вліво та вправо."
             }
         ],
         "excluded_or_uncertain": [
@@ -528,16 +548,20 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "Ціль - заробити якомога більше очок, виконуючи трюки. **Move**: Гравець керує скейтбордом: повороти, поштовхи, стрибки."
+                "explanation": "Ціль - заробити якомога більше очок, виконуючи трюки."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Гравець керує скейтбордом: повороти, поштовхи, стрибки."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Destroy, Avoid",
+                "name": "Destroy",
+                "explanation": ","
+            },
+            {
+                "name": "Avoid",
                 "explanation": "У режимі \"Вільний\" немає явних перешкод чи цілей для знищення."
             }
         ]
@@ -548,15 +572,15 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "Ціль - закинути м'ячі в слоти. **Move**: Гравець нахиляє платформу. **Manage**: Гравець керує часом, який додається за успішні дії."
+                "explanation": "Ціль - закинути м'ячі в слоти."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Гравець нахиляє платформу."
             },
             {
                 "name": "Manage",
-                "explanation": ""
+                "explanation": "Гравець керує часом, який додається за успішні дії."
             }
         ],
         "excluded_or_uncertain": [
@@ -572,19 +596,19 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "Ціль - подолати якомога більшу відстань. **Avoid**: Потрібно уникати перешкод. **Move**: Керування бульбашкою здійснюється нахилами. **Manage**: Є обмеження за часом (2 хвилини)."
+                "explanation": "Ціль - подолати якомога більшу відстань."
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "Потрібно уникати перешкод."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Керування бульбашкою здійснюється нахилами."
             },
             {
                 "name": "Manage",
-                "explanation": ""
+                "explanation": "Є обмеження за часом (2 хвилини)."
             }
         ],
         "excluded_or_uncertain": [
@@ -600,11 +624,11 @@
         "included_mechanics": [
             {
                 "name": "Destroy",
-                "explanation": "Гравець \"знищує\" (розрізає) фрукти. **Move**: Гравець керує воїном, переміщуючи його вліво та вправо нахилами."
+                "explanation": "Гравець \"знищує\" (розрізає) фрукти."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Гравець керує воїном, переміщуючи його вліво та вправо нахилами."
             }
         ],
         "excluded_or_uncertain": [
@@ -620,16 +644,20 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "Ціль - допомогти жабі стрибати по листю. **Move**: Гравець керує жабою, нахиляючи дошку вліво та вправо."
+                "explanation": "Ціль - допомогти жабі стрибати по листю."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Гравець керує жабою, нахиляючи дошку вліво та вправо."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Avoid, Destroy",
+                "name": "Avoid",
+                "explanation": ","
+            },
+            {
+                "name": "Destroy",
                 "explanation": "Опис не містить інформації про перешкоди чи об'єкти для збору."
             }
         ]
@@ -640,16 +668,20 @@
         "included_mechanics": [
             {
                 "name": "Avoid",
-                "explanation": "Ціль - ухилятися від перешкод на дорозі. **Move**: Гравець керує велосипедом, повертаючи кермо (нахиляючи дошку)."
+                "explanation": "Ціль - ухилятися від перешкод на дорозі."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Гравець керує велосипедом, повертаючи кермо (нахиляючи дошку)."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Achieve, Destroy",
+                "name": "Achieve",
+                "explanation": ","
+            },
+            {
+                "name": "Destroy",
                 "explanation": "Немає цілей для досягнення (крім виживання) чи знищення."
             }
         ]
@@ -660,22 +692,31 @@
         "included_mechanics": [
             {
                 "name": "Destroy",
-                "explanation": "Ціль - знищувати метеорити. **Avoid**: Ймовірно, потрібно ухилятися від метеоритів. **Move**: Гравець переміщує космічний корабель вліво та вправо. **Shoot**: Корабель стріляє для знищення метеоритів."
+                "explanation": "Ціль - знищувати метеорити."
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "Ймовірно, потрібно ухилятися від метеоритів."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Гравець переміщує космічний корабель вліво та вправо."
             },
             {
                 "name": "Shoot",
-                "explanation": ""
+                "explanation": "Корабель стріляє для знищення метеоритів."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Shoot",
+                "explanation": "\" і \""
+            },
+            {
+                "name": "Destroy",
+                "explanation": "\" є логічною для такого сеттінгу."
+            }
+        ]
     },
     {
         "system": "PlankPad",
@@ -683,11 +724,11 @@
         "included_mechanics": [
             {
                 "name": "Destroy",
-                "explanation": "Механіка реалізована як збір (ловля) їжі. **Move**: Гравець переміщує монстра вліво та вправо."
+                "explanation": "Механіка реалізована як збір (ловля) їжі."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Гравець переміщує монстра вліво та вправо."
             }
         ],
         "excluded_or_uncertain": [
@@ -703,15 +744,15 @@
         "included_mechanics": [
             {
                 "name": "Destroy",
-                "explanation": "Ціль - зробити постріл по качках. **Move**: Гравець керує прицілом, переміщуючи його. **Shoot**: Постріл відбувається після утримання прицілу."
+                "explanation": "Ціль - зробити постріл по качках."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Гравець керує прицілом, переміщуючи його."
             },
             {
                 "name": "Shoot",
-                "explanation": ""
+                "explanation": "Постріл відбувається після утримання прицілу."
             }
         ],
         "excluded_or_uncertain": [
@@ -727,11 +768,11 @@
         "included_mechanics": [
             {
                 "name": "Avoid",
-                "explanation": "Ціль - ухилятися від перешкод на трасі. **Move**: Гравець керує гірськолижником, прискорюючи або сповільнюючи його."
+                "explanation": "Ціль - ухилятися від перешкод на трасі."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Гравець керує гірськолижником, прискорюючи або сповільнюючи його."
             }
         ],
         "excluded_or_uncertain": [
@@ -747,16 +788,20 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "Механіка типу \"блокування\". Ціль - відбивати м'яч, не даючи йому пройти. **Move**: Гравець переміщує ракетку вліво та вправо."
+                "explanation": "Механіка типу \"блокування\". Ціль - відбивати м'яч, не даючи йому пройти."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Гравець переміщує ракетку вліво та вправо."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Destroy, Avoid",
+                "name": "Destroy",
+                "explanation": ","
+            },
+            {
+                "name": "Avoid",
                 "explanation": "Класичний понг не має таких механік."
             }
         ]
@@ -767,16 +812,20 @@
         "included_mechanics": [
             {
                 "name": "Avoid",
-                "explanation": "Ціль - ухилятися від перешкод на воді. **Move**: Гравець керує серфінгістом, прискорюючи або сповільнюючи його."
+                "explanation": "Ціль - ухилятися від перешкод на воді."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Гравець керує серфінгістом, прискорюючи або сповільнюючи його."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Achieve, Destroy",
+                "name": "Achieve",
+                "explanation": ","
+            },
+            {
+                "name": "Destroy",
                 "explanation": "Аналогічно до Snow Cruisin, ціль - процес, а не фініш."
             }
         ]
@@ -787,11 +836,11 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "Ціль - направити подарунки у відповідні мішки. **Move**: Гравець переміщує подарунки вліво та вправо."
+                "explanation": "Ціль - направити подарунки у відповідні мішки."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Гравець переміщує подарунки вліво та вправо."
             }
         ],
         "excluded_or_uncertain": [
@@ -807,15 +856,15 @@
         "included_mechanics": [
             {
                 "name": "Destroy",
-                "explanation": "Механіка реалізована як збір святкових фігурок. **Achieve**: Гравець отримує бонуси (очки) за виконання трюків. **Move**: Керування сноубордистом відбувається нахилами вліво та вправо."
+                "explanation": "Механіка реалізована як збір святкових фігурок."
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "Гравець отримує бонуси (очки) за виконання трюків."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Керування сноубордистом відбувається нахилами вліво та вправо."
             }
         ],
         "excluded_or_uncertain": [
@@ -831,16 +880,20 @@
         "included_mechanics": [
             {
                 "name": "Avoid",
-                "explanation": "Ціль - уникати фіолетових кристалів. **Move**: Гравець керує космічним кораблем, нахиляючи дошку вліво та вправо."
+                "explanation": "Ціль - уникати фіолетових кристалів."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Гравець керує космічним кораблем, нахиляючи дошку вліво та вправо."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Achieve, Destroy",
+                "name": "Achieve",
+                "explanation": ","
+            },
+            {
+                "name": "Destroy",
                 "explanation": "Немає цілей для досягнення чи знищення."
             }
         ]
@@ -851,15 +904,15 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "Ціль - провести кульку до фінішної точки. **Avoid**: Потрібно рухатись повз перешкоди. **Move**: Гравець керує платформою, нахиляючись у різні боки."
+                "explanation": "Ціль - провести кульку до фінішної точки."
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "Потрібно рухатись повз перешкоди."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Гравець керує платформою, нахиляючись у різні боки."
             }
         ],
         "excluded_or_uncertain": [
@@ -875,15 +928,15 @@
         "included_mechanics": [
             {
                 "name": "Destroy",
-                "explanation": "Механіка реалізована як збір монет. **Avoid**: Потрібно уникати мін. **Move**: Гравець керує автомобілем, нахиляючись вліво, вправо, вперед і назад."
+                "explanation": "Механіка реалізована як збір монет."
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "Потрібно уникати мін."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Гравець керує автомобілем, нахиляючись вліво, вправо, вперед і назад."
             }
         ],
         "excluded_or_uncertain": [
@@ -899,15 +952,15 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "Ціль - забити кульку в лунку. **Avoid**: Потрібно уникати перешкод на полі. **Move**: Гравець використовує баланс (нахили), щоб направити кульку."
+                "explanation": "Ціль - забити кульку в лунку."
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "Потрібно уникати перешкод на полі."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Гравець використовує баланс (нахили), щоб направити кульку."
             }
         ],
         "excluded_or_uncertain": [
@@ -923,11 +976,11 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "Ціль - провести кульку через лабіринт до кінця. **Move**: Гравець керує кулькою, нахиляючи платформу."
+                "explanation": "Ціль - провести кульку через лабіринт до кінця."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Гравець керує кулькою, нахиляючи платформу."
             }
         ],
         "excluded_or_uncertain": [
@@ -943,15 +996,15 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "Механіка \"утримання\" - потрібно не дати кульці торкнутися верхньої частини екрана. **Avoid**: Гравець уникає стану \"програшу\". **Move**: Гравець нахиляє дошку вліво та вправо, щоб кулька падала з платформ."
+                "explanation": "Механіка \"утримання\" - потрібно не дати кульці торкнутися верхньої частини екрана."
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "Гравець уникає стану \"програшу\"."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Гравець нахиляє дошку вліво та вправо, щоб кулька падала з платформ."
             }
         ],
         "excluded_or_uncertain": [
@@ -967,15 +1020,15 @@
         "included_mechanics": [
             {
                 "name": "Destroy",
-                "explanation": "Механіка реалізована як збір солодощів. **Move**: Гравець керує динозавром, переміщуючи його вліво і вправо. **Manage**: Кожна цукерка додає час до таймера, що є управлінням ресурсом \"час\"."
+                "explanation": "Механіка реалізована як збір солодощів."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Гравець керує динозавром, переміщуючи його вліво і вправо."
             },
             {
                 "name": "Manage",
-                "explanation": ""
+                "explanation": "Кожна цукерка додає час до таймера, що є управлінням ресурсом \"час\"."
             }
         ],
         "excluded_or_uncertain": [
@@ -991,15 +1044,15 @@
         "included_mechanics": [
             {
                 "name": "Destroy",
-                "explanation": "Ціль - розбивати яйця пінгвінів. **Achieve**: Механіка \"блокування\" - потрібно не дати кульці впасти. **Move**: Гравець нахиляє крижану гойдалку, щоб рухати кульку."
+                "explanation": "Ціль - розбивати яйця пінгвінів."
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "Механіка \"блокування\" - потрібно не дати кульці впасти."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Гравець нахиляє крижану гойдалку, щоб рухати кульку."
             }
         ],
         "excluded_or_uncertain": [
@@ -1015,15 +1068,15 @@
         "included_mechanics": [
             {
                 "name": "Destroy",
-                "explanation": "Механіка реалізована як збір монет. **Avoid**: Потрібно уникати мін. **Move**: Гравець керує підводним човном."
+                "explanation": "Механіка реалізована як збір монет."
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "Потрібно уникати мін."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Гравець керує підводним човном."
             }
         ],
         "excluded_or_uncertain": [
@@ -1039,15 +1092,15 @@
         "included_mechanics": [
             {
                 "name": "Destroy",
-                "explanation": "Механіка реалізована як збір (зрізання) кукурудзи та пшениці. **Avoid**: Потрібно уникати перешкод. **Move**: Гравець рухає комбайн нахилами."
+                "explanation": "Механіка реалізована як збір (зрізання) кукурудзи та пшениці."
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "Потрібно уникати перешкод."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Гравець рухає комбайн нахилами."
             }
         ],
         "excluded_or_uncertain": [
@@ -1063,16 +1116,20 @@
         "included_mechanics": [
             {
                 "name": "Avoid",
-                "explanation": "Ціль - ухилятися від падаючих фігур тетроміно. **Move**: Гравець контролює персонажа, нахиляючись вліво та вправо."
+                "explanation": "Ціль - ухилятися від падаючих фігур тетроміно."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "Гравець контролює персонажа, нахиляючись вліво та вправо."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Destroy, Achieve",
+                "name": "Destroy",
+                "explanation": ","
+            },
+            {
+                "name": "Achieve",
                 "explanation": "Гравець лише ухиляється, не взаємодіючи з фігурами інакше."
             }
         ]

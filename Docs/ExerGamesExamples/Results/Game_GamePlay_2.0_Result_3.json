@@ -5,25 +5,45 @@
         "included_mechanics": [
             {
                 "name": "Avoid",
-                "explanation": "гравець має ухилятися від об'єктів (крім м'ячів). **Destroy**: гравець \"збирає\" очки, відбиваючи м'ячі, що є формою усунення об'єктів з ігрового поля. **Move**: гравець керує персонажем, нахиляючись на баланс-борді. **Manage**: гравець управляє серією очок (комбо), яка є ресурсом, що впливає на результат."
+                "explanation": "гравець має ухилятися від об'єктів (крім м'ячів)."
             },
             {
                 "name": "Destroy",
-                "explanation": ""
+                "explanation": "гравець \"збирає\" очки, відбиваючи м'ячі, що є формою усунення об'єктів з ігрового поля."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "гравець керує персонажем, нахиляючись на баланс-борді."
             },
             {
                 "name": "Manage",
-                "explanation": ""
+                "explanation": "гравець управляє серією очок (комбо), яка є ресурсом, що впливає на результат."
             }
         ],
         "excluded_or_uncertain": [
             {
                 "name": "Achieve",
-                "explanation": "частково, потрібно зайняти позицію для відбиття, але \"Destroy\" (збір очок) є основною ціллю. **Create, Select, Shoot, Write**: ці механіки не згадуються в описі."
+                "explanation": "частково, потрібно зайняти позицію для відбиття, але Destroy (збір очок) є основною ціллю"
+            },
+            {
+                "name": "Destroy",
+                "explanation": "\" (збір очок) є основною ціллю."
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
+                "explanation": "ці механіки не згадуються в описі."
             }
         ]
     },
@@ -33,24 +53,40 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "мета гри - пройти між прапорцями, що є досягненням певної конфігурації. **Avoid**: гравець повинен уникати пропуску воріт. **Move**: гравець керує лижником, нахиляючись. **Manage**: гравець керує часом, який є ресурсом (штрафний час за помилки)."
+                "explanation": "мета гри - пройти між прапорцями, що є досягненням певної конфігурації."
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "гравець повинен уникати пропуску воріт."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "гравець керує лижником, нахиляючись."
             },
             {
                 "name": "Manage",
-                "explanation": ""
+                "explanation": "гравець керує часом, який є ресурсом (штрафний час за помилки)."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Destroy, Create, Select, Shoot, Write",
+                "name": "Destroy",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "ці механіки відсутні в описі гри."
             }
         ]
@@ -61,16 +97,40 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "мета - провести м'ячі в спеціальні отвори, що є задачею на досягнення цільової конфігурації. **Move**: гравець керує нахилом платформи, що є переміщенням об'єкта."
+                "explanation": "мета - провести м'ячі в спеціальні отвори, що є задачею на досягнення цільової конфігурації."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "гравець керує нахилом платформи, що є переміщенням об'єкта."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Avoid, Destroy, Manage, Create, Select, Shoot, Write",
+                "name": "Avoid",
+                "explanation": ","
+            },
+            {
+                "name": "Destroy",
+                "explanation": ","
+            },
+            {
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "в описі гри немає згадок про уникнення перешкод, знищення об'єктів, управління ресурсами чи інші невключені механіки."
             }
         ]
@@ -81,16 +141,40 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "мета - досягти максимальної відстані, що є цільовим станом. Також гравець має утримувати рівновагу. **Move**: гравець керує швидкістю та рівновагою через рухи тіла (присідання, розгинання)."
+                "explanation": "мета - досягти максимальної відстані, що є цільовим станом. Також гравець має утримувати рівновагу."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "гравець керує швидкістю та рівновагою через рухи тіла (присідання, розгинання)."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Avoid, Destroy, Manage, Create, Select, Shoot, Write",
+                "name": "Avoid",
+                "explanation": ","
+            },
+            {
+                "name": "Destroy",
+                "explanation": ","
+            },
+            {
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "ці механіки не описані. Гравець не уникає перешкод і не керує ресурсами, окрім відстані."
             }
         ]
@@ -101,20 +185,40 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "мета - пройти по канату до кінця. **Avoid**: гравець має уникати перешкод, таких як роботизовані щелепи. **Move**: гравець імітує ходьбу та стрибки для переміщення персонажа."
+                "explanation": "мета - пройти по канату до кінця."
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "гравець має уникати перешкод, таких як роботизовані щелепи."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "гравець імітує ходьбу та стрибки для переміщення персонажа."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Destroy, Manage, Create, Select, Shoot, Write",
+                "name": "Destroy",
+                "explanation": ","
+            },
+            {
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "не знайдено підтвердження в описі. Ресурсів для управління немає."
             }
         ]
@@ -125,20 +229,40 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "мета - безпечно провести Mii вниз по річці, що є досягненням кінцевої точки. **Avoid**: гравець має уникати стін, бджіл та інших перешкод. **Move**: гравець керує бульбашкою, нахиляючись на дошці."
+                "explanation": "мета - безпечно провести Mii вниз по річці, що є досягненням кінцевої точки."
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "гравець має уникати стін, бджіл та інших перешкод."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "гравець керує бульбашкою, нахиляючись на дошці."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Destroy, Manage, Create, Select, Shoot, Write",
+                "name": "Destroy",
+                "explanation": ","
+            },
+            {
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "опис не містить цих механік."
             }
         ]
@@ -149,17 +273,45 @@
         "included_mechanics": [
             {
                 "name": "Destroy",
-                "explanation": "гравець \"збирає\" рибу, що є формою усунення/захоплення об'єктів. **Move**: гравець рухає крижину, нахиляючи тіло."
+                "explanation": "гравець \"збирає\" рибу, що є формою усунення/захоплення об'єктів."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "гравець рухає крижину, нахиляючи тіло."
             }
         ],
         "excluded_or_uncertain": [
             {
                 "name": "Achieve",
-                "explanation": "частково, потрібно позиціонувати крижину для збору риби, але \"Destroy\" (збір) є основною ціллю. **Avoid, Manage, Create, Select, Shoot, Write**: ці механіки відсутні."
+                "explanation": "частково, потрібно позиціонувати крижину для збору риби, але \""
+            },
+            {
+                "name": "Destroy",
+                "explanation": "\" (збір) є основною ціллю."
+            },
+            {
+                "name": "Avoid",
+                "explanation": ","
+            },
+            {
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
+                "explanation": "ці механіки відсутні."
             }
         ]
     },
@@ -169,17 +321,41 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "гравець має пройти між ворітьми, що є досягненням цільової конфігурації. **Move**: гравець керує сноубордистом, нахиляючись."
+                "explanation": "гравець має пройти між ворітьми, що є досягненням цільової конфігурації."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "гравець керує сноубордистом, нахиляючись."
             }
         ],
         "excluded_or_uncertain": [
             {
                 "name": "Avoid",
-                "explanation": "хоча пропуск воріт є небажаним, в описі немає явної механіки \"уникання\" перешкод, а лише вказується курс. **Destroy, Manage, Create, Select, Shoot, Write**: відсутні."
+                "explanation": "хоча пропуск воріт є небажаним, в описі немає явної механіки \"уникання\" перешкод, а лише вказується курс."
+            },
+            {
+                "name": "Destroy",
+                "explanation": ","
+            },
+            {
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
+                "explanation": "відсутні."
             }
         ]
     },
@@ -194,7 +370,35 @@
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Move, Avoid, Destroy, Manage, Create, Select, Shoot, Write",
+                "name": "Move",
+                "explanation": ","
+            },
+            {
+                "name": "Avoid",
+                "explanation": ","
+            },
+            {
+                "name": "Destroy",
+                "explanation": ","
+            },
+            {
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "гравець не керує рухом, а навпаки, має його мінімізувати. Інші механіки не застосовуються."
             }
         ]
@@ -205,20 +409,40 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "мета - досягти цільової суми, що є досягненням цільового стану. **Move**: гравець рухається над грибочками. **Select**: гравець фактично вибирає грибочки, наїжджаючи на них."
+                "explanation": "мета - досягти цільової суми, що є досягненням цільового стану."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "гравець рухається над грибочками."
             },
             {
                 "name": "Select",
-                "explanation": ""
+                "explanation": "гравець фактично вибирає грибочки, наїжджаючи на них."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Avoid, Destroy, Manage, Create, Shoot, Write",
+                "name": "Avoid",
+                "explanation": ","
+            },
+            {
+                "name": "Destroy",
+                "explanation": ","
+            },
+            {
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "не знайдено в описі."
             }
         ]
@@ -229,17 +453,41 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "мета - імітувати рухи, що є досягненням заданої конфігурації/пози. **Move**: гравець виконує рухи ногами та руками."
+                "explanation": "мета - імітувати рухи, що є досягненням заданої конфігурації/пози."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "гравець виконує рухи ногами та руками."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Avoid, Destroy, Manage, Create, Select, Shoot, Write",
-                "explanation": "ці механіки не описані. \"Select\" не підходить, бо гравець не вибирає рух, а відтворює його."
+                "name": "Avoid",
+                "explanation": ","
+            },
+            {
+                "name": "Destroy",
+                "explanation": ","
+            },
+            {
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": "\" не підходить, бо гравець не вибирає рух, а відтворює його."
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
+                "explanation": "ці механіки не описані. \""
             }
         ]
     },
@@ -249,20 +497,40 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "мета - приземлитися на цілі (досягнення позиції). **Move**: гравець керує польотом, махаючи руками. **Manage**: гравець управляє часом, який є ресурсом."
+                "explanation": "мета - приземлитися на цілі (досягнення позиції)."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "гравець керує польотом, махаючи руками."
             },
             {
                 "name": "Manage",
-                "explanation": ""
+                "explanation": "гравець управляє часом, який є ресурсом."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Avoid, Destroy, Create, Select, Shoot, Write",
+                "name": "Avoid",
+                "explanation": ","
+            },
+            {
+                "name": "Destroy",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "ці механіки відсутні в описі."
             }
         ]
@@ -273,28 +541,40 @@
         "included_mechanics": [
             {
                 "name": "Avoid",
-                "explanation": "гравець ухиляється від сніжок супротивника. **Destroy**: мета - перемогти Miis та сніговиків. **Move**: гравець рухається вліво та вправо. **Shoot**: гравець кидає сніжки, що є запуском снаряда для враження цілі. **Manage**: гравець управляє життями (ресурс)."
+                "explanation": "гравець ухиляється від сніжок супротивника."
             },
             {
                 "name": "Destroy",
-                "explanation": ""
+                "explanation": "мета - перемогти Miis та сніговиків."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "гравець рухається вліво та вправо."
             },
             {
                 "name": "Shoot",
-                "explanation": ""
+                "explanation": "гравець кидає сніжки, що є запуском снаряда для враження цілі."
             },
             {
                 "name": "Manage",
-                "explanation": ""
+                "explanation": "гравець управляє життями (ресурс)."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Achieve, Create, Select, Write",
+                "name": "Achieve",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "не знайдено в описі."
             }
         ]
@@ -305,20 +585,40 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "мета - пройти курс до кінця. **Avoid**: гравець має уникати перешкод. **Move**: гравець біжить і стрибає, виконуючи рухи на місці."
+                "explanation": "мета - пройти курс до кінця."
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "гравець має уникати перешкод."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "гравець біжить і стрибає, виконуючи рухи на місці."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Destroy, Manage, Create, Select, Shoot, Write",
+                "name": "Destroy",
+                "explanation": ","
+            },
+            {
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "не знайдено в описі."
             }
         ]
@@ -329,16 +629,40 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "мета - перемістити м'ячі до труб відповідного кольору (досягнення конфігурації). **Move**: гравець керує рухом м'ячів через нахил."
+                "explanation": "мета - перемістити м'ячі до труб відповідного кольору (досягнення конфігурації)."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "гравець керує рухом м'ячів через нахил."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Avoid, Destroy, Manage, Create, Select, Shoot, Write",
+                "name": "Avoid",
+                "explanation": ","
+            },
+            {
+                "name": "Destroy",
+                "explanation": ","
+            },
+            {
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "не знайдено в описі."
             }
         ]
@@ -349,16 +673,40 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "мета - досягти максимальної висоти, що є цільовим станом. **Move**: гравець стрибає, згинаючи коліна."
+                "explanation": "мета - досягти максимальної висоти, що є цільовим станом."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "гравець стрибає, згинаючи коліна."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Avoid, Destroy, Manage, Create, Select, Shoot, Write",
+                "name": "Avoid",
+                "explanation": ","
+            },
+            {
+                "name": "Destroy",
+                "explanation": ","
+            },
+            {
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "не знайдено в описі."
             }
         ]
@@ -369,20 +717,40 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "мета - пройти курс якнайшвидше. **Avoid**: гравець має уникати перешкод (подразумовується). **Move**: гравець контролює темп та напрямок."
+                "explanation": "мета - пройти курс якнайшвидше."
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "гравець має уникати перешкод (подразумовується)."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "гравець контролює темп та напрямок."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Destroy, Manage, Create, Select, Shoot, Write",
+                "name": "Destroy",
+                "explanation": ","
+            },
+            {
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "не знайдено в описі."
             }
         ]
@@ -393,17 +761,41 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "мета - проїхати трасу, залишаючись на ній. **Move**: гравець керує санчатами, нахиляючи тіло."
+                "explanation": "мета - проїхати трасу, залишаючись на ній."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "гравець керує санчатами, нахиляючи тіло."
             }
         ],
         "excluded_or_uncertain": [
             {
                 "name": "Avoid",
-                "explanation": "хоча потрібно залишатися на трасі, явного уникнення дискретних перешкод не описано. **Destroy, Manage, Create, Select, Shoot, Write**: не знайдено."
+                "explanation": "хоча потрібно залишатися на трасі, явного уникнення дискретних перешкод не описано."
+            },
+            {
+                "name": "Destroy",
+                "explanation": ","
+            },
+            {
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
+                "explanation": "не знайдено."
             }
         ]
     },
@@ -413,20 +805,40 @@
         "included_mechanics": [
             {
                 "name": "Destroy",
-                "explanation": "мета - усунути цілі (Miis, що кидають бруд). **Move**: гравець керує прицілюванням. **Shoot**: гравець вистрілює водою (запускає снаряд)."
+                "explanation": "мета - усунути цілі (Miis, що кидають бруд)."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "гравець керує прицілюванням."
             },
             {
                 "name": "Shoot",
-                "explanation": ""
+                "explanation": "гравець вистрілює водою (запускає снаряд)."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Achieve, Avoid, Manage, Create, Select, Write",
+                "name": "Achieve",
+                "explanation": ","
+            },
+            {
+                "name": "Avoid",
+                "explanation": ","
+            },
+            {
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "не знайдено в описі."
             }
         ]
@@ -437,21 +849,41 @@
         "included_mechanics": [
             {
                 "name": "Destroy",
-                "explanation": "гравець збирає рибу та скарби (захоплення предметів). **Manage**: гравець управляє киснем (ресурс). **Avoid**: гравець має уникати перешкод."
+                "explanation": "гравець збирає рибу та скарби (захоплення предметів)."
             },
             {
                 "name": "Manage",
-                "explanation": ""
+                "explanation": "гравець управляє киснем (ресурс)."
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "гравець має уникати перешкод."
             }
         ],
         "excluded_or_uncertain": [
             {
                 "name": "Move",
-                "explanation": "рух є, але не описано як саме він контролюється. **Achieve, Create, Select, Shoot, Write**: не знайдено."
+                "explanation": "рух є, але не описано як саме він контролюється."
+            },
+            {
+                "name": "Achieve",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
+                "explanation": "не знайдено."
             }
         ]
     },
@@ -461,24 +893,40 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "мета - піднятися на вершину стіни. **Move**: гравець переміщується, тримаючись за каміння. **Manage**: гравець управляє витривалістю (ресурс). **Avoid**: гравець має уникати падіння (уникнення стану)."
+                "explanation": "мета - піднятися на вершину стіни."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "гравець переміщується, тримаючись за каміння."
             },
             {
                 "name": "Manage",
-                "explanation": ""
+                "explanation": "гравець управляє витривалістю (ресурс)."
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "гравець має уникати падіння (уникнення стану)."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Destroy, Create, Select, Shoot, Write",
+                "name": "Destroy",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "не знайдено."
             }
         ]
@@ -489,24 +937,40 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "мета - доставити замовлення клієнтам. **Move**: гравець рухається по ресторану. **Manage**: гравець управляє часом (ресурс). **Avoid**: гравець має уникати інших офіціантів."
+                "explanation": "мета - доставити замовлення клієнтам."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "гравець рухається по ресторану."
             },
             {
                 "name": "Manage",
-                "explanation": ""
+                "explanation": "гравець управляє часом (ресурс)."
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "гравець має уникати інших офіціантів."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Destroy, Create, Select, Shoot, Write",
+                "name": "Destroy",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "не знайдено."
             }
         ]
@@ -517,24 +981,40 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "утримання м'ячів у повітрі. **Avoid**: гравець має уникати бомб. **Move**: гравець рухає м'яч ногами, нахиляючись. **Destroy**: гравець \"ловить\" м'ячі (захоплення предметів)."
+                "explanation": "утримання м'ячів у повітрі."
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "гравець має уникати бомб."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "гравець рухає м'яч ногами, нахиляючись."
             },
             {
                 "name": "Destroy",
-                "explanation": ""
+                "explanation": "гравець \"ловить\" м'ячі (захоплення предметів)."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Manage, Create, Select, Shoot, Write",
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "не знайдено."
             }
         ]
@@ -545,21 +1025,41 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "виконання трюків. **Move**: гравець керує скейтбордом, стрибає. **Destroy**: частково, \"заробити якнайбільше очок\" часто пов'язано зі збором або виконанням дій, що усувають цілі."
+                "explanation": "виконання трюків."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "гравець керує скейтбордом, стрибає."
             },
             {
                 "name": "Destroy",
-                "explanation": ""
+                "explanation": "частково, \"заробити якнайбільше очок\" часто пов'язано зі збором або виконанням дій, що усувають цілі."
             }
         ],
         "excluded_or_uncertain": [
             {
                 "name": "Avoid",
-                "explanation": "не описано. **Manage**: не описано. **Create, Select, Shoot, Write**: не знайдено."
+                "explanation": "не описано."
+            },
+            {
+                "name": "Manage",
+                "explanation": "не описано."
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
+                "explanation": "не знайдено."
             }
         ]
     },
@@ -569,20 +1069,40 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "мета - провести м'ячі в слоти. **Move**: гравець нахиляє платформу. **Manage**: гравець управляє часом (ресурс, що додається)."
+                "explanation": "мета - провести м'ячі в слоти."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "гравець нахиляє платформу."
             },
             {
                 "name": "Manage",
-                "explanation": ""
+                "explanation": "гравець управляє часом (ресурс, що додається)."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Avoid, Destroy, Create, Select, Shoot, Write",
+                "name": "Avoid",
+                "explanation": ","
+            },
+            {
+                "name": "Destroy",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "не знайдено."
             }
         ]
@@ -593,24 +1113,40 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "мета - подолати максимальну відстань. **Avoid**: гравець має уникати перешкод. **Move**: гравець керує бульбашкою. **Manage**: гравець управляє часом (обмеження в 2 хвилини)."
+                "explanation": "мета - подолати максимальну відстань."
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "гравець має уникати перешкод."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "гравець керує бульбашкою."
             },
             {
                 "name": "Manage",
-                "explanation": ""
+                "explanation": "гравець управляє часом (обмеження в 2 хвилини)."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Destroy, Create, Select, Shoot, Write",
+                "name": "Destroy",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "не знайдено."
             }
         ]
@@ -621,17 +1157,41 @@
         "included_mechanics": [
             {
                 "name": "Destroy",
-                "explanation": "гравець розрізає фрукти (знищує об'єкти). **Move**: гравець керує воїном, нахиляючи дошку."
+                "explanation": "гравець розрізає фрукти (знищує об'єкти)."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "гравець керує воїном, нахиляючи дошку."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Achieve, Avoid, Manage, Create, Select, Shoot, Write",
-                "explanation": "опис занадто короткий, але ці механіки не згадуються. \"Avoid\" може матися на увазі, якщо є бомби, але це не вказано."
+                "name": "Achieve",
+                "explanation": ","
+            },
+            {
+                "name": "Avoid",
+                "explanation": "\" може матися на увазі, якщо є бомби, але це не вказано."
+            },
+            {
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
+                "explanation": "опис занадто короткий, але ці механіки не згадуються. \""
             }
         ]
     },
@@ -641,16 +1201,40 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "мета - стрибати по листю, що є досягненням позиції. **Move**: гравець керує жабою, нахиляючись."
+                "explanation": "мета - стрибати по листю, що є досягненням позиції."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "гравець керує жабою, нахиляючись."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Avoid, Destroy, Manage, Create, Select, Shoot, Write",
+                "name": "Avoid",
+                "explanation": ","
+            },
+            {
+                "name": "Destroy",
+                "explanation": ","
+            },
+            {
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "не згадуються в описі."
             }
         ]
@@ -661,16 +1245,40 @@
         "included_mechanics": [
             {
                 "name": "Avoid",
-                "explanation": "гравець ухиляється від перешкод. **Move**: гравець керує велосипедом, повертаючи кермо (імітується нахилом)."
+                "explanation": "гравець ухиляється від перешкод."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "гравець керує велосипедом, повертаючи кермо (імітується нахилом)."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Achieve, Destroy, Manage, Create, Select, Shoot, Write",
+                "name": "Achieve",
+                "explanation": ","
+            },
+            {
+                "name": "Destroy",
+                "explanation": ","
+            },
+            {
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "не згадуються в описі."
             }
         ]
@@ -681,20 +1289,40 @@
         "included_mechanics": [
             {
                 "name": "Destroy",
-                "explanation": "гравець знищує метеорити. **Move**: гравець переміщує корабель. **Shoot**: гравець стріляє для знищення метеоритів."
+                "explanation": "гравець знищує метеорити."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "гравець переміщує корабель."
             },
             {
                 "name": "Shoot",
-                "explanation": ""
+                "explanation": "гравець стріляє для знищення метеоритів."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Achieve, Avoid, Manage, Create, Select, Write",
+                "name": "Achieve",
+                "explanation": ","
+            },
+            {
+                "name": "Avoid",
+                "explanation": ","
+            },
+            {
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "не згадуються в описі."
             }
         ]
@@ -705,16 +1333,40 @@
         "included_mechanics": [
             {
                 "name": "Destroy",
-                "explanation": "гравець ловить (збирає) їжу. **Move**: гравець керує монстром, нахиляючись."
+                "explanation": "гравець ловить (збирає) їжу."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "гравець керує монстром, нахиляючись."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Achieve, Avoid, Manage, Create, Select, Shoot, Write",
+                "name": "Achieve",
+                "explanation": ","
+            },
+            {
+                "name": "Avoid",
+                "explanation": ","
+            },
+            {
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "не згадуються в описі."
             }
         ]
@@ -725,20 +1377,40 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "гравець має утримувати приціл на качках (утримання позиції). **Move**: гравець керує прицілом. **Shoot**: гравець робить постріл."
+                "explanation": "гравець має утримувати приціл на качках (утримання позиції)."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "гравець керує прицілом."
             },
             {
                 "name": "Shoot",
-                "explanation": ""
+                "explanation": "гравець робить постріл."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Avoid, Destroy, Manage, Create, Select, Write",
+                "name": "Avoid",
+                "explanation": ","
+            },
+            {
+                "name": "Destroy",
+                "explanation": ","
+            },
+            {
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "не згадуються в описі."
             }
         ]
@@ -749,16 +1421,40 @@
         "included_mechanics": [
             {
                 "name": "Avoid",
-                "explanation": "гравець ухиляється від перешкод. **Move**: гравець керує рухом гірськолижника."
+                "explanation": "гравець ухиляється від перешкод."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "гравець керує рухом гірськолижника."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Achieve, Destroy, Manage, Create, Select, Shoot, Write",
+                "name": "Achieve",
+                "explanation": ","
+            },
+            {
+                "name": "Destroy",
+                "explanation": ","
+            },
+            {
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "не згадуються в описі."
             }
         ]
@@ -769,16 +1465,40 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "гравець не повинен дозволити м'ячу вийти за межі поля (утримання). **Move**: гравець керує ракеткою."
+                "explanation": "гравець не повинен дозволити м'ячу вийти за межі поля (утримання)."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "гравець керує ракеткою."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Avoid, Destroy, Manage, Create, Select, Shoot, Write",
+                "name": "Avoid",
+                "explanation": ","
+            },
+            {
+                "name": "Destroy",
+                "explanation": ","
+            },
+            {
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "не згадуються в описі."
             }
         ]
@@ -789,16 +1509,40 @@
         "included_mechanics": [
             {
                 "name": "Avoid",
-                "explanation": "гравець ухиляється від перешкод. **Move**: гравець керує серфінгістом."
+                "explanation": "гравець ухиляється від перешкод."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "гравець керує серфінгістом."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Achieve, Destroy, Manage, Create, Select, Shoot, Write",
+                "name": "Achieve",
+                "explanation": ","
+            },
+            {
+                "name": "Destroy",
+                "explanation": ","
+            },
+            {
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "не згадуються в описі."
             }
         ]
@@ -809,16 +1553,40 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "гравець має доставити подарунки у відповідні мішки (досягнення конфігурації). **Move**: гравець переміщує подарунки."
+                "explanation": "гравець має доставити подарунки у відповідні мішки (досягнення конфігурації)."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "гравець переміщує подарунки."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Avoid, Destroy, Manage, Create, Select, Shoot, Write",
+                "name": "Avoid",
+                "explanation": ","
+            },
+            {
+                "name": "Destroy",
+                "explanation": ","
+            },
+            {
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "не згадуються в описі."
             }
         ]
@@ -829,20 +1597,40 @@
         "included_mechanics": [
             {
                 "name": "Destroy",
-                "explanation": "гравець збирає святкові фігурки (захоплення об'єктів). **Achieve**: гравець виконує трюки для бонусів (досягнення стану). **Move**: гравець керує сноубордистом."
+                "explanation": "гравець збирає святкові фігурки (захоплення об'єктів)."
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "гравець виконує трюки для бонусів (досягнення стану)."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "гравець керує сноубордистом."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Avoid, Manage, Create, Select, Shoot, Write",
+                "name": "Avoid",
+                "explanation": ","
+            },
+            {
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "не згадуються в описі."
             }
         ]
@@ -853,16 +1641,40 @@
         "included_mechanics": [
             {
                 "name": "Avoid",
-                "explanation": "гравець уникає кристалів. **Move**: гравець керує космічним кораблем."
+                "explanation": "гравець уникає кристалів."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "гравець керує космічним кораблем."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Achieve, Destroy, Manage, Create, Select, Shoot, Write",
+                "name": "Achieve",
+                "explanation": ","
+            },
+            {
+                "name": "Destroy",
+                "explanation": ","
+            },
+            {
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "не згадуються в описі."
             }
         ]
@@ -873,20 +1685,40 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "мета - провести кульку до фінішної точки. **Avoid**: гравець має провести кульку повз перешкоди. **Move**: гравець керує платформою."
+                "explanation": "мета - провести кульку до фінішної точки."
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "гравець має провести кульку повз перешкоди."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "гравець керує платформою."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Destroy, Manage, Create, Select, Shoot, Write",
+                "name": "Destroy",
+                "explanation": ","
+            },
+            {
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "не згадуються в описі."
             }
         ]
@@ -897,20 +1729,40 @@
         "included_mechanics": [
             {
                 "name": "Destroy",
-                "explanation": "гравець збирає монети. **Avoid**: гравець уникає мін. **Move**: гравець керує автомобілем."
+                "explanation": "гравець збирає монети."
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "гравець уникає мін."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "гравець керує автомобілем."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Achieve, Manage, Create, Select, Shoot, Write",
+                "name": "Achieve",
+                "explanation": ","
+            },
+            {
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "не згадуються в описі."
             }
         ]
@@ -921,20 +1773,40 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "мета - забити кульку в лунку. **Avoid**: гравець уникає перешкод. **Move**: гравець направляє кульку через баланс."
+                "explanation": "мета - забити кульку в лунку."
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "гравець уникає перешкод."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "гравець направляє кульку через баланс."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Destroy, Manage, Create, Select, Shoot, Write",
+                "name": "Destroy",
+                "explanation": ","
+            },
+            {
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "не згадуються в описі."
             }
         ]
@@ -945,17 +1817,41 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "мета - провести кульку через лабіринт до цілі. **Move**: гравець керує кулькою, нахиляючи платформу."
+                "explanation": "мета - провести кульку через лабіринт до цілі."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "гравець керує кулькою, нахиляючи платформу."
             }
         ],
         "excluded_or_uncertain": [
             {
                 "name": "Avoid",
-                "explanation": "хоча лабіринт є перешкодою, явного уникнення дискретних об'єктів не описано. **Destroy, Manage, Create, Select, Shoot, Write**: не згадуються."
+                "explanation": "хоча лабіринт є перешкодою, явного уникнення дискретних об'єктів не описано."
+            },
+            {
+                "name": "Destroy",
+                "explanation": ","
+            },
+            {
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
+                "explanation": "не згадуються."
             }
         ]
     },
@@ -965,20 +1861,40 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "мета - продовжувати падати (утримувати стан падіння). **Avoid**: гравець не має торкатися верхньої частини екрана. **Move**: гравець нахиляє дошку, щоб рухати кульку."
+                "explanation": "мета - продовжувати падати (утримувати стан падіння)."
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "гравець не має торкатися верхньої частини екрана."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "гравець нахиляє дошку, щоб рухати кульку."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Destroy, Manage, Create, Select, Shoot, Write",
+                "name": "Destroy",
+                "explanation": ","
+            },
+            {
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "не згадуються в описі."
             }
         ]
@@ -989,20 +1905,40 @@
         "included_mechanics": [
             {
                 "name": "Destroy",
-                "explanation": "гравець збирає солодощі. **Move**: гравець керує динозавром. **Manage**: гравець управляє часом (ресурс, що додається)."
+                "explanation": "гравець збирає солодощі."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "гравець керує динозавром."
             },
             {
                 "name": "Manage",
-                "explanation": ""
+                "explanation": "гравець управляє часом (ресурс, що додається)."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Achieve, Avoid, Create, Select, Shoot, Write",
+                "name": "Achieve",
+                "explanation": ","
+            },
+            {
+                "name": "Avoid",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "не згадуються в описі."
             }
         ]
@@ -1013,20 +1949,40 @@
         "included_mechanics": [
             {
                 "name": "Destroy",
-                "explanation": "гравець розбиває яйця пінгвінів. **Achieve**: мета - не дати кульці впасти (утримання). **Move**: гравець рухає кульку."
+                "explanation": "гравець розбиває яйця пінгвінів."
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "мета - не дати кульці впасти (утримання)."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "гравець рухає кульку."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Avoid, Manage, Create, Select, Shoot, Write",
+                "name": "Avoid",
+                "explanation": ","
+            },
+            {
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "не згадуються в описі."
             }
         ]
@@ -1037,20 +1993,40 @@
         "included_mechanics": [
             {
                 "name": "Destroy",
-                "explanation": "гравець збирає монети. **Avoid**: гравець уникає мін. **Move**: гравець керує підводним човном."
+                "explanation": "гравець збирає монети."
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "гравець уникає мін."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "гравець керує підводним човном."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Achieve, Manage, Create, Select, Shoot, Write",
+                "name": "Achieve",
+                "explanation": ","
+            },
+            {
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "не згадуються в описі."
             }
         ]
@@ -1061,20 +2037,40 @@
         "included_mechanics": [
             {
                 "name": "Destroy",
-                "explanation": "гравець зрізає кукурудзу та пшеницю (збирає). **Avoid**: гравець уникає перешкод. **Move**: гравець рухає комбайн."
+                "explanation": "гравець зрізає кукурудзу та пшеницю (збирає)."
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "гравець уникає перешкод."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "гравець рухає комбайн."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Achieve, Manage, Create, Select, Shoot, Write",
+                "name": "Achieve",
+                "explanation": ","
+            },
+            {
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "не згадуються в описі."
             }
         ]
@@ -1085,16 +2081,40 @@
         "included_mechanics": [
             {
                 "name": "Avoid",
-                "explanation": "гравець ухиляється від падаючих фігур. **Move**: гравець контролює персонажа, нахиляючись."
+                "explanation": "гравець ухиляється від падаючих фігур."
             },
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "гравець контролює персонажа, нахиляючись."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Achieve, Destroy, Manage, Create, Select, Shoot, Write",
+                "name": "Achieve",
+                "explanation": ","
+            },
+            {
+                "name": "Destroy",
+                "explanation": ","
+            },
+            {
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "не згадуються в описі."
             }
         ]

@@ -1,7 +1,7 @@
 [
     {
-        "system": "**Wii Fit**",
-        "game": "**Soccer Heading**",
+        "system": "Wii Fit",
+        "game": "Soccer Heading",
         "included_mechanics": [
             {
                 "name": "Avoid",
@@ -28,8 +28,8 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
-        "game": "**Ski Slalom**",
+        "system": "Wii Fit",
+        "game": "Ski Slalom",
         "included_mechanics": [
             {
                 "name": "Move",
@@ -52,8 +52,8 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
-        "game": "**Table Tilt**",
+        "system": "Wii Fit",
+        "game": "Table Tilt",
         "included_mechanics": [
             {
                 "name": "Move",
@@ -72,8 +72,8 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
-        "game": "**Ski Jump**",
+        "system": "Wii Fit",
+        "game": "Ski Jump",
         "included_mechanics": [
             {
                 "name": "Move",
@@ -92,8 +92,8 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
-        "game": "**Tightrope Walk**",
+        "system": "Wii Fit",
+        "game": "Tightrope Walk",
         "included_mechanics": [
             {
                 "name": "Move",
@@ -116,8 +116,8 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
-        "game": "**Balance Bubble**",
+        "system": "Wii Fit",
+        "game": "Balance Bubble",
         "included_mechanics": [
             {
                 "name": "Move",
@@ -140,8 +140,8 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
-        "game": "**Penguin Slide**",
+        "system": "Wii Fit",
+        "game": "Penguin Slide",
         "included_mechanics": [
             {
                 "name": "Move",
@@ -160,8 +160,8 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
-        "game": "**Snowboard Slalom**",
+        "system": "Wii Fit",
+        "game": "Snowboard Slalom",
         "included_mechanics": [
             {
                 "name": "Move",
@@ -175,13 +175,17 @@
         "excluded_or_uncertain": [
             {
                 "name": "Avoid",
-                "explanation": "Немає явних перешкод, які треба уникати, окрім пропуску воріт, що є частиною механіки Achieve."
+                "explanation": "Немає явних перешкод, які треба уникати, окрім пропуску воріт, що є частиною механіки"
+            },
+            {
+                "name": "Achieve",
+                "explanation": "."
             }
         ]
     },
     {
-        "system": "**Wii Fit**",
-        "game": "**Lotus Focus**",
+        "system": "Wii Fit",
+        "game": "Lotus Focus",
         "included_mechanics": [
             {
                 "name": "Achieve",
@@ -196,8 +200,8 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
-        "game": "**Perfect 10**",
+        "system": "Wii Fit",
+        "game": "Perfect 10",
         "included_mechanics": [
             {
                 "name": "Move",
@@ -220,8 +224,8 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
-        "game": "**Rhythm Kung Fu**",
+        "system": "Wii Fit",
+        "game": "Rhythm Kung Fu",
         "included_mechanics": [
             {
                 "name": "Move",
@@ -240,8 +244,8 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
-        "game": "**Bird's-Eye Bull's-Eye**",
+        "system": "Wii Fit",
+        "game": "Bird's-Eye Bull's-Eye",
         "included_mechanics": [
             {
                 "name": "Move",
@@ -264,8 +268,8 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
-        "game": "**Snowball Fight**",
+        "system": "Wii Fit",
+        "game": "Snowball Fight",
         "included_mechanics": [
             {
                 "name": "Move",
@@ -292,8 +296,8 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
-        "game": "**Obstacle Course**",
+        "system": "Wii Fit",
+        "game": "Obstacle Course",
         "included_mechanics": [
             {
                 "name": "Move",
@@ -316,8 +320,8 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
-        "game": "**Tilt City**",
+        "system": "Wii Fit",
+        "game": "Tilt City",
         "included_mechanics": [
             {
                 "name": "Move",
@@ -340,12 +344,12 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
-        "game": "**Trampoline Target**",
+        "system": "Wii Fit",
+        "game": "Trampoline Target",
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": "Гравець \"вигинати коліна, щоб стрибати\".<br**Achieve**: Мета - \"досягти максимальної висоти\", що є досягненням стану."
+                "explanation": "Гравець \"вигинати коліна, щоб стрибати\".<brAchieve: Мета - \"досягти максимальної висоти\", що є досягненням стану."
             },
             {
                 "name": "Achieve",
@@ -360,8 +364,8 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
-        "game": "**Ultimate Obstacle Course**",
+        "system": "Wii Fit",
+        "game": "Ultimate Obstacle Course",
         "included_mechanics": [
             {
                 "name": "Move",
@@ -384,8 +388,8 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
-        "game": "**Core Luge**",
+        "system": "Wii Fit",
+        "game": "Core Luge",
         "included_mechanics": [
             {
                 "name": "Move",
@@ -408,8 +412,8 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
-        "game": "**Hosedown**",
+        "system": "Wii Fit",
+        "game": "Hosedown",
         "included_mechanics": [
             {
                 "name": "Move",
@@ -432,8 +436,8 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
-        "game": "**Scuba Search**",
+        "system": "Wii Fit",
+        "game": "Scuba Search",
         "included_mechanics": [
             {
                 "name": "Move",
@@ -455,8 +459,8 @@
         "excluded_or_uncertain": []
     },
     {
-        "system": "**Wii Fit**",
-        "game": "**Climbing**",
+        "system": "Wii Fit",
+        "game": "Climbing",
         "included_mechanics": [
             {
                 "name": "Move",
@@ -479,8 +483,8 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
-        "game": "**Dessert Course**",
+        "system": "Wii Fit",
+        "game": "Dessert Course",
         "included_mechanics": [
             {
                 "name": "Move",
@@ -507,8 +511,8 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
-        "game": "**Big Top Juggling**",
+        "system": "Wii Fit",
+        "game": "Big Top Juggling",
         "included_mechanics": [
             {
                 "name": "Move",
@@ -531,8 +535,8 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
-        "game": "**Skateboard Arena**",
+        "system": "Wii Fit",
+        "game": "Skateboard Arena",
         "included_mechanics": [
             {
                 "name": "Move",
@@ -551,8 +555,8 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
-        "game": "**Table Tilt Plus**",
+        "system": "Wii Fit",
+        "game": "Table Tilt Plus",
         "included_mechanics": [
             {
                 "name": "Move",
@@ -575,8 +579,8 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
-        "game": "**Balance Bubble Plus**",
+        "system": "Wii Fit",
+        "game": "Balance Bubble Plus",
         "included_mechanics": [
             {
                 "name": "Move",
@@ -603,8 +607,8 @@
         ]
     },
     {
-        "system": "**PlankPad**",
-        "game": "**Fruit Slicer**",
+        "system": "PlankPad",
+        "game": "Fruit Slicer",
         "included_mechanics": [
             {
                 "name": "Move",
@@ -619,11 +623,16 @@
                 "explanation": "Неявно, гравець має уникати пропуску фруктів (якщо це веде до поразки) або можливих \"поганих\" об'єктів, хоча це не вказано."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Avoid",
+                "explanation": "є припущенням."
+            }
+        ]
     },
     {
-        "system": "**PlankPad**",
-        "game": "**Hopper**",
+        "system": "PlankPad",
+        "game": "Hopper",
         "included_mechanics": [
             {
                 "name": "Move",
@@ -638,11 +647,16 @@
                 "explanation": "Неявно, гравець має уникати падіння у воду."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Avoid",
+                "explanation": "є логічним висновком, а не прямою вказівкою."
+            }
+        ]
     },
     {
-        "system": "**PlankPad**",
-        "game": "**Stix & Stones**",
+        "system": "PlankPad",
+        "game": "Stix & Stones",
         "included_mechanics": [
             {
                 "name": "Move",
@@ -661,8 +675,8 @@
         ]
     },
     {
-        "system": "**PlankPad**",
-        "game": "**Meteor Madness**",
+        "system": "PlankPad",
+        "game": "Meteor Madness",
         "included_mechanics": [
             {
                 "name": "Move",
@@ -681,11 +695,16 @@
                 "explanation": "Неявно, гравець має уникати зіткнення з метеоритами."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Avoid",
+                "explanation": "є припущенням."
+            }
+        ]
     },
     {
-        "system": "**PlankPad**",
-        "game": "**Candy Monster**",
+        "system": "PlankPad",
+        "game": "Candy Monster",
         "included_mechanics": [
             {
                 "name": "Move",
@@ -704,8 +723,8 @@
         ]
     },
     {
-        "system": "**PlankPad**",
-        "game": "**Duck Shoot**",
+        "system": "PlankPad",
+        "game": "Duck Shoot",
         "included_mechanics": [
             {
                 "name": "Move",
@@ -728,8 +747,8 @@
         ]
     },
     {
-        "system": "**PlankPad**",
-        "game": "**Snow Cruisin**",
+        "system": "PlankPad",
+        "game": "Snow Cruisin",
         "included_mechanics": [
             {
                 "name": "Move",
@@ -748,8 +767,8 @@
         ]
     },
     {
-        "system": "**PlankPad**",
-        "game": "**Pong Goal**",
+        "system": "PlankPad",
+        "game": "Pong Goal",
         "included_mechanics": [
             {
                 "name": "Move",
@@ -768,8 +787,8 @@
         ]
     },
     {
-        "system": "**PlankPad**",
-        "game": "**Wave Rider**",
+        "system": "PlankPad",
+        "game": "Wave Rider",
         "included_mechanics": [
             {
                 "name": "Move",
@@ -788,8 +807,8 @@
         ]
     },
     {
-        "system": "**PlankPad**",
-        "game": "**Gift Rush**",
+        "system": "PlankPad",
+        "game": "Gift Rush",
         "included_mechanics": [
             {
                 "name": "Move",
@@ -808,8 +827,8 @@
         ]
     },
     {
-        "system": "**BoBo Balance**",
-        "game": "**Crazy Snowboard**",
+        "system": "BoBo Balance",
+        "game": "Crazy Snowboard",
         "included_mechanics": [
             {
                 "name": "Move",
@@ -828,11 +847,16 @@
                 "explanation": "Неявно, спуск схилом передбачає уникнення перешкод (дерева, каміння)."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Avoid",
+                "explanation": "є припущенням."
+            }
+        ]
     },
     {
-        "system": "**BoBo Balance**",
-        "game": "**Color Tunnel**",
+        "system": "BoBo Balance",
+        "game": "Color Tunnel",
         "included_mechanics": [
             {
                 "name": "Move",
@@ -851,8 +875,8 @@
         ]
     },
     {
-        "system": "**BoBo Balance**",
-        "game": "**Space Ball**",
+        "system": "BoBo Balance",
+        "game": "Space Ball",
         "included_mechanics": [
             {
                 "name": "Move",
@@ -875,8 +899,8 @@
         ]
     },
     {
-        "system": "**BoBo Balance**",
-        "game": "**Car**",
+        "system": "BoBo Balance",
+        "game": "Car",
         "included_mechanics": [
             {
                 "name": "Move",
@@ -899,8 +923,8 @@
         ]
     },
     {
-        "system": "**BoBo Balance**",
-        "game": "**Mini Golf**",
+        "system": "BoBo Balance",
+        "game": "Mini Golf",
         "included_mechanics": [
             {
                 "name": "Move",
@@ -918,13 +942,17 @@
         "excluded_or_uncertain": [
             {
                 "name": "Shoot",
-                "explanation": "Хоча це гольф, дія описується як \"направити\", а не як запуск снаряда. Більше схоже на варіацію **Move**."
+                "explanation": "Хоча це гольф, дія описується як \"направити\", а не як запуск снаряда. Більше схоже на варіацію"
+            },
+            {
+                "name": "Move",
+                "explanation": "."
             }
         ]
     },
     {
-        "system": "**BoBo Balance**",
-        "game": "**Maze**",
+        "system": "BoBo Balance",
+        "game": "Maze",
         "included_mechanics": [
             {
                 "name": "Move",
@@ -939,11 +967,16 @@
                 "explanation": "Неявно, стіни лабіринту є перешкодами, яких треба уникати."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Avoid",
+                "explanation": "є логічним висновком зі структури лабіринту."
+            }
+        ]
     },
     {
-        "system": "**BoBo Balance**",
-        "game": "**Fall Down**",
+        "system": "BoBo Balance",
+        "game": "Fall Down",
         "included_mechanics": [
             {
                 "name": "Move",
@@ -966,8 +999,8 @@
         ]
     },
     {
-        "system": "**BoBo Balance**",
-        "game": "**Candy Rex**",
+        "system": "BoBo Balance",
+        "game": "Candy Rex",
         "included_mechanics": [
             {
                 "name": "Move",
@@ -990,8 +1023,8 @@
         ]
     },
     {
-        "system": "**BoBo Balance**",
-        "game": "**Ice Adventure**",
+        "system": "BoBo Balance",
+        "game": "Ice Adventure",
         "included_mechanics": [
             {
                 "name": "Move",
@@ -1014,8 +1047,8 @@
         ]
     },
     {
-        "system": "**BoBo Balance**",
-        "game": "**Submarine**",
+        "system": "BoBo Balance",
+        "game": "Submarine",
         "included_mechanics": [
             {
                 "name": "Move",
@@ -1038,8 +1071,8 @@
         ]
     },
     {
-        "system": "**BoBo Balance**",
-        "game": "**Harvest Rush**",
+        "system": "BoBo Balance",
+        "game": "Harvest Rush",
         "included_mechanics": [
             {
                 "name": "Move",
@@ -1062,8 +1095,8 @@
         ]
     },
     {
-        "system": "**BoBo Balance**",
-        "game": "**Tetromino**",
+        "system": "BoBo Balance",
+        "game": "Tetromino",
         "included_mechanics": [
             {
                 "name": "Move",

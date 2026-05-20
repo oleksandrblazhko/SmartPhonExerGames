@@ -30,7 +30,19 @@
                 "explanation": "Гравець не запускає снаряд, а відбиває його."
             },
             {
-                "name": "Create, Random, Select, Write",
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Random",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "Механіки не описані в грі."
             }
         ]
@@ -62,7 +74,23 @@
                 "explanation": "Штрафний час не є керованим ресурсом."
             },
             {
-                "name": "Create, Random, Select, Shoot, Write",
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Random",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "Механіки не описані в грі."
             }
         ]
@@ -82,7 +110,11 @@
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Avoid, Destroy",
+                "name": "Avoid",
+                "explanation": ","
+            },
+            {
+                "name": "Destroy",
                 "explanation": "Відсутні перешкоди для уникнення або об'єкти для знищення."
             },
             {
@@ -90,7 +122,23 @@
                 "explanation": "Очки є результатом, а не керованим ресурсом."
             },
             {
-                "name": "Create, Random, Select, Shoot, Write",
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Random",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "Механіки не описані в грі."
             }
         ]
@@ -110,7 +158,11 @@
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Avoid, Destroy",
+                "name": "Avoid",
+                "explanation": ","
+            },
+            {
+                "name": "Destroy",
                 "explanation": "Відсутні перешкоди для уникнення або об'єкти для знищення."
             },
             {
@@ -118,7 +170,23 @@
                 "explanation": "Дві спроби - це обмеження, а не керований ресурс."
             },
             {
-                "name": "Create, Random, Select, Shoot, Write",
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Random",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "Механіки не описані в грі."
             }
         ]
@@ -150,7 +218,23 @@
                 "explanation": "Відсутнє управління ресурсами."
             },
             {
-                "name": "Create, Random, Select, Shoot, Write",
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Random",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "Механіки не описані в грі."
             }
         ]
@@ -182,7 +266,23 @@
                 "explanation": "Відсутнє управління ресурсами."
             },
             {
-                "name": "Create, Random, Select, Shoot, Write",
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Random",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "Механіки не описані в грі."
             }
         ]
@@ -214,7 +314,23 @@
                 "explanation": "Очки є результатом, не ресурсом."
             },
             {
-                "name": "Create, Random, Select, Shoot, Write",
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Random",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "Механіки не описані в грі."
             }
         ]
@@ -246,7 +362,23 @@
                 "explanation": "Відсутнє управління ресурсами."
             },
             {
-                "name": "Create, Random, Select, Shoot, Write",
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Random",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "Механіки не описані в грі."
             }
         ]
@@ -266,11 +398,35 @@
                 "explanation": "Рух гравця є умовою поразки, а не керованою дією для досягнення цілі."
             },
             {
-                "name": "Avoid, Destroy",
+                "name": "Avoid",
+                "explanation": ","
+            },
+            {
+                "name": "Destroy",
                 "explanation": "Відсутні."
             },
             {
-                "name": "Manage, Create, Random, Select, Shoot, Write",
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Random",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "Механіки не описані в грі."
             }
         ]
@@ -302,7 +458,23 @@
                 "explanation": "Немає керованих ресурсів."
             },
             {
-                "name": "Create, Random, Select, Shoot, Write",
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Random",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "Механіки не описані в грі."
             }
         ]
@@ -326,7 +498,31 @@
                 "explanation": "Немає об'єктів для знищення."
             },
             {
-                "name": "Select, Avoid, Manage, Create, Random, Shoot, Write",
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Avoid",
+                "explanation": ","
+            },
+            {
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Random",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "Механіки не описані в грі."
             }
         ]
@@ -358,7 +554,23 @@
                 "explanation": "Відсутні явні перешкоди для уникнення."
             },
             {
-                "name": "Create, Random, Select, Shoot, Write",
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Random",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "Механіки не описані в грі."
             }
         ]
@@ -394,7 +606,19 @@
                 "explanation": "Немає цілі утримання стану чи позиціонування."
             },
             {
-                "name": "Create, Random, Select, Write",
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Random",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "Механіки не описані в грі."
             }
         ]
@@ -426,7 +650,23 @@
                 "explanation": "Відсутнє управління ресурсами."
             },
             {
-                "name": "Create, Random, Select, Shoot, Write",
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Random",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "Механіки не описані в грі."
             }
         ]
@@ -458,7 +698,23 @@
                 "explanation": "Серія очок не є керованим ресурсом."
             },
             {
-                "name": "Create, Random, Select, Shoot, Write",
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Random",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "Механіки не описані в грі."
             }
         ]
@@ -478,7 +734,11 @@
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Avoid, Destroy",
+                "name": "Avoid",
+                "explanation": ","
+            },
+            {
+                "name": "Destroy",
                 "explanation": "Відсутні."
             },
             {
@@ -486,7 +746,23 @@
                 "explanation": "Немає керованих ресурсів."
             },
             {
-                "name": "Create, Random, Select, Shoot, Write",
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Random",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "Механіки не описані в грі."
             }
         ]
@@ -510,11 +786,31 @@
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Destroy, Manage",
+                "name": "Destroy",
+                "explanation": ","
+            },
+            {
+                "name": "Manage",
                 "explanation": "Відсутні."
             },
             {
-                "name": "Create, Random, Select, Shoot, Write",
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Random",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "Механіки не описані в грі."
             }
         ]
@@ -534,7 +830,11 @@
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Avoid, Destroy",
+                "name": "Avoid",
+                "explanation": ","
+            },
+            {
+                "name": "Destroy",
                 "explanation": "Немає явних перешкод чи об'єктів для знищення."
             },
             {
@@ -542,7 +842,23 @@
                 "explanation": "Відсутнє управління ресурсами."
             },
             {
-                "name": "Create, Random, Select, Shoot, Write",
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Random",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "Механіки не описані в грі."
             }
         ]
@@ -578,7 +894,19 @@
                 "explanation": "Відсутнє управління ресурсами."
             },
             {
-                "name": "Create, Random, Select, Write",
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Random",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "Механіки не описані в грі."
             }
         ]
@@ -610,7 +938,23 @@
                 "explanation": "Основна мета - збір, а не досягнення стану."
             },
             {
-                "name": "Create, Random, Select, Shoot, Write",
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Random",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "Механіки не описані в грі."
             }
         ]
@@ -646,7 +990,19 @@
                 "explanation": "Вибір каміння є частиною руху, а не окремою дією вибору."
             },
             {
-                "name": "Create, Random, Shoot, Write",
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Random",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "Механіки не описані в грі."
             }
         ]
@@ -678,7 +1034,23 @@
                 "explanation": "Немає об'єктів для знищення/збору."
             },
             {
-                "name": "Create, Random, Select, Shoot, Write",
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Random",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "Механіки не описані в грі."
             }
         ]
@@ -710,7 +1082,23 @@
                 "explanation": "Очки є результатом, не ресурсом."
             },
             {
-                "name": "Create, Random, Select, Shoot, Write",
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Random",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "Механіки не описані в грі."
             }
         ]
@@ -742,7 +1130,23 @@
                 "explanation": "5 хвилин у режимі \"Вільний\" є обмеженням, а не керованим ресурсом."
             },
             {
-                "name": "Create, Random, Select, Shoot, Write",
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Random",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "Механіки не описані в грі."
             }
         ]
@@ -774,7 +1178,23 @@
                 "explanation": "Немає перешкод."
             },
             {
-                "name": "Create, Random, Select, Shoot, Write",
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Random",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "Механіки не описані в грі."
             }
         ]
@@ -806,7 +1226,23 @@
                 "explanation": "Немає об'єктів для знищення."
             },
             {
-                "name": "Create, Random, Select, Shoot, Write",
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Random",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "Механіки не описані в грі."
             }
         ]
@@ -830,7 +1266,31 @@
                 "explanation": "Хоча можуть бути об'єкти, яких треба уникати (наприклад, бомби в аналогічних іграх), опис цього не згадує."
             },
             {
-                "name": "Achieve, Manage, Create, Random, Select, Shoot, Write",
+                "name": "Achieve",
+                "explanation": ","
+            },
+            {
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Random",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "Механіки не описані в грі."
             }
         ]
@@ -850,11 +1310,35 @@
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Avoid, Destroy",
+                "name": "Avoid",
+                "explanation": ","
+            },
+            {
+                "name": "Destroy",
                 "explanation": "Опис не згадує перешкод чи об'єктів для збору."
             },
             {
-                "name": "Manage, Create, Random, Select, Shoot, Write",
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Random",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "Механіки не описані в грі."
             }
         ]
@@ -874,11 +1358,35 @@
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Destroy, Achieve",
+                "name": "Destroy",
+                "explanation": ","
+            },
+            {
+                "name": "Achieve",
                 "explanation": "Немає збору об'єктів чи досягнення цільового стану (окрім проходження траси, що є наслідком уникнення)."
             },
             {
-                "name": "Manage, Create, Random, Select, Shoot, Write",
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Random",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "Механіки не описані в грі."
             }
         ]
@@ -906,7 +1414,27 @@
                 "explanation": "Ухилення від метеоритів є можливою підзадачею, але основна дія - стріляти."
             },
             {
-                "name": "Achieve, Manage, Create, Random, Select, Write",
+                "name": "Achieve",
+                "explanation": ","
+            },
+            {
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Random",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "Механіки не описані в грі."
             }
         ]
@@ -930,7 +1458,31 @@
                 "explanation": "Опис не згадує об'єктів, яких треба уникати."
             },
             {
-                "name": "Achieve, Manage, Create, Random, Select, Shoot, Write",
+                "name": "Achieve",
+                "explanation": ","
+            },
+            {
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Random",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "Механіки не описані в грі."
             }
         ]
@@ -958,7 +1510,27 @@
                 "explanation": "Хоча качки \"знищуються\", основна дія - стрільба та утримання прицілу."
             },
             {
-                "name": "Avoid, Manage, Create, Random, Select, Write",
+                "name": "Avoid",
+                "explanation": ","
+            },
+            {
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Random",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "Механіки не описані в грі."
             }
         ]
@@ -978,11 +1550,35 @@
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Destroy, Achieve",
+                "name": "Destroy",
+                "explanation": ","
+            },
+            {
+                "name": "Achieve",
                 "explanation": "Немає збору об'єктів чи досягнення цільового стану."
             },
             {
-                "name": "Manage, Create, Random, Select, Shoot, Write",
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Random",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "Механіки не описані в грі."
             }
         ]
@@ -1002,11 +1598,35 @@
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Avoid, Destroy",
+                "name": "Avoid",
+                "explanation": ","
+            },
+            {
+                "name": "Destroy",
                 "explanation": "Відсутні."
             },
             {
-                "name": "Manage, Create, Random, Select, Shoot, Write",
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Random",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "Механіки не описані в грі."
             }
         ]
@@ -1026,11 +1646,35 @@
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Destroy, Achieve",
+                "name": "Destroy",
+                "explanation": ","
+            },
+            {
+                "name": "Achieve",
                 "explanation": "Немає збору об'єктів чи досягнення цільового стану."
             },
             {
-                "name": "Manage, Create, Random, Select, Shoot, Write",
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Random",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "Механіки не описані в грі."
             }
         ]
@@ -1058,7 +1702,27 @@
                 "explanation": "Немає перешкод."
             },
             {
-                "name": "Manage, Create, Random, Select, Shoot, Write",
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Random",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "Механіки не описані в грі."
             }
         ]
@@ -1083,10 +1747,30 @@
             },
             {
                 "name": "Achieve",
-                "explanation": "Виконання трюків може бути формою `Achieve`, але опис занадто загальний."
+                "explanation": "`, але опис занадто загальний."
             },
             {
-                "name": "Manage, Create, Random, Select, Shoot, Write",
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Random",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "Механіки не описані в грі."
             }
         ]
@@ -1106,11 +1790,35 @@
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Destroy, Achieve",
+                "name": "Destroy",
+                "explanation": ","
+            },
+            {
+                "name": "Achieve",
                 "explanation": "Немає збору об'єктів чи досягнення цільового стану."
             },
             {
-                "name": "Manage, Create, Random, Select, Shoot, Write",
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Random",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "Механіки не описані в грі."
             }
         ]
@@ -1134,7 +1842,31 @@
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Destroy, Manage, Create, Random, Select, Shoot, Write",
+                "name": "Destroy",
+                "explanation": ","
+            },
+            {
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Random",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "Механіки не описані в грі."
             }
         ]
@@ -1158,7 +1890,31 @@
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Achieve, Manage, Create, Random, Select, Shoot, Write",
+                "name": "Achieve",
+                "explanation": ","
+            },
+            {
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Random",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "Механіки не описані в грі."
             }
         ]
@@ -1182,7 +1938,31 @@
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Destroy, Manage, Create, Random, Select, Shoot, Write",
+                "name": "Destroy",
+                "explanation": ","
+            },
+            {
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Random",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "Механіки не описані в грі."
             }
         ]
@@ -1201,12 +1981,36 @@
             },
             {
                 "name": "Avoid",
-                "explanation": "Лабіринт сам по собі є перешкодою, яку треба обходити, що відповідає `Avoid`."
+                "explanation": "`."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Destroy, Manage, Create, Random, Select, Shoot, Write",
+                "name": "Destroy",
+                "explanation": ","
+            },
+            {
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Random",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "Механіки не описані в грі."
             }
         ]
@@ -1230,7 +2034,31 @@
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Destroy, Manage, Create, Random, Select, Shoot, Write",
+                "name": "Destroy",
+                "explanation": ","
+            },
+            {
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Random",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "Механіки не описані в грі."
             }
         ]
@@ -1258,7 +2086,27 @@
                 "explanation": "Немає перешкод."
             },
             {
-                "name": "Achieve, Create, Random, Select, Shoot, Write",
+                "name": "Achieve",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Random",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "Механіки не описані в грі."
             }
         ]
@@ -1286,7 +2134,27 @@
                 "explanation": "Основна мета - знищення яєць, а не уникнення."
             },
             {
-                "name": "Manage, Create, Random, Select, Shoot, Write",
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Random",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "Механіки не описані в грі."
             }
         ]
@@ -1310,7 +2178,31 @@
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Achieve, Manage, Create, Random, Select, Shoot, Write",
+                "name": "Achieve",
+                "explanation": ","
+            },
+            {
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Random",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "Механіки не описані в грі."
             }
         ]
@@ -1334,7 +2226,31 @@
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Achieve, Manage, Create, Random, Select, Shoot, Write",
+                "name": "Achieve",
+                "explanation": ","
+            },
+            {
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Random",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "Механіки не описані в грі."
             }
         ]
@@ -1354,11 +2270,35 @@
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Destroy, Achieve",
+                "name": "Destroy",
+                "explanation": ","
+            },
+            {
+                "name": "Achieve",
                 "explanation": "Немає збору чи досягнення стану. Це чисте ухилення."
             },
             {
-                "name": "Manage, Create, Random, Select, Shoot, Write",
+                "name": "Manage",
+                "explanation": ","
+            },
+            {
+                "name": "Create",
+                "explanation": ","
+            },
+            {
+                "name": "Random",
+                "explanation": ","
+            },
+            {
+                "name": "Select",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Write",
                 "explanation": "Механіки не описані в грі."
             }
         ]

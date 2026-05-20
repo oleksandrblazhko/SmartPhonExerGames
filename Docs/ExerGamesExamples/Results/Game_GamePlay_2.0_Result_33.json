@@ -1,7 +1,7 @@
 [
     {
-        "system": "**Wii Fit**",
-        "game": "**Soccer Heading**",
+        "system": "Wii Fit",
+        "game": "Soccer Heading",
         "included_mechanics": [
             {
                 "name": "Avoid",
@@ -32,8 +32,8 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
-        "game": "**Ski Slalom**",
+        "system": "Wii Fit",
+        "game": "Ski Slalom",
         "included_mechanics": [
             {
                 "name": "Avoid",
@@ -60,8 +60,8 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
-        "game": "**Table Tilt**",
+        "system": "Wii Fit",
+        "game": "Table Tilt",
         "included_mechanics": [
             {
                 "name": "Achieve",
@@ -84,8 +84,8 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
-        "game": "**Ski Jump**",
+        "system": "Wii Fit",
+        "game": "Ski Jump",
         "included_mechanics": [
             {
                 "name": "Achieve",
@@ -108,8 +108,8 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
-        "game": "**Tightrope Walk**",
+        "system": "Wii Fit",
+        "game": "Tightrope Walk",
         "included_mechanics": [
             {
                 "name": "Avoid",
@@ -136,8 +136,8 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
-        "game": "**Balance Bubble**",
+        "system": "Wii Fit",
+        "game": "Balance Bubble",
         "included_mechanics": [
             {
                 "name": "Avoid",
@@ -160,8 +160,8 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
-        "game": "**Penguin Slide**",
+        "system": "Wii Fit",
+        "game": "Penguin Slide",
         "included_mechanics": [
             {
                 "name": "Destroy",
@@ -184,8 +184,8 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
-        "game": "**Snowboard Slalom**",
+        "system": "Wii Fit",
+        "game": "Snowboard Slalom",
         "included_mechanics": [
             {
                 "name": "Achieve",
@@ -208,8 +208,8 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
-        "game": "**Lotus Focus**",
+        "system": "Wii Fit",
+        "game": "Lotus Focus",
         "included_mechanics": [
             {
                 "name": "Achieve",
@@ -219,17 +219,13 @@
         "excluded_or_uncertain": [
             {
                 "name": "Move",
-                "explanation": "Відсутність руху є ціллю, тому активного керування рухом немає."
-            },
-            {
-                "name": "Всі інші",
-                "explanation": "Не застосовуються через пасивний характер гри."
+                "explanation": "Відсутність руху є ціллю, тому активного керування рухом немає. Всі інші: Не застосовуються через пасивний характер гри."
             }
         ]
     },
     {
-        "system": "**Wii Fit**",
-        "game": "**Perfect 10**",
+        "system": "Wii Fit",
+        "game": "Perfect 10",
         "included_mechanics": [
             {
                 "name": "Achieve",
@@ -256,8 +252,8 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
-        "game": "**Rhythm Kung Fu**",
+        "system": "Wii Fit",
+        "game": "Rhythm Kung Fu",
         "included_mechanics": [
             {
                 "name": "Achieve",
@@ -280,8 +276,8 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
-        "game": "**Bird's-Eye Bull's-Eye**",
+        "system": "Wii Fit",
+        "game": "Bird's-Eye Bull's-Eye",
         "included_mechanics": [
             {
                 "name": "Achieve",
@@ -308,8 +304,8 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
-        "game": "**Snowball Fight**",
+        "system": "Wii Fit",
+        "game": "Snowball Fight",
         "included_mechanics": [
             {
                 "name": "Avoid",
@@ -340,8 +336,8 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
-        "game": "**Obstacle Course**",
+        "system": "Wii Fit",
+        "game": "Obstacle Course",
         "included_mechanics": [
             {
                 "name": "Avoid",
@@ -364,8 +360,8 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
-        "game": "**Tilt City**",
+        "system": "Wii Fit",
+        "game": "Tilt City",
         "included_mechanics": [
             {
                 "name": "Achieve",
@@ -384,8 +380,8 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
-        "game": "**Trampoline Target**",
+        "system": "Wii Fit",
+        "game": "Trampoline Target",
         "included_mechanics": [
             {
                 "name": "Achieve",
@@ -404,8 +400,8 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
-        "game": "**Ultimate Obstacle Course**",
+        "system": "Wii Fit",
+        "game": "Ultimate Obstacle Course",
         "included_mechanics": [
             {
                 "name": "Avoid",
@@ -428,8 +424,8 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
-        "game": "**Core Luge**",
+        "system": "Wii Fit",
+        "game": "Core Luge",
         "included_mechanics": [
             {
                 "name": "Avoid",
@@ -452,8 +448,8 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
-        "game": "**Hosedown**",
+        "system": "Wii Fit",
+        "game": "Hosedown",
         "included_mechanics": [
             {
                 "name": "Destroy",
@@ -461,7 +457,7 @@
             },
             {
                 "name": "Shoot",
-                "explanation": "Гравець \"вистрілюючи водою по наближаються цілям\", що є запуском снаряда.<br**Move**: Крок на баланс-борді для вистрілювання, що є формою керування дією. Прицілювання через Wii U GamePad."
+                "explanation": "Гравець \"вистрілюючи водою по наближаються цілям\", що є запуском снаряда.<brMove: Крок на баланс-борді для вистрілювання, що є формою керування дією. Прицілювання через Wii U GamePad."
             },
             {
                 "name": "Move",
@@ -480,8 +476,8 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
-        "game": "**Scuba Search**",
+        "system": "Wii Fit",
+        "game": "Scuba Search",
         "included_mechanics": [
             {
                 "name": "Destroy",
@@ -508,8 +504,8 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
-        "game": "**Climbing**",
+        "system": "Wii Fit",
+        "game": "Climbing",
         "included_mechanics": [
             {
                 "name": "Achieve",
@@ -532,8 +528,8 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
-        "game": "**Dessert Course**",
+        "system": "Wii Fit",
+        "game": "Dessert Course",
         "included_mechanics": [
             {
                 "name": "Achieve",
@@ -560,8 +556,8 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
-        "game": "**Big Top Juggling**",
+        "system": "Wii Fit",
+        "game": "Big Top Juggling",
         "included_mechanics": [
             {
                 "name": "Avoid",
@@ -588,8 +584,8 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
-        "game": "**Skateboard Arena**",
+        "system": "Wii Fit",
+        "game": "Skateboard Arena",
         "included_mechanics": [
             {
                 "name": "Achieve",
@@ -612,8 +608,8 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
-        "game": "**Table Tilt Plus**",
+        "system": "Wii Fit",
+        "game": "Table Tilt Plus",
         "included_mechanics": [
             {
                 "name": "Achieve",
@@ -636,8 +632,8 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
-        "game": "**Balance Bubble Plus**",
+        "system": "Wii Fit",
+        "game": "Balance Bubble Plus",
         "included_mechanics": [
             {
                 "name": "Avoid",
@@ -664,8 +660,8 @@
         ]
     },
     {
-        "system": "**PlankPad**",
-        "game": "**Fruit Slicer**",
+        "system": "PlankPad",
+        "game": "Fruit Slicer",
         "included_mechanics": [
             {
                 "name": "Destroy",
@@ -688,8 +684,8 @@
         ]
     },
     {
-        "system": "**PlankPad**",
-        "game": "**Hopper**",
+        "system": "PlankPad",
+        "game": "Hopper",
         "included_mechanics": [
             {
                 "name": "Achieve",
@@ -712,8 +708,8 @@
         ]
     },
     {
-        "system": "**PlankPad**",
-        "game": "**Stix & Stones**",
+        "system": "PlankPad",
+        "game": "Stix & Stones",
         "included_mechanics": [
             {
                 "name": "Avoid",
@@ -736,8 +732,8 @@
         ]
     },
     {
-        "system": "**PlankPad**",
-        "game": "**Meteor Madness**",
+        "system": "PlankPad",
+        "game": "Meteor Madness",
         "included_mechanics": [
             {
                 "name": "Destroy",
@@ -760,8 +756,8 @@
         ]
     },
     {
-        "system": "**PlankPad**",
-        "game": "**Candy Monster**",
+        "system": "PlankPad",
+        "game": "Candy Monster",
         "included_mechanics": [
             {
                 "name": "Destroy",
@@ -784,8 +780,8 @@
         ]
     },
     {
-        "system": "**PlankPad**",
-        "game": "**Duck Shoot**",
+        "system": "PlankPad",
+        "game": "Duck Shoot",
         "included_mechanics": [
             {
                 "name": "Achieve",
@@ -808,8 +804,8 @@
         ]
     },
     {
-        "system": "**PlankPad**",
-        "game": "**Snow Cruisin**",
+        "system": "PlankPad",
+        "game": "Snow Cruisin",
         "included_mechanics": [
             {
                 "name": "Avoid",
@@ -832,8 +828,8 @@
         ]
     },
     {
-        "system": "**PlankPad**",
-        "game": "**Pong Goal**",
+        "system": "PlankPad",
+        "game": "Pong Goal",
         "included_mechanics": [
             {
                 "name": "Achieve",
@@ -851,13 +847,17 @@
             },
             {
                 "name": "Avoid",
-                "explanation": "Уникнення пропуску м'яча є частиною механіки Achieve (утримання)."
+                "explanation": "Уникнення пропуску м'яча є частиною механіки"
+            },
+            {
+                "name": "Achieve",
+                "explanation": "(утримання)."
             }
         ]
     },
     {
-        "system": "**PlankPad**",
-        "game": "**Wave Rider**",
+        "system": "PlankPad",
+        "game": "Wave Rider",
         "included_mechanics": [
             {
                 "name": "Avoid",
@@ -880,8 +880,8 @@
         ]
     },
     {
-        "system": "**PlankPad**",
-        "game": "**Gift Rush**",
+        "system": "PlankPad",
+        "game": "Gift Rush",
         "included_mechanics": [
             {
                 "name": "Achieve",
@@ -900,8 +900,8 @@
         ]
     },
     {
-        "system": "**BoBo Balance**",
-        "game": "**Crazy Snowboard**",
+        "system": "BoBo Balance",
+        "game": "Crazy Snowboard",
         "included_mechanics": [
             {
                 "name": "Destroy",
@@ -924,8 +924,8 @@
         ]
     },
     {
-        "system": "**BoBo Balance**",
-        "game": "**Color Tunnel**",
+        "system": "BoBo Balance",
+        "game": "Color Tunnel",
         "included_mechanics": [
             {
                 "name": "Avoid",
@@ -948,8 +948,8 @@
         ]
     },
     {
-        "system": "**BoBo Balance**",
-        "game": "**Space Ball**",
+        "system": "BoBo Balance",
+        "game": "Space Ball",
         "included_mechanics": [
             {
                 "name": "Avoid",
@@ -972,8 +972,8 @@
         ]
     },
     {
-        "system": "**BoBo Balance**",
-        "game": "**Car**",
+        "system": "BoBo Balance",
+        "game": "Car",
         "included_mechanics": [
             {
                 "name": "Avoid",
@@ -996,8 +996,8 @@
         ]
     },
     {
-        "system": "**BoBo Balance**",
-        "game": "**Mini Golf**",
+        "system": "BoBo Balance",
+        "game": "Mini Golf",
         "included_mechanics": [
             {
                 "name": "Avoid",
@@ -1020,8 +1020,8 @@
         ]
     },
     {
-        "system": "**BoBo Balance**",
-        "game": "**Maze**",
+        "system": "BoBo Balance",
+        "game": "Maze",
         "included_mechanics": [
             {
                 "name": "Achieve",
@@ -1044,8 +1044,8 @@
         ]
     },
     {
-        "system": "**BoBo Balance**",
-        "game": "**Fall Down**",
+        "system": "BoBo Balance",
+        "game": "Fall Down",
         "included_mechanics": [
             {
                 "name": "Achieve",
@@ -1059,7 +1059,11 @@
         "excluded_or_uncertain": [
             {
                 "name": "Avoid",
-                "explanation": "Механіка гри - не уникати об'єктів, а постійно рухатися вниз. Це більше підпадає під `Achieve` (утримання)."
+                "explanation": "Механіка гри - не уникати об'єктів, а постійно рухатися вниз. Це більше підпадає під `"
+            },
+            {
+                "name": "Achieve",
+                "explanation": "` (утримання)."
             },
             {
                 "name": "Destroy",
@@ -1068,8 +1072,8 @@
         ]
     },
     {
-        "system": "**BoBo Balance**",
-        "game": "**Candy Rex**",
+        "system": "BoBo Balance",
+        "game": "Candy Rex",
         "included_mechanics": [
             {
                 "name": "Destroy",
@@ -1092,8 +1096,8 @@
         ]
     },
     {
-        "system": "**BoBo Balance**",
-        "game": "**Ice Adventure**",
+        "system": "BoBo Balance",
+        "game": "Ice Adventure",
         "included_mechanics": [
             {
                 "name": "Destroy",
@@ -1111,13 +1115,17 @@
         "excluded_or_uncertain": [
             {
                 "name": "Avoid",
-                "explanation": "Уникнення падіння є частиною механіки `Achieve` (утримання)."
+                "explanation": "Уникнення падіння є частиною механіки `"
+            },
+            {
+                "name": "Achieve",
+                "explanation": "` (утримання)."
             }
         ]
     },
     {
-        "system": "**BoBo Balance**",
-        "game": "**Submarine**",
+        "system": "BoBo Balance",
+        "game": "Submarine",
         "included_mechanics": [
             {
                 "name": "Avoid",
@@ -1140,8 +1148,8 @@
         ]
     },
     {
-        "system": "**BoBo Balance**",
-        "game": "**Harvest Rush**",
+        "system": "BoBo Balance",
+        "game": "Harvest Rush",
         "included_mechanics": [
             {
                 "name": "Avoid",
@@ -1164,8 +1172,8 @@
         ]
     },
     {
-        "system": "**BoBo Balance**",
-        "game": "**Tetromino**",
+        "system": "BoBo Balance",
+        "game": "Tetromino",
         "included_mechanics": [
             {
                 "name": "Avoid",

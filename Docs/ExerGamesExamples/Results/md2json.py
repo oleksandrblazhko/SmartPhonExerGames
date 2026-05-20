@@ -7,6 +7,24 @@ from typing import List, Dict
 
 
 # ============================================
+# Константи
+# ============================================
+
+ALL_MECHANICS = [
+    "Move",
+    "Avoid",
+    "Destroy",
+    "Achieve",
+    "Shoot",
+    "Manage",
+    "Create",
+    "Select",
+    "Random",
+    "Write"
+]
+
+
+# ============================================
 # Data Classes
 # ============================================
 
@@ -46,13 +64,6 @@ def clean_text(text: str) -> str:
 def normalize_mechanic_name(name: str) -> str:
     """
     Нормалізація назви механіки.
-
-    Прибирає:
-    - *
-    - **
-    - ***
-    - `
-    - зайві пробіли
     """
 
     if not name:
@@ -85,34 +96,61 @@ def split_mechanics(mechanics_str: str) -> List[str]:
     ]
 
 
-def parse_explanations(text: str) -> Dict[str, str]:
+def parse_explanations(
+    text: str,
+    mechanics: List[str]
+) -> Dict[str, str]:
     """
-    Парсинг пояснень виду:
+    Парсинг пояснень механік.
 
-    **Move**: text
-    **Avoid**: text
-    `Destroy`: text
-    *Manage*: text
+    Працює з форматами:
+    - Move: text
+    - **Move**: text
+    - Move confirmed ...
+    - Move підтверджено ...
     """
 
     if not text:
         return {}
 
-    text = text.replace("<br>", "\n")
-
-    pattern = re.compile(
-        r"\*\*(.*?)\*\*\s*:\s*(.*?)(?=\n\s*\*\*.*?\*\*\s*:|$)",
-        re.DOTALL
-    )
+    text = clean_text(text)
 
     result = {}
 
+    # сортуємо за довжиною
+    # щоб уникнути часткових збігів
+    mechanics = sorted(
+        mechanics,
+        key=len,
+        reverse=True
+    )
+
+    escaped = [
+        re.escape(m)
+        for m in mechanics
+    ]
+
+    mechanics_pattern = "|".join(escaped)
+
+    pattern = re.compile(
+        rf'\b({mechanics_pattern})\b(.*?)(?=\b({mechanics_pattern})\b|$)',
+        re.DOTALL | re.IGNORECASE
+    )
+
     matches = pattern.findall(text)
 
-    for mechanic, explanation in matches:
+    for mechanic, explanation, _ in matches:
 
         mechanic = normalize_mechanic_name(mechanic)
+
         explanation = clean_text(explanation)
+
+        # прибираємо зайві розділювачі
+        explanation = re.sub(
+            r"^[:\-–—\s]+",
+            "",
+            explanation
+        )
 
         result[mechanic] = explanation
 
@@ -181,15 +219,22 @@ def parse_markdown_table(md_text: str) -> List[GameRow]:
             clean_text(columns[2])
         )
 
+        # included explanations
         included_explanations = parse_explanations(
-            columns[3]
+            columns[3],
+            mechanics
         )
 
+        # excluded explanations
         excluded_explanations = parse_explanations(
-            columns[4]
+            columns[4],
+            ALL_MECHANICS
         )
 
+        # ====================================
         # included mechanics
+        # ====================================
+
         included_mechanics = []
 
         used_mechanics = set()
@@ -222,7 +267,10 @@ def parse_markdown_table(md_text: str) -> List[GameRow]:
                     )
                 )
 
+        # ====================================
         # excluded mechanics
+        # ====================================
+
         excluded_mechanics = []
 
         for mechanic, explanation in excluded_explanations.items():

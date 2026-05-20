@@ -5,18 +5,31 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "гравець зміщує тіло для позиціонування під м’ячем;"
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "потрібно уникати сторонніх літаючих об’єктів;"
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "ціль полягає у підтриманні серії влучань та наборі максимальної кількості очок."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Destroy",
+                "explanation": "не підтверджено, оскільки м’ячі не усуваються як ігрові цілі."
+            },
+            {
+                "name": "Shoot",
+                "explanation": "відсутній — немає запуску снарядів гравцем."
+            },
+            {
+                "name": "Manage",
+                "explanation": "відсутній — серії очок не є ресурсом у формальному сенсі Gameplay Bricks."
+            }
+        ]
     },
     {
         "system": "Wii Fit",
@@ -24,18 +37,27 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "керування лижником через нахили;"
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "потрібно пройти всі ворота траси;"
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "необхідно уникати пропуску воріт через штраф часу."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Destroy",
+                "explanation": "відсутній — відсутнє збирання або усунення об’єктів."
+            },
+            {
+                "name": "Manage",
+                "explanation": "не підтверджено — штрафний час не є ресурсом, який гравець розподіляє."
+            }
+        ]
     },
     {
         "system": "Wii Fit",
@@ -43,14 +65,23 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "нахил платформи змінює рух кульок;"
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "кульки потрібно провести до цільових отворів."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Avoid",
+                "explanation": "не підтверджено — перешкоди не описані як загрози."
+            },
+            {
+                "name": "Destroy",
+                "explanation": "сумнівний: кульки не збираються і не усуваються як об’єкти колекціонування."
+            }
+        ]
     },
     {
         "system": "Wii Fit",
@@ -58,14 +89,31 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "контроль швидкості та рівноваги тілом;"
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "мета — досягти максимальної дистанції стрибка."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Avoid",
+                "explanation": ","
+            },
+            {
+                "name": "Destroy",
+                "explanation": ","
+            },
+            {
+                "name": "Shoot",
+                "explanation": "відсутні."
+            },
+            {
+                "name": "Manage",
+                "explanation": "не підтверджено — кількість спроб не управляється гравцем як ресурс."
+            }
+        ]
     },
     {
         "system": "Wii Fit",
@@ -73,18 +121,23 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "крокування і стрибки контролюють просування;"
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "необхідно уникати щелеп, вітру та інших перешкод;"
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "потрібно пройти канат до кінця."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Destroy",
+                "explanation": "не підтверджено — перешкоди не усуваються."
+            }
+        ]
     },
     {
         "system": "Wii Fit",
@@ -92,18 +145,27 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "керування бульбашкою через нахили;"
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "потрібно уникати стін, бджіл та інших об’єктів;"
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "провести Mii до кінця річки."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Destroy",
+                "explanation": "не підтверджено."
+            },
+            {
+                "name": "Manage",
+                "explanation": "відсутній — немає контрольованих ресурсів."
+            }
+        ]
     },
     {
         "system": "Wii Fit",
@@ -111,18 +173,23 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "нахили керують кригою;"
             },
             {
                 "name": "Destroy",
-                "explanation": ""
+                "explanation": "риба збирається як об’єкти колекціонування;"
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "набір очок через ловлю риби."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Avoid",
+                "explanation": "лише частково: падіння у воду існує, але не сформульоване як основна ціль уникнення."
+            }
+        ]
     },
     {
         "system": "Wii Fit",
@@ -130,14 +197,19 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "керування сноубордом нахилами;"
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "проходження визначених воріт курсу."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Avoid",
+                "explanation": "сумнівний — відсутні явні небезпечні об’єкти або покарання за зіткнення."
+            }
+        ]
     },
     {
         "system": "Wii Fit",
@@ -145,10 +217,27 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "необхідно підтримувати стабільний стан нерухомості протягом часу."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Move",
+                "explanation": "відсутній — механіка базується саме на мінімізації руху."
+            },
+            {
+                "name": "Avoid",
+                "explanation": ","
+            },
+            {
+                "name": "Destroy",
+                "explanation": ","
+            },
+            {
+                "name": "Manage",
+                "explanation": "не підтверджені."
+            }
+        ]
     },
     {
         "system": "Wii Fit",
@@ -156,18 +245,23 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "переміщення персонажа через нахили;"
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "потрібно досягти точної цільової суми;"
             },
             {
                 "name": "Destroy",
-                "explanation": ""
+                "explanation": "грибочки збираються/активуються для зміни значення."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Select",
+                "explanation": "не підтверджено — немає дискретного вибору елементів."
+            }
+        ]
     },
     {
         "system": "Wii Fit",
@@ -175,14 +269,19 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "виконання ритмічних рухів руками й ногами;"
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "правильне відтворення патернів для отримання очок."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Destroy",
+                "explanation": "відсутній — удари не описані як усунення цілей."
+            }
+        ]
     },
     {
         "system": "Wii Fit",
@@ -190,14 +289,19 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "махання руками та балансування забезпечують політ;"
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "приземлення на цілі для продовження гри."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Avoid",
+                "explanation": "не підтверджено — перешкоди не описані."
+            }
+        ]
     },
     {
         "system": "Wii Fit",
@@ -205,30 +309,35 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "переміщення балансом;"
             },
             {
                 "name": "Shoot",
-                "explanation": ""
+                "explanation": "гравець кидає сніжки;"
             },
             {
                 "name": "Destroy",
-                "explanation": ""
+                "explanation": "Miis і сніговики усуваються попаданнями;"
             },
             {
                 "name": "Manage",
-                "explanation": ""
+                "explanation": "система життів виступає ресурсом;"
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "потрібно уникати ворожих сніжок;"
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "вижити та набрати результат."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Select",
+                "explanation": "відсутній — прицілювання не є окремим вибором об’єкта без снаряда."
+            }
+        ]
     },
     {
         "system": "Wii Fit",
@@ -236,18 +345,23 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "біг і стрибки;"
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "необхідно уникати перешкод;"
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "пройти курс до кінця."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Destroy",
+                "explanation": "відсутній."
+            }
+        ]
     },
     {
         "system": "Wii Fit",
@@ -255,18 +369,23 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "керування нахилом і переміщенням кульок;"
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "доставлення кульок у відповідні труби;"
             },
             {
                 "name": "Destroy",
-                "explanation": ""
+                "explanation": "кульки фактично вилучаються з поля після потрапляння у труби."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Avoid",
+                "explanation": "не підтверджено."
+            }
+        ]
     },
     {
         "system": "Wii Fit",
@@ -274,14 +393,27 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "контроль стрибків і балансу;"
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "досягнення максимальної висоти."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Avoid",
+                "explanation": ","
+            },
+            {
+                "name": "Destroy",
+                "explanation": ","
+            },
+            {
+                "name": "Manage",
+                "explanation": "відсутні."
+            }
+        ]
     },
     {
         "system": "Wii Fit",
@@ -289,18 +421,23 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "рух у різних напрямках;"
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "уникнення перешкод;"
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "проходження курсу за мінімальний час."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Destroy",
+                "explanation": "відсутній."
+            }
+        ]
     },
     {
         "system": "Wii Fit",
@@ -308,18 +445,23 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "керування санчатами через нахили;"
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "необхідно утримуватись на трасі;"
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "завершити спуск швидко та без помилок."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Manage",
+                "explanation": "не підтверджено — швидкість не є окремим ресурсом."
+            }
+        ]
     },
     {
         "system": "Wii Fit",
@@ -327,26 +469,31 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "позиціонування персонажа;"
             },
             {
                 "name": "Shoot",
-                "explanation": ""
+                "explanation": "стрільба водою;"
             },
             {
                 "name": "Destroy",
-                "explanation": ""
+                "explanation": "вороги усуваються водою;"
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "необхідно не допустити наближення ворогів;"
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "оборона позиції."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Manage",
+                "explanation": "не підтверджено — боєзапас не описаний."
+            }
+        ]
     },
     {
         "system": "Wii Fit",
@@ -354,22 +501,27 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "плавання та навігація;"
             },
             {
                 "name": "Destroy",
-                "explanation": ""
+                "explanation": "збір риби та скарбів;"
             },
             {
                 "name": "Manage",
-                "explanation": ""
+                "explanation": "кисень є обмеженим ресурсом;"
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "зібрати об’єкти до завершення часу."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Avoid",
+                "explanation": "частково — згадані перешкоди, але без деталізації їх ролі."
+            }
+        ]
     },
     {
         "system": "Wii Fit",
@@ -377,18 +529,23 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "лазіння руками;"
             },
             {
                 "name": "Manage",
-                "explanation": ""
+                "explanation": "витривалість є ресурсом, який потрібно контролювати;"
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "дістатися вершини."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Avoid",
+                "explanation": "не підтверджено — падіння є наслідком виснаження, а не окремою ціллю уникнення."
+            }
+        ]
     },
     {
         "system": "Wii Fit",
@@ -396,18 +553,23 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "пересування з підносом;"
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "уникнення зіткнень та втрати балансу;"
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "доставка десертів клієнтам."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Manage",
+                "explanation": "частково: є часовий ліміт, але відсутній активний розподіл ресурсу гравцем."
+            }
+        ]
     },
     {
         "system": "Wii Fit",
@@ -415,18 +577,23 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "балансування та жонглювання;"
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "необхідно уникати бомб;"
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "підтримка серій жонглювання та набору очок."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Destroy",
+                "explanation": "не підтверджено — м’ячі не усуваються."
+            }
+        ]
     },
     {
         "system": "Wii Fit",
@@ -434,14 +601,19 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "повороти, поштовхи та стрибки на скейтборді;"
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "виконання трюків і набір очок."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Avoid",
+                "explanation": "не підтверджено — перешкоди не описані."
+            }
+        ]
     },
     {
         "system": "Wii Fit",
@@ -449,18 +621,23 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "нахил платформи керує кульками;"
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "доставлення кульок у слоти;"
             },
             {
                 "name": "Manage",
-                "explanation": ""
+                "explanation": "час є відновлюваним ресурсом через бонусні секунди."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Destroy",
+                "explanation": "сумнівний — кульки не описані як об’єкти усунення."
+            }
+        ]
     },
     {
         "system": "Wii Fit",
@@ -468,22 +645,27 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "навігація нахилами;"
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "уникнення стін і бджіл;"
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "пройти дистанцію;"
             },
             {
                 "name": "Manage",
-                "explanation": ""
+                "explanation": "обмеження у 2 хвилини створює ресурс часу."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Destroy",
+                "explanation": "відсутній."
+            }
+        ]
     },
     {
         "system": "PlankPad",
@@ -491,18 +673,23 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "переміщення ніндзя нахилами;"
             },
             {
                 "name": "Destroy",
-                "explanation": ""
+                "explanation": "фрукти розрізаються;"
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "отримання результату через знищення фруктів."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Avoid",
+                "explanation": "не підтверджено — загрози не описані."
+            }
+        ]
     },
     {
         "system": "PlankPad",
@@ -510,18 +697,23 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "керування жабою нахилами;"
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "просування по листю;"
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "необхідно не впасти у воду."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Destroy",
+                "explanation": "відсутній."
+            }
+        ]
     },
     {
         "system": "PlankPad",
@@ -529,18 +721,23 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "керування велосипедом;"
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "ухилення від перешкод;"
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "продовження руху трасою."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Destroy",
+                "explanation": "відсутній."
+            }
+        ]
     },
     {
         "system": "PlankPad",
@@ -548,26 +745,31 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "керування кораблем;"
             },
             {
                 "name": "Shoot",
-                "explanation": ""
+                "explanation": "стрільба по метеоритах;"
             },
             {
                 "name": "Destroy",
-                "explanation": ""
+                "explanation": "метеорити знищуються;"
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "потрібно уникати зіткнення;"
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "виживання та усунення загроз."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Manage",
+                "explanation": "не підтверджено — боєзапас не описаний."
+            }
+        ]
     },
     {
         "system": "PlankPad",
@@ -575,18 +777,23 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "переміщення монстра;"
             },
             {
                 "name": "Destroy",
-                "explanation": ""
+                "explanation": "їжа збирається як об’єкти колекціонування;"
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "ловля їжі для результату."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Avoid",
+                "explanation": "відсутній."
+            }
+        ]
     },
     {
         "system": "PlankPad",
@@ -594,18 +801,23 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "керування прицілом;"
             },
             {
                 "name": "Shoot",
-                "explanation": ""
+                "explanation": "здійснення пострілу після утримання цілі;"
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "влучення в качок."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Destroy",
+                "explanation": "частково — качки не описані як усунені об’єкти після пострілу."
+            }
+        ]
     },
     {
         "system": "PlankPad",
@@ -613,18 +825,23 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "зміна швидкості лижника;"
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "ухилення від перешкод;"
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "проходження траси."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Destroy",
+                "explanation": "відсутній."
+            }
+        ]
     },
     {
         "system": "PlankPad",
@@ -632,14 +849,19 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "переміщення ракетки;"
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "утримання м’яча в грі через відбиття."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Avoid",
+                "explanation": "частково — механіка уникнення виходу м’яча за межі поля присутня неявно."
+            }
+        ]
     },
     {
         "system": "PlankPad",
@@ -647,18 +869,23 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "контроль швидкості серфера;"
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "ухилення від перешкод;"
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "продовження проходження траси."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Destroy",
+                "explanation": "відсутній."
+            }
+        ]
     },
     {
         "system": "PlankPad",
@@ -666,18 +893,23 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "переміщення подарунків;"
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "доставлення у відповідні мішки;"
             },
             {
                 "name": "Select",
-                "explanation": ""
+                "explanation": "гравець фактично виконує сортування за типами подарунків."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Destroy",
+                "explanation": "не підтверджено — подарунки не усуваються як цілі."
+            }
+        ]
     },
     {
         "system": "BoBo Balance",
@@ -685,22 +917,31 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "керування сноубордистом;"
             },
             {
                 "name": "Destroy",
-                "explanation": ""
+                "explanation": "збір фігурок і бонусів;"
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "набір очок;"
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "необхідно не втрачати контроль на схилі."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Shoot",
+                "explanation": ","
+            },
+            {
+                "name": "Manage",
+                "explanation": "відсутні."
+            }
+        ]
     },
     {
         "system": "BoBo Balance",
@@ -708,18 +949,23 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "керування кораблем;"
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "ухилення від кристалів;"
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "просування тунелем."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Destroy",
+                "explanation": "відсутній."
+            }
+        ]
     },
     {
         "system": "BoBo Balance",
@@ -727,18 +973,23 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "нахили керують платформою;"
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "проходження повз перешкоди;"
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "довести кульку до фінішу."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Destroy",
+                "explanation": "відсутній."
+            }
+        ]
     },
     {
         "system": "BoBo Balance",
@@ -746,22 +997,27 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "керування автомобілем у 4 напрямках;"
             },
             {
                 "name": "Destroy",
-                "explanation": ""
+                "explanation": "збір монет;"
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "уникнення мін;"
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "проходження дороги з максимальним результатом."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Shoot",
+                "explanation": "відсутній."
+            }
+        ]
     },
     {
         "system": "BoBo Balance",
@@ -769,18 +1025,23 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "контроль кульки балансом;"
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "забити кульку в лунку;"
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "уникнення перешкод поля."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Destroy",
+                "explanation": "не підтверджено."
+            }
+        ]
     },
     {
         "system": "BoBo Balance",
@@ -788,18 +1049,23 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "керування кулькою;"
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "дістатися чорної діри;"
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "уникнення падіння або помилкових шляхів у лабіринті."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Destroy",
+                "explanation": "відсутній."
+            }
+        ]
     },
     {
         "system": "BoBo Balance",
@@ -807,18 +1073,23 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "нахили платформи;"
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "не дозволити кульці торкнутися верхньої межі;"
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "підтримувати безперервне падіння."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Destroy",
+                "explanation": "відсутній."
+            }
+        ]
     },
     {
         "system": "BoBo Balance",
@@ -826,22 +1097,27 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "керування динозавром;"
             },
             {
                 "name": "Destroy",
-                "explanation": ""
+                "explanation": "збір цукерок;"
             },
             {
                 "name": "Manage",
-                "explanation": ""
+                "explanation": "таймер збільшується через цукерки, отже час є ресурсом;"
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "підтримання гри через збір предметів."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Avoid",
+                "explanation": "не підтверджено."
+            }
+        ]
     },
     {
         "system": "BoBo Balance",
@@ -849,22 +1125,27 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "керування гойдалкою;"
             },
             {
                 "name": "Destroy",
-                "explanation": ""
+                "explanation": "розбивання яєць;"
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "не дати кульці впасти;"
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "очищення рівня через розбиття цілей."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Manage",
+                "explanation": "відсутній."
+            }
+        ]
     },
     {
         "system": "BoBo Balance",
@@ -872,22 +1153,27 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "керування підводним човном;"
             },
             {
                 "name": "Destroy",
-                "explanation": ""
+                "explanation": "збір монет;"
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "уникнення мін;"
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "просування світом."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Shoot",
+                "explanation": "не підтверджено."
+            }
+        ]
     },
     {
         "system": "BoBo Balance",
@@ -895,22 +1181,27 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "керування комбайном;"
             },
             {
                 "name": "Destroy",
-                "explanation": ""
+                "explanation": "зрізання культур як усунення об’єктів;"
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "уникнення перешкод;"
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "очищення поля."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Manage",
+                "explanation": "не підтверджено — врожай не є ресурсом управління."
+            }
+        ]
     },
     {
         "system": "BoBo Balance",
@@ -918,17 +1209,22 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": ""
+                "explanation": "керування персонажем нахилами;"
             },
             {
                 "name": "Avoid",
-                "explanation": ""
+                "explanation": "ухилення від падаючих фігур;"
             },
             {
                 "name": "Achieve",
-                "explanation": ""
+                "explanation": "виживання якомога довше."
             }
         ],
-        "excluded_or_uncertain": []
+        "excluded_or_uncertain": [
+            {
+                "name": "Destroy",
+                "explanation": "відсутній — тетроміно не усуваються гравцем."
+            }
+        ]
     }
 ]

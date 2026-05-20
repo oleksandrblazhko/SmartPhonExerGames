@@ -1,6 +1,6 @@
 [
     {
-        "system": "**Wii Fit**",
+        "system": "Wii Fit",
         "game": "Soccer Heading",
         "included_mechanics": [
             {
@@ -28,7 +28,7 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
+        "system": "Wii Fit",
         "game": "Ski Slalom",
         "included_mechanics": [
             {
@@ -52,7 +52,7 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
+        "system": "Wii Fit",
         "game": "Table Tilt",
         "included_mechanics": [
             {
@@ -72,7 +72,7 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
+        "system": "Wii Fit",
         "game": "Ski Jump",
         "included_mechanics": [
             {
@@ -92,7 +92,7 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
+        "system": "Wii Fit",
         "game": "Tightrope Walk",
         "included_mechanics": [
             {
@@ -116,7 +116,7 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
+        "system": "Wii Fit",
         "game": "Balance Bubble",
         "included_mechanics": [
             {
@@ -140,7 +140,7 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
+        "system": "Wii Fit",
         "game": "Penguin Slide",
         "included_mechanics": [
             {
@@ -160,7 +160,7 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
+        "system": "Wii Fit",
         "game": "Snowboard Slalom",
         "included_mechanics": [
             {
@@ -180,7 +180,7 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
+        "system": "Wii Fit",
         "game": "Lotus Focus",
         "included_mechanics": [
             {
@@ -191,16 +191,12 @@
         "excluded_or_uncertain": [
             {
                 "name": "Move",
-                "explanation": "Гра не передбачає керованого руху, а навпаки, його відсутність."
-            },
-            {
-                "name": "All Others",
-                "explanation": "Інші механіки відсутні, оскільки гра фокусується виключно на статичній рівновазі."
+                "explanation": "Гра не передбачає керованого руху, а навпаки, його відсутність. All Others: Інші механіки відсутні, оскільки гра фокусується виключно на статичній рівновазі."
             }
         ]
     },
     {
-        "system": "**Wii Fit**",
+        "system": "Wii Fit",
         "game": "Perfect 10",
         "included_mechanics": [
             {
@@ -224,7 +220,7 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
+        "system": "Wii Fit",
         "game": "Rhythm Kung Fu",
         "included_mechanics": [
             {
@@ -244,7 +240,7 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
+        "system": "Wii Fit",
         "game": "Bird's-Eye Bull's-Eye",
         "included_mechanics": [
             {
@@ -268,7 +264,7 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
+        "system": "Wii Fit",
         "game": "Snowball Fight",
         "included_mechanics": [
             {
@@ -300,7 +296,7 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
+        "system": "Wii Fit",
         "game": "Obstacle Course",
         "included_mechanics": [
             {
@@ -324,7 +320,7 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
+        "system": "Wii Fit",
         "game": "Tilt City",
         "included_mechanics": [
             {
@@ -348,7 +344,7 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
+        "system": "Wii Fit",
         "game": "Trampoline Target",
         "included_mechanics": [
             {
@@ -368,12 +364,12 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
+        "system": "Wii Fit",
         "game": "Ultimate Obstacle Course",
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "Мета - \"прокласти собі шлях через випробувальний курс якнайшвидше\".<br**Avoid**: Курс містить перешкоди, які потрібно уникати."
+                "explanation": "Мета - \"прокласти собі шлях через випробувальний курс якнайшвидше\".<brAvoid: Курс містить перешкоди, які потрібно уникати."
             },
             {
                 "name": "Avoid",
@@ -392,7 +388,7 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
+        "system": "Wii Fit",
         "game": "Core Luge",
         "included_mechanics": [
             {
@@ -416,7 +412,7 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
+        "system": "Wii Fit",
         "game": "Hosedown",
         "included_mechanics": [
             {
@@ -440,7 +436,7 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
+        "system": "Wii Fit",
         "game": "Scuba Search",
         "included_mechanics": [
             {
@@ -464,7 +460,7 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
+        "system": "Wii Fit",
         "game": "Climbing",
         "included_mechanics": [
             {
@@ -492,7 +488,7 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
+        "system": "Wii Fit",
         "game": "Dessert Course",
         "included_mechanics": [
             {
@@ -520,7 +516,7 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
+        "system": "Wii Fit",
         "game": "Big Top Juggling",
         "included_mechanics": [
             {
@@ -544,7 +540,7 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
+        "system": "Wii Fit",
         "game": "Skateboard Arena",
         "included_mechanics": [
             {
@@ -568,7 +564,7 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
+        "system": "Wii Fit",
         "game": "Table Tilt Plus",
         "included_mechanics": [
             {
@@ -592,7 +588,7 @@
         ]
     },
     {
-        "system": "**Wii Fit**",
+        "system": "Wii Fit",
         "game": "Balance Bubble Plus",
         "included_mechanics": [
             {
@@ -620,7 +616,7 @@
         ]
     },
     {
-        "system": "**PlankPad**",
+        "system": "PlankPad",
         "game": "Fruit Slicer",
         "included_mechanics": [
             {
@@ -640,7 +636,7 @@
         ]
     },
     {
-        "system": "**PlankPad**",
+        "system": "PlankPad",
         "game": "Hopper",
         "included_mechanics": [
             {
@@ -660,7 +656,7 @@
         ]
     },
     {
-        "system": "**PlankPad**",
+        "system": "PlankPad",
         "game": "Stix & Stones",
         "included_mechanics": [
             {
@@ -680,7 +676,7 @@
         ]
     },
     {
-        "system": "**PlankPad**",
+        "system": "PlankPad",
         "game": "Meteor Madness",
         "included_mechanics": [
             {
@@ -708,7 +704,7 @@
         ]
     },
     {
-        "system": "**PlankPad**",
+        "system": "PlankPad",
         "game": "Candy Monster",
         "included_mechanics": [
             {
@@ -728,7 +724,7 @@
         ]
     },
     {
-        "system": "**PlankPad**",
+        "system": "PlankPad",
         "game": "Duck Shoot",
         "included_mechanics": [
             {
@@ -752,7 +748,7 @@
         ]
     },
     {
-        "system": "**PlankPad**",
+        "system": "PlankPad",
         "game": "Snow Cruisin",
         "included_mechanics": [
             {
@@ -772,7 +768,7 @@
         ]
     },
     {
-        "system": "**PlankPad**",
+        "system": "PlankPad",
         "game": "Pong Goal",
         "included_mechanics": [
             {
@@ -792,7 +788,7 @@
         ]
     },
     {
-        "system": "**PlankPad**",
+        "system": "PlankPad",
         "game": "Wave Rider",
         "included_mechanics": [
             {
@@ -812,7 +808,7 @@
         ]
     },
     {
-        "system": "**PlankPad**",
+        "system": "PlankPad",
         "game": "Gift Rush",
         "included_mechanics": [
             {
@@ -832,7 +828,7 @@
         ]
     },
     {
-        "system": "**BoBo Balance**",
+        "system": "BoBo Balance",
         "game": "Crazy Snowboard",
         "included_mechanics": [
             {
@@ -856,7 +852,7 @@
         ]
     },
     {
-        "system": "**BoBo Balance**",
+        "system": "BoBo Balance",
         "game": "Color Tunnel",
         "included_mechanics": [
             {
@@ -876,7 +872,7 @@
         ]
     },
     {
-        "system": "**BoBo Balance**",
+        "system": "BoBo Balance",
         "game": "Space Ball",
         "included_mechanics": [
             {
@@ -900,7 +896,7 @@
         ]
     },
     {
-        "system": "**BoBo Balance**",
+        "system": "BoBo Balance",
         "game": "Car",
         "included_mechanics": [
             {
@@ -919,12 +915,16 @@
         "excluded_or_uncertain": [
             {
                 "name": "Achieve",
-                "explanation": "Збір монет відноситься до Destroy, а не Achieve."
+                "explanation": "."
+            },
+            {
+                "name": "Destroy",
+                "explanation": ", а не"
             }
         ]
     },
     {
-        "system": "**BoBo Balance**",
+        "system": "BoBo Balance",
         "game": "Mini Golf",
         "included_mechanics": [
             {
@@ -948,7 +948,7 @@
         ]
     },
     {
-        "system": "**BoBo Balance**",
+        "system": "BoBo Balance",
         "game": "Maze",
         "included_mechanics": [
             {
@@ -968,7 +968,7 @@
         ]
     },
     {
-        "system": "**BoBo Balance**",
+        "system": "BoBo Balance",
         "game": "Fall Down",
         "included_mechanics": [
             {
@@ -992,7 +992,7 @@
         ]
     },
     {
-        "system": "**BoBo Balance**",
+        "system": "BoBo Balance",
         "game": "Candy Rex",
         "included_mechanics": [
             {
@@ -1016,7 +1016,7 @@
         ]
     },
     {
-        "system": "**BoBo Balance**",
+        "system": "BoBo Balance",
         "game": "Ice Adventure",
         "included_mechanics": [
             {
@@ -1040,7 +1040,7 @@
         ]
     },
     {
-        "system": "**BoBo Balance**",
+        "system": "BoBo Balance",
         "game": "Submarine",
         "included_mechanics": [
             {
@@ -1059,12 +1059,16 @@
         "excluded_or_uncertain": [
             {
                 "name": "Achieve",
-                "explanation": "Збір монет класифікується як Destroy."
+                "explanation": "Збір монет класифікується як"
+            },
+            {
+                "name": "Destroy",
+                "explanation": "."
             }
         ]
     },
     {
-        "system": "**BoBo Balance**",
+        "system": "BoBo Balance",
         "game": "Harvest Rush",
         "included_mechanics": [
             {
@@ -1083,12 +1087,16 @@
         "excluded_or_uncertain": [
             {
                 "name": "Achieve",
-                "explanation": "Збір врожаю відноситься до Destroy."
+                "explanation": "Збір врожаю відноситься до"
+            },
+            {
+                "name": "Destroy",
+                "explanation": "."
             }
         ]
     },
     {
-        "system": "**BoBo Balance**",
+        "system": "BoBo Balance",
         "game": "Tetromino",
         "included_mechanics": [
             {
