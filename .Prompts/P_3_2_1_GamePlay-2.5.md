@@ -201,5 +201,4 @@
   - або вкажи, що опис гри недостатній для підтвердження;
 - використовувати англомовні назви Gameplay Bricks.
 
-
-
+## 3) Результат збережи у файлі Docs\ExerGamesExamples\GamePlay-2.5-Results\GamePlay-2.5-Result.md
