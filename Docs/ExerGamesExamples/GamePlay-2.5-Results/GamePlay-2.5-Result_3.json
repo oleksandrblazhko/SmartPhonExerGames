@@ -5,29 +5,45 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": "гравець нахиляється на баланс-борді для переміщення аватара під траєкторію м’яча;"
+                "explanation": "гравець переміщується нахилами на баланс-борді;"
             },
             {
                 "name": "Avoid",
-                "explanation": "зіткнення з небажаними об’єктами або пропуск м’яча скидає серію очок, що є формалізованим штрафом;"
+                "explanation": "core loop побудований на уникненні сторонніх об'єктів, зіткнення скидає серію;"
             },
             {
-                "name": "Destroy",
-                "explanation": "м’яч після удару головою усувається з активної взаємодії та приносить очки"
+                "name": "Achieve",
+                "explanation": "необхідно позиціонувати голову в траєкторію м'яча;"
+            },
+            {
+                "name": "Random",
+                "explanation": "типи та траєкторії об'єктів не фіксовані."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Achieve",
-                "explanation": "немає вимоги утримувати стан або позицію;"
-            },
-            {
-                "name": "Shoot",
-                "explanation": "гравець не генерує снаряд;"
+                "name": "Destroy",
+                "explanation": "м'ячі не є загрозами, а слугують об'єктами набору очок;"
             },
             {
                 "name": "Manage",
-                "explanation": "серії очок не є витратним ресурсом"
+                "explanation": "score не витрачається;"
+            },
+            {
+                "name": "Shoot",
+                "explanation": "немає дистанційної атаки;"
+            },
+            {
+                "name": "Select",
+                "explanation": "немає UI-вибору;"
+            },
+            {
+                "name": "Create",
+                "explanation": "/"
+            },
+            {
+                "name": "Write",
+                "explanation": "відсутні."
             }
         ]
     },
@@ -37,25 +53,45 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": "гравець керує лижником нахилами та прискоренням;"
+                "explanation": "нахили керують рухом лижника;"
             },
             {
-                "name": "Avoid",
-                "explanation": "пропуск воріт дає штраф +7 секунд, тобто існує запрограмоване покарання за помилку"
+                "name": "Achieve",
+                "explanation": "проходження воріт є локальним target state, що перевіряється системою."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Achieve",
-                "explanation": "проходження воріт не вимагає утримання позиції;"
+                "name": "Avoid",
+                "explanation": "пропуск воріт карається штрафом, але не є failure state;"
+            },
+            {
+                "name": "Manage",
+                "explanation": "штрафний час не є ресурсом для витрати;"
+            },
+            {
+                "name": "Random",
+                "explanation": "курс фіксований;"
             },
             {
                 "name": "Destroy",
-                "explanation": "об’єкти не збираються і не зникають;"
+                "explanation": "/"
+            },
+            {
+                "name": "Shoot",
+                "explanation": "/"
             },
             {
                 "name": "Create",
-                "explanation": "відсутнє створення структур"
+                "explanation": "/"
+            },
+            {
+                "name": "Select",
+                "explanation": "/"
+            },
+            {
+                "name": "Write",
+                "explanation": "відсутні."
             }
         ]
     },
@@ -65,21 +101,45 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": "нахили платформи керують рухом м’ячів;"
+                "explanation": "гравець нахиляє платформу;"
             },
             {
                 "name": "Achieve",
-                "explanation": "потрібно доставити м’ячі у визначені отвори/позиції"
+                "explanation": "ціль — завести м'яч у конкретний отвір."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Destroy",
-                "explanation": "м’ячі не описані як зникаючі collectible-об’єкти;"
+                "name": "Avoid",
+                "explanation": "немає failure avoidance loop;"
             },
             {
-                "name": "Avoid",
-                "explanation": "немає формального штрафу за контакт із перешкодами"
+                "name": "Manage",
+                "explanation": "очки не витрачаються;"
+            },
+            {
+                "name": "Random",
+                "explanation": "випадковість не описана;"
+            },
+            {
+                "name": "Destroy",
+                "explanation": "/"
+            },
+            {
+                "name": "Create",
+                "explanation": "/"
+            },
+            {
+                "name": "Shoot",
+                "explanation": "/"
+            },
+            {
+                "name": "Select",
+                "explanation": "/"
+            },
+            {
+                "name": "Write",
+                "explanation": "відсутні."
             }
         ]
     },
@@ -89,21 +149,45 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": "контроль швидкості та балансу через рух тіла;"
+                "explanation": "керування швидкістю та балансом через рухи тіла;"
             },
             {
                 "name": "Achieve",
-                "explanation": "необхідно утримувати коліна у синій зоні та баланс під час стрибка для досягнення оптимального стану"
+                "explanation": "ціль — досягти максимальної дистанції та втримати баланс у фазі польоту."
             }
         ],
         "excluded_or_uncertain": [
             {
                 "name": "Avoid",
-                "explanation": "відсутні перешкоди з покаранням;"
+                "explanation": "відсутній постійний failure avoidance loop;"
+            },
+            {
+                "name": "Manage",
+                "explanation": "спроби не є витратним ресурсом;"
+            },
+            {
+                "name": "Random",
+                "explanation": "/"
             },
             {
                 "name": "Destroy",
-                "explanation": "немає збору об’єктів"
+                "explanation": "/"
+            },
+            {
+                "name": "Shoot",
+                "explanation": "/"
+            },
+            {
+                "name": "Create",
+                "explanation": "/"
+            },
+            {
+                "name": "Select",
+                "explanation": "/"
+            },
+            {
+                "name": "Write",
+                "explanation": "не підтверджені."
             }
         ]
     },
@@ -113,21 +197,45 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": "рух канатоходця через крокування та нахили;"
+                "explanation": "рух по канату та стрибки виконуються тілом;"
             },
             {
                 "name": "Avoid",
-                "explanation": "роботизовані щелепи й інші перешкоди повинні уникатися для продовження проходження"
+                "explanation": "core gameplay loop полягає в уникненні щелеп, вітру та інших перешкод;"
+            },
+            {
+                "name": "Achieve",
+                "explanation": "необхідно утримувати положення на канаті."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Achieve",
-                "explanation": "утримання на канаті не формалізоване як стабільна позиційна задача;"
+                "name": "Manage",
+                "explanation": "відсутній ресурсний менеджмент;"
+            },
+            {
+                "name": "Random",
+                "explanation": "випадковість не описана;"
             },
             {
                 "name": "Destroy",
-                "explanation": "немає усунення об’єктів"
+                "explanation": "/"
+            },
+            {
+                "name": "Shoot",
+                "explanation": "/"
+            },
+            {
+                "name": "Create",
+                "explanation": "/"
+            },
+            {
+                "name": "Select",
+                "explanation": "/"
+            },
+            {
+                "name": "Write",
+                "explanation": "відсутні."
             }
         ]
     },
@@ -137,21 +245,45 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": "керування бульбашкою через нахили в усі сторони;"
+                "explanation": "керування бульбашкою через нахили;"
             },
             {
                 "name": "Avoid",
-                "explanation": "стіни, бджоли та інші об’єкти виступають загрозами для проходження"
+                "explanation": "потрібно постійно уникати стін та бджіл;"
+            },
+            {
+                "name": "Achieve",
+                "explanation": "необхідно провести Mii до кінця річки;"
+            },
+            {
+                "name": "Random",
+                "explanation": "описані випадкові секції стін."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Achieve",
-                "explanation": "немає вимоги утримувати об’єкт у фіксованій зоні;"
+                "name": "Manage",
+                "explanation": "немає витратного ресурсу;"
             },
             {
                 "name": "Destroy",
-                "explanation": "відсутнє збирання"
+                "explanation": "перешкоди не усуваються;"
+            },
+            {
+                "name": "Shoot",
+                "explanation": "/"
+            },
+            {
+                "name": "Create",
+                "explanation": "/"
+            },
+            {
+                "name": "Select",
+                "explanation": "/"
+            },
+            {
+                "name": "Write",
+                "explanation": "відсутні."
             }
         ]
     },
@@ -161,21 +293,49 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": "гравець нахиляє крижину для переміщення пінгвіна;"
+                "explanation": "нахили переміщують крижину;"
             },
             {
-                "name": "Destroy",
-                "explanation": "риба ловиться, після контакту зникає та приносить очки"
+                "name": "Achieve",
+                "explanation": "ловля риби є просторовим target state."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Avoid",
-                "explanation": "падіння у воду створює затримку, але не описано як системний штраф зіткнення;"
+                "name": "Destroy",
+                "explanation": "риба є пасивним бонусним об'єктом, тому це"
             },
             {
                 "name": "Achieve",
-                "explanation": "відсутнє утримання позиції"
+                "explanation": ";"
+            },
+            {
+                "name": "Avoid",
+                "explanation": "падіння у воду не є центральним gameplay loop;"
+            },
+            {
+                "name": "Manage",
+                "explanation": "/"
+            },
+            {
+                "name": "Random",
+                "explanation": "/"
+            },
+            {
+                "name": "Shoot",
+                "explanation": "/"
+            },
+            {
+                "name": "Create",
+                "explanation": "/"
+            },
+            {
+                "name": "Select",
+                "explanation": "/"
+            },
+            {
+                "name": "Write",
+                "explanation": "не підтверджені."
             }
         ]
     },
@@ -185,17 +345,45 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": "гравець проходить трасу через нахили баланс-борду"
+                "explanation": "нахили керують сноубордом;"
+            },
+            {
+                "name": "Achieve",
+                "explanation": "проходження через ворота є target state."
             }
         ],
         "excluded_or_uncertain": [
             {
                 "name": "Avoid",
-                "explanation": "немає явного штрафу за зіткнення або пропуск;"
+                "explanation": "пропуск воріт не описаний як failure loop;"
             },
             {
-                "name": "Achieve",
-                "explanation": "ворота є лише маршрутними точками без утримання"
+                "name": "Manage",
+                "explanation": "немає ресурсного менеджменту;"
+            },
+            {
+                "name": "Random",
+                "explanation": "/"
+            },
+            {
+                "name": "Destroy",
+                "explanation": "/"
+            },
+            {
+                "name": "Shoot",
+                "explanation": "/"
+            },
+            {
+                "name": "Create",
+                "explanation": "/"
+            },
+            {
+                "name": "Select",
+                "explanation": "/"
+            },
+            {
+                "name": "Write",
+                "explanation": "відсутні."
             }
         ]
     },
@@ -205,21 +393,45 @@
         "included_mechanics": [
             {
                 "name": "Achieve",
-                "explanation": "основна ціль — тривале утримання нерухомого стану та стабільності свічки"
+                "explanation": "успіх визначається утриманням стабільного стану рівноваги протягом часу."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Move",
-                "explanation": "активне переміщення відсутнє;"
+                "name": "Manage",
+                "explanation": "таймер не змушує змінювати біомеханічну стратегію;"
             },
             {
                 "name": "Avoid",
-                "explanation": "немає зіткнень із перешкодами;"
+                "explanation": "рух є помилкою, але не avoidance loop;"
             },
             {
-                "name": "Manage",
-                "explanation": "час не є витратним ресурсом"
+                "name": "Move",
+                "explanation": "рух навпаки забороняється;"
+            },
+            {
+                "name": "Random",
+                "explanation": "/"
+            },
+            {
+                "name": "Destroy",
+                "explanation": "/"
+            },
+            {
+                "name": "Shoot",
+                "explanation": "/"
+            },
+            {
+                "name": "Create",
+                "explanation": "/"
+            },
+            {
+                "name": "Select",
+                "explanation": "/"
+            },
+            {
+                "name": "Write",
+                "explanation": "відсутні."
             }
         ]
     },
@@ -229,21 +441,41 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": "гравець переміщує персонажа нахилами;"
+                "explanation": "гравець переміщується між грибами нахилами;"
             },
             {
                 "name": "Achieve",
-                "explanation": "необхідно досягти точної числової конфігурації суми"
+                "explanation": "необхідно досягти точної цільової суми."
             }
         ],
         "excluded_or_uncertain": [
             {
+                "name": "Manage",
+                "explanation": "числа не є витратним ресурсом;"
+            },
+            {
+                "name": "Random",
+                "explanation": "випадковість не описана;"
+            },
+            {
                 "name": "Destroy",
-                "explanation": "гриби не описані як collectible із миттєвим усуненням;"
+                "explanation": "гриби не ліквідуються як загрози;"
+            },
+            {
+                "name": "Shoot",
+                "explanation": "/"
+            },
+            {
+                "name": "Create",
+                "explanation": "/"
             },
             {
                 "name": "Select",
-                "explanation": "немає прямого вибору елементів"
+                "explanation": "/"
+            },
+            {
+                "name": "Write",
+                "explanation": "відсутні."
             }
         ]
     },
@@ -253,21 +485,45 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": "виконання ритмічних рухів руками та ногами"
+                "explanation": "виконання рухів руками та ногами;"
+            },
+            {
+                "name": "Achieve",
+                "explanation": "система перевіряє правильне відтворення позицій у ритм."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Achieve",
-                "explanation": "немає утримання стану;"
+                "name": "Avoid",
+                "explanation": "відсутній failure avoidance;"
+            },
+            {
+                "name": "Manage",
+                "explanation": "score не витрачається;"
+            },
+            {
+                "name": "Random",
+                "explanation": "/"
             },
             {
                 "name": "Destroy",
-                "explanation": "відсутнє усунення об’єктів;"
+                "explanation": "/"
+            },
+            {
+                "name": "Shoot",
+                "explanation": "/"
+            },
+            {
+                "name": "Create",
+                "explanation": "/"
             },
             {
                 "name": "Select",
-                "explanation": "дії не є вибором"
+                "explanation": "/"
+            },
+            {
+                "name": "Write",
+                "explanation": "не підтверджені."
             }
         ]
     },
@@ -277,21 +533,45 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": "махання руками керує польотом;"
+                "explanation": "політ контролюється рухами рук та балансом;"
             },
             {
                 "name": "Achieve",
-                "explanation": "потрібно приземлитися на ціль та утримати баланс для отримання часу"
+                "explanation": "приземлення на цілі є target state;"
+            },
+            {
+                "name": "Manage",
+                "explanation": "додатковий час мотивує ризикувати та змінювати стратегію польоту для продовження сесії."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Destroy",
-                "explanation": "цілі не описані як об’єкти збору;"
+                "name": "Avoid",
+                "explanation": "уникнення не є core loop;"
             },
             {
-                "name": "Avoid",
-                "explanation": "немає штрафів за зіткнення"
+                "name": "Shoot",
+                "explanation": "/"
+            },
+            {
+                "name": "Destroy",
+                "explanation": "/"
+            },
+            {
+                "name": "Create",
+                "explanation": "/"
+            },
+            {
+                "name": "Select",
+                "explanation": "/"
+            },
+            {
+                "name": "Write",
+                "explanation": "відсутні;"
+            },
+            {
+                "name": "Random",
+                "explanation": "не описано."
             }
         ]
     },
@@ -301,29 +581,45 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": "переміщення персонажа балансом;"
+                "explanation": "переміщення в межах укриття;"
+            },
+            {
+                "name": "Avoid",
+                "explanation": "необхідно постійно уникати влучань сніжок;"
             },
             {
                 "name": "Shoot",
-                "explanation": "кидання сніжок є генерацією снаряда;"
-            },
-            {
-                "name": "Destroy",
-                "explanation": "влучення усуває Miis/сніговиків;"
+                "explanation": "кидання сніжок по дистанційних цілях;"
             },
             {
                 "name": "Manage",
-                "explanation": "є обмежений ресурс життів, який втрачається та відновлюється"
+                "explanation": "три життя є обмеженим ресурсом;"
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Avoid",
-                "explanation": "уникнення сніжок присутнє поведінково, але штраф оформлений через ресурс життів;"
+                "name": "Select",
+                "explanation": "прицілювання є частиною"
             },
             {
-                "name": "Select",
-                "explanation": "відсутній cursor-hold"
+                "name": "Shoot",
+                "explanation": ", а не UI-вибором;"
+            },
+            {
+                "name": "Destroy",
+                "explanation": "вороги не описані як повністю ліквідовані загрози;"
+            },
+            {
+                "name": "Create",
+                "explanation": "/"
+            },
+            {
+                "name": "Write",
+                "explanation": "/"
+            },
+            {
+                "name": "Random",
+                "explanation": "не підтверджені."
             }
         ]
     },
@@ -333,21 +629,45 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": "біг і стрибки через крокування та нахили;"
+                "explanation": "біг і стрибки контролюються тілом;"
             },
             {
                 "name": "Avoid",
-                "explanation": "перешкоди необхідно уникати для проходження курсу"
+                "explanation": "core gameplay loop полягає в уникненні перешкод;"
+            },
+            {
+                "name": "Achieve",
+                "explanation": "необхідно пройти курс."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Destroy",
-                "explanation": "немає збирання;"
+                "name": "Manage",
+                "explanation": "часу чи ресурсів для витрати немає;"
             },
             {
-                "name": "Achieve",
-                "explanation": "відсутнє утримання позиції"
+                "name": "Random",
+                "explanation": "/"
+            },
+            {
+                "name": "Destroy",
+                "explanation": "/"
+            },
+            {
+                "name": "Shoot",
+                "explanation": "/"
+            },
+            {
+                "name": "Create",
+                "explanation": "/"
+            },
+            {
+                "name": "Select",
+                "explanation": "/"
+            },
+            {
+                "name": "Write",
+                "explanation": "відсутні."
             }
         ]
     },
@@ -357,21 +677,41 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": "нахили керують м’ячами;"
+                "explanation": "нахили керують м'ячами;"
             },
             {
                 "name": "Achieve",
-                "explanation": "потрібно доставити м’яч у трубу відповідного кольору"
+                "explanation": "потрібно доставляти м'ячі у труби відповідного кольору."
             }
         ],
         "excluded_or_uncertain": [
             {
                 "name": "Destroy",
-                "explanation": "м’ячі не описані як collectible-зникнення;"
+                "explanation": "м'ячі не ліквідують загрози;"
             },
             {
-                "name": "Avoid",
-                "explanation": "штрафи за помилки не описані"
+                "name": "Manage",
+                "explanation": "combo-score не витрачається;"
+            },
+            {
+                "name": "Random",
+                "explanation": "/"
+            },
+            {
+                "name": "Shoot",
+                "explanation": "/"
+            },
+            {
+                "name": "Create",
+                "explanation": "/"
+            },
+            {
+                "name": "Select",
+                "explanation": "/"
+            },
+            {
+                "name": "Write",
+                "explanation": "не підтверджені."
             }
         ]
     },
@@ -381,17 +721,45 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": "балансування та згинання колін керують стрибком;"
+                "explanation": "балансування та стрибки через рухи ніг;"
             },
             {
                 "name": "Achieve",
-                "explanation": "потрібно підтримувати центр батута для максимальної висоти"
+                "explanation": "потрібно досягати максимальної висоти."
             }
         ],
         "excluded_or_uncertain": [
             {
+                "name": "Avoid",
+                "explanation": "відсутні загрози;"
+            },
+            {
+                "name": "Manage",
+                "explanation": "фізична втома не є формалізованим ресурсом;"
+            },
+            {
+                "name": "Random",
+                "explanation": "/"
+            },
+            {
                 "name": "Destroy",
-                "explanation": "немає усунення об’єктів"
+                "explanation": "/"
+            },
+            {
+                "name": "Shoot",
+                "explanation": "/"
+            },
+            {
+                "name": "Create",
+                "explanation": "/"
+            },
+            {
+                "name": "Select",
+                "explanation": "/"
+            },
+            {
+                "name": "Write",
+                "explanation": "відсутні."
             }
         ]
     },
@@ -405,17 +773,41 @@
             },
             {
                 "name": "Avoid",
-                "explanation": "курс містить перешкоди, яких потрібно уникати"
+                "explanation": "постійне уникнення перешкод;"
+            },
+            {
+                "name": "Achieve",
+                "explanation": "проходження курсу до фінішу."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Achieve",
-                "explanation": "немає позиційної стабілізації;"
+                "name": "Manage",
+                "explanation": "швидкість не є ресурсом;"
+            },
+            {
+                "name": "Random",
+                "explanation": "/"
             },
             {
                 "name": "Destroy",
-                "explanation": "немає збору"
+                "explanation": "/"
+            },
+            {
+                "name": "Shoot",
+                "explanation": "/"
+            },
+            {
+                "name": "Create",
+                "explanation": "/"
+            },
+            {
+                "name": "Select",
+                "explanation": "/"
+            },
+            {
+                "name": "Write",
+                "explanation": "відсутні."
             }
         ]
     },
@@ -429,17 +821,41 @@
             },
             {
                 "name": "Avoid",
-                "explanation": "необхідно залишатися на трасі, інакше прогрес порушується"
+                "explanation": "потрібно не вилітати з траси;"
+            },
+            {
+                "name": "Achieve",
+                "explanation": "доїхати трасу."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Achieve",
-                "explanation": "немає утримання фіксованої позиції;"
+                "name": "Manage",
+                "explanation": "прискорення не використовує витратний ресурс;"
+            },
+            {
+                "name": "Random",
+                "explanation": "/"
             },
             {
                 "name": "Destroy",
-                "explanation": "немає collectible"
+                "explanation": "/"
+            },
+            {
+                "name": "Shoot",
+                "explanation": "/"
+            },
+            {
+                "name": "Create",
+                "explanation": "/"
+            },
+            {
+                "name": "Select",
+                "explanation": "/"
+            },
+            {
+                "name": "Write",
+                "explanation": "не підтверджені."
             }
         ]
     },
@@ -449,25 +865,45 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": "кроки активують дії персонажа;"
+                "explanation": "крокування використовується для взаємодії;"
+            },
+            {
+                "name": "Avoid",
+                "explanation": "необхідно не допустити наближення ворогів;"
             },
             {
                 "name": "Shoot",
-                "explanation": "струмінь води є окремим снарядом;"
+                "explanation": "стрільба водою по цілях;"
             },
             {
                 "name": "Destroy",
-                "explanation": "вороги усуваються водою"
+                "explanation": "істоти та Miis усуваються атакою."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Avoid",
-                "explanation": "уникнення бруду не формалізоване штрафом;"
+                "name": "Select",
+                "explanation": "прицілювання є частиною"
+            },
+            {
+                "name": "Shoot",
+                "explanation": ";"
             },
             {
                 "name": "Manage",
-                "explanation": "боєзапас відсутній"
+                "explanation": "ресурси води не описані;"
+            },
+            {
+                "name": "Create",
+                "explanation": "/"
+            },
+            {
+                "name": "Write",
+                "explanation": "/"
+            },
+            {
+                "name": "Random",
+                "explanation": "не підтверджені."
             }
         ]
     },
@@ -477,21 +913,45 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": "плавання й навігація під водою;"
+                "explanation": "плавання та переміщення під водою;"
             },
             {
-                "name": "Destroy",
-                "explanation": "риба та скарби збираються й зникають"
+                "name": "Achieve",
+                "explanation": "збір скарбів та риби;"
+            },
+            {
+                "name": "Manage",
+                "explanation": "кисень є обмеженим ресурсом, який визначає тривалість сесії."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Manage",
-                "explanation": "кисень є таймером, а не ресурсом з вибором витрати;"
+                "name": "Avoid",
+                "explanation": "перешкоди згадані недостатньо формально;"
             },
             {
-                "name": "Avoid",
-                "explanation": "перешкоди згадані недостатньо формально"
+                "name": "Destroy",
+                "explanation": "збір предметів не є ліквідацією загроз;"
+            },
+            {
+                "name": "Shoot",
+                "explanation": "/"
+            },
+            {
+                "name": "Create",
+                "explanation": "/"
+            },
+            {
+                "name": "Select",
+                "explanation": "/"
+            },
+            {
+                "name": "Write",
+                "explanation": "/"
+            },
+            {
+                "name": "Random",
+                "explanation": "не підтверджені."
             }
         ]
     },
@@ -501,21 +961,45 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": "переміщення по стіні руками;"
+                "explanation": "пересування по стіні руками;"
+            },
+            {
+                "name": "Achieve",
+                "explanation": "досягнення вершини;"
             },
             {
                 "name": "Manage",
-                "explanation": "витривалість рук є обмеженим ресурсом, який виснажується"
+                "explanation": "витривалість рук є обмеженим ресурсом, який потрібно розподіляти."
             }
         ],
         "excluded_or_uncertain": [
             {
                 "name": "Avoid",
-                "explanation": "падіння є наслідком втрати ресурсу, а не зіткнення;"
+                "explanation": "падіння є наслідком помилки, але avoidance не є core loop;"
+            },
+            {
+                "name": "Random",
+                "explanation": "/"
+            },
+            {
+                "name": "Shoot",
+                "explanation": "/"
             },
             {
                 "name": "Destroy",
-                "explanation": "немає збору"
+                "explanation": "/"
+            },
+            {
+                "name": "Create",
+                "explanation": "/"
+            },
+            {
+                "name": "Select",
+                "explanation": "/"
+            },
+            {
+                "name": "Write",
+                "explanation": "відсутні."
             }
         ]
     },
@@ -525,21 +1009,45 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": "рух офіціанта по ресторану;"
+                "explanation": "пересування через крокування;"
             },
             {
                 "name": "Avoid",
-                "explanation": "інших офіціантів і небезпек треба уникати для проходження"
+                "explanation": "уникнення зіткнень з іншими офіціантами;"
+            },
+            {
+                "name": "Achieve",
+                "explanation": "доставка десертів клієнтам;"
+            },
+            {
+                "name": "Manage",
+                "explanation": "таймер стимулює прискорювати рухи й ризикувати балансом."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Manage",
-                "explanation": "таймер не є витратним ресурсом;"
+                "name": "Destroy",
+                "explanation": "/"
             },
             {
-                "name": "Achieve",
-                "explanation": "балансування підносу не описане як утримання конкретної конфігурації"
+                "name": "Shoot",
+                "explanation": "/"
+            },
+            {
+                "name": "Create",
+                "explanation": "/"
+            },
+            {
+                "name": "Select",
+                "explanation": "/"
+            },
+            {
+                "name": "Write",
+                "explanation": "/"
+            },
+            {
+                "name": "Random",
+                "explanation": "не підтверджені."
             }
         ]
     },
@@ -549,25 +1057,45 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": "нахили для жонглювання;"
+                "explanation": "нахили контролюють жонглювання;"
             },
             {
                 "name": "Avoid",
-                "explanation": "бомби є загрозами, яких потрібно уникати;"
+                "explanation": "потрібно уникати бомб;"
             },
             {
                 "name": "Achieve",
-                "explanation": "підтримання серії жонглювання є утриманням стану без втрати м’ячів"
+                "explanation": "утримання м'ячів у повітрі є target state."
             }
         ],
         "excluded_or_uncertain": [
             {
+                "name": "Manage",
+                "explanation": "очки не витрачаються;"
+            },
+            {
                 "name": "Destroy",
-                "explanation": "м’ячі не збираються;"
+                "explanation": "бомби не знищуються;"
+            },
+            {
+                "name": "Random",
+                "explanation": "/"
             },
             {
                 "name": "Shoot",
-                "explanation": "відсутні снаряди"
+                "explanation": "/"
+            },
+            {
+                "name": "Create",
+                "explanation": "/"
+            },
+            {
+                "name": "Select",
+                "explanation": "/"
+            },
+            {
+                "name": "Write",
+                "explanation": "не підтверджені."
             }
         ]
     },
@@ -577,11 +1105,11 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": "керування скейтбордом через нахили та імітацію поштовху;"
+                "explanation": "рух скейтборду, стрибки та повороти;"
             },
             {
                 "name": "Achieve",
-                "explanation": "виконання трюків і набір очок вимагають успішного стану руху"
+                "explanation": "виконання трюків та набір очок у Free Mode."
             }
         ],
         "excluded_or_uncertain": [
@@ -590,8 +1118,32 @@
                 "explanation": "перешкоди не описані;"
             },
             {
+                "name": "Manage",
+                "explanation": "час у Free Mode не описаний як ресурс ризику;"
+            },
+            {
+                "name": "Create",
+                "explanation": "/"
+            },
+            {
                 "name": "Destroy",
-                "explanation": "collectible відсутні"
+                "explanation": "/"
+            },
+            {
+                "name": "Shoot",
+                "explanation": "/"
+            },
+            {
+                "name": "Select",
+                "explanation": "/"
+            },
+            {
+                "name": "Write",
+                "explanation": "/"
+            },
+            {
+                "name": "Random",
+                "explanation": "відсутні."
             }
         ]
     },
@@ -601,21 +1153,41 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": "нахили керують м’ячами;"
+                "explanation": "нахили платформи;"
             },
             {
                 "name": "Achieve",
-                "explanation": "м’ячі треба доставляти у відповідні слоти"
+                "explanation": "потрапляння м'ячів у слоти;"
+            },
+            {
+                "name": "Manage",
+                "explanation": "додаткові секунди створюють часовий ресурс, який впливає на темп проходження."
             }
         ],
         "excluded_or_uncertain": [
             {
                 "name": "Destroy",
-                "explanation": "об’єкти не класифікуються як збір;"
+                "explanation": "м'ячі не ліквідують загрози;"
             },
             {
-                "name": "Manage",
-                "explanation": "час не є ресурсом"
+                "name": "Random",
+                "explanation": "/"
+            },
+            {
+                "name": "Shoot",
+                "explanation": "/"
+            },
+            {
+                "name": "Create",
+                "explanation": "/"
+            },
+            {
+                "name": "Select",
+                "explanation": "/"
+            },
+            {
+                "name": "Write",
+                "explanation": "не підтверджені."
             }
         ]
     },
@@ -625,17 +1197,45 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": "керування бульбашкою нахилами;"
+                "explanation": "керування бульбашкою;"
             },
             {
                 "name": "Avoid",
-                "explanation": "необхідно уникати стін і бджіл"
+                "explanation": "постійне уникнення стін та бджіл;"
+            },
+            {
+                "name": "Achieve",
+                "explanation": "досягнення кінця маршруту;"
+            },
+            {
+                "name": "Manage",
+                "explanation": "обмеження у 2 хвилини стимулює ризикові швидкі маневри;"
+            },
+            {
+                "name": "Random",
+                "explanation": "випадкові секції стін."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Achieve",
-                "explanation": "оцінка за дистанцію не є позиційним утриманням"
+                "name": "Destroy",
+                "explanation": "/"
+            },
+            {
+                "name": "Shoot",
+                "explanation": "/"
+            },
+            {
+                "name": "Create",
+                "explanation": "/"
+            },
+            {
+                "name": "Select",
+                "explanation": "/"
+            },
+            {
+                "name": "Write",
+                "explanation": "відсутні."
             }
         ]
     },
@@ -645,17 +1245,45 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": "персонаж рухається вліво/вправо нахилами;"
+                "explanation": "нахили керують ніндзя;"
             },
             {
-                "name": "Destroy",
-                "explanation": "фрукти розрізаються та зникають"
+                "name": "Achieve",
+                "explanation": "необхідно позиціонувати персонажа для збору/розрізання фруктів."
             }
         ],
         "excluded_or_uncertain": [
             {
+                "name": "Destroy",
+                "explanation": "фрукти не є загрозами;"
+            },
+            {
                 "name": "Avoid",
-                "explanation": "перешкоди не описані"
+                "explanation": "/"
+            },
+            {
+                "name": "Manage",
+                "explanation": "/"
+            },
+            {
+                "name": "Shoot",
+                "explanation": "/"
+            },
+            {
+                "name": "Create",
+                "explanation": "/"
+            },
+            {
+                "name": "Select",
+                "explanation": "/"
+            },
+            {
+                "name": "Write",
+                "explanation": "/"
+            },
+            {
+                "name": "Random",
+                "explanation": "не підтверджені."
             }
         ]
     },
@@ -665,17 +1293,45 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": "жаба переміщується нахилами;"
+                "explanation": "нахили керують жабою;"
             },
             {
                 "name": "Achieve",
-                "explanation": "потрібно втримувати траєкторію стрибків по листю"
+                "explanation": "стрибки на листя є target positioning."
             }
         ],
         "excluded_or_uncertain": [
             {
                 "name": "Avoid",
-                "explanation": "штрафні зіткнення не описані"
+                "explanation": "failure state не описаний;"
+            },
+            {
+                "name": "Manage",
+                "explanation": "/"
+            },
+            {
+                "name": "Destroy",
+                "explanation": "/"
+            },
+            {
+                "name": "Shoot",
+                "explanation": "/"
+            },
+            {
+                "name": "Create",
+                "explanation": "/"
+            },
+            {
+                "name": "Select",
+                "explanation": "/"
+            },
+            {
+                "name": "Write",
+                "explanation": "/"
+            },
+            {
+                "name": "Random",
+                "explanation": "відсутні."
             }
         ]
     },
@@ -689,13 +1345,41 @@
             },
             {
                 "name": "Avoid",
-                "explanation": "необхідно ухилятися від перешкод на дорозі"
+                "explanation": "core gameplay loop полягає в ухиленні від перешкод."
             }
         ],
         "excluded_or_uncertain": [
             {
+                "name": "Achieve",
+                "explanation": "локальний target state не описаний;"
+            },
+            {
+                "name": "Manage",
+                "explanation": "/"
+            },
+            {
                 "name": "Destroy",
-                "explanation": "немає збору чи усунення"
+                "explanation": "/"
+            },
+            {
+                "name": "Shoot",
+                "explanation": "/"
+            },
+            {
+                "name": "Create",
+                "explanation": "/"
+            },
+            {
+                "name": "Select",
+                "explanation": "/"
+            },
+            {
+                "name": "Write",
+                "explanation": "/"
+            },
+            {
+                "name": "Random",
+                "explanation": "відсутні."
             }
         ]
     },
@@ -705,7 +1389,7 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": "корабель переміщується;"
+                "explanation": "переміщення корабля;"
             },
             {
                 "name": "Shoot",
@@ -713,13 +1397,33 @@
             },
             {
                 "name": "Destroy",
-                "explanation": "метеорити знищуються"
+                "explanation": "метеорити усуваються атакою;"
+            },
+            {
+                "name": "Avoid",
+                "explanation": "необхідно уникати зіткнення з метеоритами."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Avoid",
-                "explanation": "зіткнення не описані"
+                "name": "Select",
+                "explanation": "прицілювання не є UI-вибором;"
+            },
+            {
+                "name": "Manage",
+                "explanation": "/"
+            },
+            {
+                "name": "Create",
+                "explanation": "/"
+            },
+            {
+                "name": "Write",
+                "explanation": "/"
+            },
+            {
+                "name": "Random",
+                "explanation": "не підтверджені."
             }
         ]
     },
@@ -729,17 +1433,45 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": "монстр переміщується;"
+                "explanation": "рух монстра;"
             },
             {
-                "name": "Destroy",
-                "explanation": "їжа ловиться і зникає"
+                "name": "Achieve",
+                "explanation": "ловля їжі через позиціонування."
             }
         ],
         "excluded_or_uncertain": [
             {
+                "name": "Destroy",
+                "explanation": "їжа не є загрозою;"
+            },
+            {
                 "name": "Avoid",
-                "explanation": "перешкоди відсутні"
+                "explanation": "/"
+            },
+            {
+                "name": "Manage",
+                "explanation": "/"
+            },
+            {
+                "name": "Shoot",
+                "explanation": "/"
+            },
+            {
+                "name": "Create",
+                "explanation": "/"
+            },
+            {
+                "name": "Select",
+                "explanation": "/"
+            },
+            {
+                "name": "Write",
+                "explanation": "/"
+            },
+            {
+                "name": "Random",
+                "explanation": "не підтверджені."
             }
         ]
     },
@@ -749,17 +1481,41 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": "приціл переміщується;"
+                "explanation": "переміщення прицілу;"
             },
             {
-                "name": "Select",
-                "explanation": "потрібно утримувати приціл на качці, без опису окремого снаряда"
+                "name": "Shoot",
+                "explanation": "ураження качок після наведення;"
+            },
+            {
+                "name": "Destroy",
+                "explanation": "качки ліквідуються пострілом."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Shoot",
-                "explanation": "постріл не має підтвердженої фізичної траєкторії снаряда"
+                "name": "Select",
+                "explanation": "приціл використовується для атаки, а не інтерфейсу;"
+            },
+            {
+                "name": "Avoid",
+                "explanation": "/"
+            },
+            {
+                "name": "Manage",
+                "explanation": "/"
+            },
+            {
+                "name": "Create",
+                "explanation": "/"
+            },
+            {
+                "name": "Write",
+                "explanation": "/"
+            },
+            {
+                "name": "Random",
+                "explanation": "відсутні."
             }
         ]
     },
@@ -769,17 +1525,45 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": "керування лижником швидкістю;"
+                "explanation": "керування швидкістю лижника;"
             },
             {
                 "name": "Avoid",
-                "explanation": "потрібно ухилятися від перешкод"
+                "explanation": "необхідно уникати перешкод;"
+            },
+            {
+                "name": "Manage",
+                "explanation": "зміна швидкості є управлінням ризиком та контролем рухового ресурсу."
             }
         ],
         "excluded_or_uncertain": [
             {
+                "name": "Achieve",
+                "explanation": "target state не описаний;"
+            },
+            {
                 "name": "Destroy",
-                "explanation": "збір об’єктів не описаний"
+                "explanation": "/"
+            },
+            {
+                "name": "Shoot",
+                "explanation": "/"
+            },
+            {
+                "name": "Create",
+                "explanation": "/"
+            },
+            {
+                "name": "Select",
+                "explanation": "/"
+            },
+            {
+                "name": "Write",
+                "explanation": "/"
+            },
+            {
+                "name": "Random",
+                "explanation": "відсутні."
             }
         ]
     },
@@ -789,17 +1573,45 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": "переміщення ракетки;"
+                "explanation": "керування ракеткою;"
             },
             {
                 "name": "Achieve",
-                "explanation": "потрібно утримувати м’яч у грі через правильне позиціонування"
+                "explanation": "відбиття м'яча є перевірюваним target interaction."
             }
         ],
         "excluded_or_uncertain": [
             {
+                "name": "Avoid",
+                "explanation": "уникнення не є core loop;"
+            },
+            {
+                "name": "Manage",
+                "explanation": "/"
+            },
+            {
                 "name": "Destroy",
-                "explanation": "м’яч не усувається"
+                "explanation": "/"
+            },
+            {
+                "name": "Shoot",
+                "explanation": "/"
+            },
+            {
+                "name": "Create",
+                "explanation": "/"
+            },
+            {
+                "name": "Select",
+                "explanation": "/"
+            },
+            {
+                "name": "Write",
+                "explanation": "/"
+            },
+            {
+                "name": "Random",
+                "explanation": "не підтверджені."
             }
         ]
     },
@@ -813,13 +1625,41 @@
             },
             {
                 "name": "Avoid",
-                "explanation": "перешкоди потрібно обходити"
+                "explanation": "необхідно уникати перешкод;"
+            },
+            {
+                "name": "Manage",
+                "explanation": "контроль швидкості впливає на ризик втрати балансу."
             }
         ],
         "excluded_or_uncertain": [
             {
+                "name": "Achieve",
+                "explanation": "target state не описаний;"
+            },
+            {
                 "name": "Destroy",
-                "explanation": "collectible відсутні"
+                "explanation": "/"
+            },
+            {
+                "name": "Shoot",
+                "explanation": "/"
+            },
+            {
+                "name": "Create",
+                "explanation": "/"
+            },
+            {
+                "name": "Select",
+                "explanation": "/"
+            },
+            {
+                "name": "Write",
+                "explanation": "/"
+            },
+            {
+                "name": "Random",
+                "explanation": "відсутні."
             }
         ]
     },
@@ -833,13 +1673,41 @@
             },
             {
                 "name": "Achieve",
-                "explanation": "подарунки треба правильно розташувати у відповідних мішках"
+                "explanation": "потрапляння у відповідні мішки є target state."
             }
         ],
         "excluded_or_uncertain": [
             {
+                "name": "Avoid",
+                "explanation": "немає загроз;"
+            },
+            {
+                "name": "Manage",
+                "explanation": "/"
+            },
+            {
                 "name": "Destroy",
-                "explanation": "об’єкти не описані як зникнення після збору"
+                "explanation": "/"
+            },
+            {
+                "name": "Shoot",
+                "explanation": "/"
+            },
+            {
+                "name": "Create",
+                "explanation": "/"
+            },
+            {
+                "name": "Select",
+                "explanation": "/"
+            },
+            {
+                "name": "Write",
+                "explanation": "/"
+            },
+            {
+                "name": "Random",
+                "explanation": "не підтверджені."
             }
         ]
     },
@@ -849,17 +1717,45 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": "керування сноубордистом;"
+                "explanation": "нахили керують сноубордистом;"
             },
             {
-                "name": "Destroy",
-                "explanation": "фігурки збираються та зникають"
+                "name": "Achieve",
+                "explanation": "збір фігурок та виконання трюків."
             }
         ],
         "excluded_or_uncertain": [
             {
                 "name": "Avoid",
-                "explanation": "перешкоди не описані"
+                "explanation": "перешкоди не описані;"
+            },
+            {
+                "name": "Destroy",
+                "explanation": "/"
+            },
+            {
+                "name": "Manage",
+                "explanation": "/"
+            },
+            {
+                "name": "Shoot",
+                "explanation": "/"
+            },
+            {
+                "name": "Create",
+                "explanation": "/"
+            },
+            {
+                "name": "Select",
+                "explanation": "/"
+            },
+            {
+                "name": "Write",
+                "explanation": "/"
+            },
+            {
+                "name": "Random",
+                "explanation": "відсутні."
             }
         ]
     },
@@ -873,13 +1769,41 @@
             },
             {
                 "name": "Avoid",
-                "explanation": "потрібно уникати кристалів"
+                "explanation": "постійне уникнення кристалів є core loop."
             }
         ],
         "excluded_or_uncertain": [
             {
+                "name": "Achieve",
+                "explanation": "target state не описаний;"
+            },
+            {
+                "name": "Manage",
+                "explanation": "/"
+            },
+            {
                 "name": "Destroy",
-                "explanation": "немає усунення"
+                "explanation": "/"
+            },
+            {
+                "name": "Shoot",
+                "explanation": "/"
+            },
+            {
+                "name": "Create",
+                "explanation": "/"
+            },
+            {
+                "name": "Select",
+                "explanation": "/"
+            },
+            {
+                "name": "Write",
+                "explanation": "/"
+            },
+            {
+                "name": "Random",
+                "explanation": "відсутні."
             }
         ]
     },
@@ -889,21 +1813,45 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": "нахили керують платформою;"
+                "explanation": "нахили платформи;"
             },
             {
                 "name": "Avoid",
-                "explanation": "потрібно обходити перешкоди;"
+                "explanation": "необхідно уникати перешкод;"
             },
             {
                 "name": "Achieve",
-                "explanation": "кульку треба доставити до фінішу"
+                "explanation": "довести кульку до фінішу."
             }
         ],
         "excluded_or_uncertain": [
             {
+                "name": "Manage",
+                "explanation": "/"
+            },
+            {
                 "name": "Destroy",
-                "explanation": "collectible немає"
+                "explanation": "/"
+            },
+            {
+                "name": "Shoot",
+                "explanation": "/"
+            },
+            {
+                "name": "Create",
+                "explanation": "/"
+            },
+            {
+                "name": "Select",
+                "explanation": "/"
+            },
+            {
+                "name": "Write",
+                "explanation": "/"
+            },
+            {
+                "name": "Random",
+                "explanation": "не підтверджені."
             }
         ]
     },
@@ -913,21 +1861,45 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": "керування автомобілем;"
-            },
-            {
-                "name": "Destroy",
-                "explanation": "монети збираються;"
+                "explanation": "керування автомобілем у 4 напрямах;"
             },
             {
                 "name": "Avoid",
-                "explanation": "міни є небезпечними перешкодами"
+                "explanation": "уникнення мін;"
+            },
+            {
+                "name": "Achieve",
+                "explanation": "збір монет через позиціонування."
             }
         ],
         "excluded_or_uncertain": [
             {
+                "name": "Destroy",
+                "explanation": "монети є бонусними об'єктами;"
+            },
+            {
                 "name": "Manage",
-                "explanation": "ресурси відсутні"
+                "explanation": "/"
+            },
+            {
+                "name": "Shoot",
+                "explanation": "/"
+            },
+            {
+                "name": "Create",
+                "explanation": "/"
+            },
+            {
+                "name": "Select",
+                "explanation": "/"
+            },
+            {
+                "name": "Write",
+                "explanation": "/"
+            },
+            {
+                "name": "Random",
+                "explanation": "відсутні."
             }
         ]
     },
@@ -940,18 +1912,42 @@
                 "explanation": "керування кулькою балансом;"
             },
             {
-                "name": "Achieve",
-                "explanation": "необхідно забити кульку в лунку;"
+                "name": "Avoid",
+                "explanation": "необхідно не потрапляти у перешкоди;"
             },
             {
-                "name": "Avoid",
-                "explanation": "перешкоди потрібно обходити"
+                "name": "Achieve",
+                "explanation": "забити м'яч у лунку."
             }
         ],
         "excluded_or_uncertain": [
             {
                 "name": "Destroy",
-                "explanation": "збір об’єктів відсутній"
+                "explanation": "/"
+            },
+            {
+                "name": "Manage",
+                "explanation": "/"
+            },
+            {
+                "name": "Shoot",
+                "explanation": "/"
+            },
+            {
+                "name": "Create",
+                "explanation": "/"
+            },
+            {
+                "name": "Select",
+                "explanation": "/"
+            },
+            {
+                "name": "Write",
+                "explanation": "/"
+            },
+            {
+                "name": "Random",
+                "explanation": "не підтверджені."
             }
         ]
     },
@@ -965,13 +1961,41 @@
             },
             {
                 "name": "Achieve",
-                "explanation": "кульку потрібно доставити до чорної діри"
+                "explanation": "доставити кульку до чорної діри;"
+            },
+            {
+                "name": "Avoid",
+                "explanation": "необхідно не врізатися та не втратити контроль у лабіринті."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Avoid",
-                "explanation": "штрафні перешкоди не описані"
+                "name": "Manage",
+                "explanation": "/"
+            },
+            {
+                "name": "Destroy",
+                "explanation": "/"
+            },
+            {
+                "name": "Shoot",
+                "explanation": "/"
+            },
+            {
+                "name": "Create",
+                "explanation": "/"
+            },
+            {
+                "name": "Select",
+                "explanation": "/"
+            },
+            {
+                "name": "Write",
+                "explanation": "/"
+            },
+            {
+                "name": "Random",
+                "explanation": "відсутні."
             }
         ]
     },
@@ -984,14 +2008,42 @@
                 "explanation": "керування кулькою нахилами;"
             },
             {
-                "name": "Achieve",
-                "explanation": "необхідно підтримувати кульку нижче верхньої межі екрана"
+                "name": "Avoid",
+                "explanation": "потрібно не допустити дотику верхньої межі екрана."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Avoid",
-                "explanation": "немає зіткнень з перешкодами"
+                "name": "Achieve",
+                "explanation": "немає локального target state;"
+            },
+            {
+                "name": "Manage",
+                "explanation": "/"
+            },
+            {
+                "name": "Destroy",
+                "explanation": "/"
+            },
+            {
+                "name": "Shoot",
+                "explanation": "/"
+            },
+            {
+                "name": "Create",
+                "explanation": "/"
+            },
+            {
+                "name": "Select",
+                "explanation": "/"
+            },
+            {
+                "name": "Write",
+                "explanation": "/"
+            },
+            {
+                "name": "Random",
+                "explanation": "не підтверджені."
             }
         ]
     },
@@ -1001,17 +2053,45 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": "керування динозавром;"
+                "explanation": "переміщення динозавра;"
             },
             {
-                "name": "Destroy",
-                "explanation": "цукерки збираються та дають бонус часу"
+                "name": "Achieve",
+                "explanation": "збір цукерок;"
+            },
+            {
+                "name": "Manage",
+                "explanation": "додавання часу до таймера створює часовий ресурс для продовження гри."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Manage",
-                "explanation": "таймер не є ресурсом вибору"
+                "name": "Destroy",
+                "explanation": "цукерки не є загрозами;"
+            },
+            {
+                "name": "Avoid",
+                "explanation": "/"
+            },
+            {
+                "name": "Shoot",
+                "explanation": "/"
+            },
+            {
+                "name": "Create",
+                "explanation": "/"
+            },
+            {
+                "name": "Select",
+                "explanation": "/"
+            },
+            {
+                "name": "Write",
+                "explanation": "/"
+            },
+            {
+                "name": "Random",
+                "explanation": "не підтверджені."
             }
         ]
     },
@@ -1021,21 +2101,45 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": "нахили гойдалки керують кулькою;"
-            },
-            {
-                "name": "Destroy",
-                "explanation": "яйця розбиваються;"
+                "explanation": "нахили керують кулькою;"
             },
             {
                 "name": "Avoid",
-                "explanation": "потрібно не дати кульці впасти"
+                "explanation": "необхідно не дати кульці впасти;"
+            },
+            {
+                "name": "Achieve",
+                "explanation": "розбиття яєць через точне позиціонування кульки."
             }
         ],
         "excluded_or_uncertain": [
             {
-                "name": "Achieve",
-                "explanation": "немає стабільного утримання"
+                "name": "Destroy",
+                "explanation": "яйця не описані як загрози;"
+            },
+            {
+                "name": "Manage",
+                "explanation": "/"
+            },
+            {
+                "name": "Shoot",
+                "explanation": "/"
+            },
+            {
+                "name": "Create",
+                "explanation": "/"
+            },
+            {
+                "name": "Select",
+                "explanation": "/"
+            },
+            {
+                "name": "Write",
+                "explanation": "/"
+            },
+            {
+                "name": "Random",
+                "explanation": "відсутні."
             }
         ]
     },
@@ -1048,18 +2152,42 @@
                 "explanation": "керування підводним човном;"
             },
             {
-                "name": "Destroy",
-                "explanation": "монети збираються;"
+                "name": "Avoid",
+                "explanation": "уникнення мін;"
             },
             {
-                "name": "Avoid",
-                "explanation": "міни є небезпечними об’єктами"
+                "name": "Achieve",
+                "explanation": "збір монет."
             }
         ],
         "excluded_or_uncertain": [
             {
+                "name": "Destroy",
+                "explanation": "міни не знищуються;"
+            },
+            {
                 "name": "Manage",
-                "explanation": "паливо або кисень не описані"
+                "explanation": "/"
+            },
+            {
+                "name": "Shoot",
+                "explanation": "/"
+            },
+            {
+                "name": "Create",
+                "explanation": "/"
+            },
+            {
+                "name": "Select",
+                "explanation": "/"
+            },
+            {
+                "name": "Write",
+                "explanation": "/"
+            },
+            {
+                "name": "Random",
+                "explanation": "не підтверджені."
             }
         ]
     },
@@ -1072,18 +2200,42 @@
                 "explanation": "керування комбайном;"
             },
             {
-                "name": "Destroy",
-                "explanation": "кукурудза та пшениця збираються/усуваються;"
+                "name": "Avoid",
+                "explanation": "уникнення перешкод;"
             },
             {
-                "name": "Avoid",
-                "explanation": "перешкоди потрібно обходити"
+                "name": "Achieve",
+                "explanation": "зрізання врожаю через просторове позиціонування."
             }
         ],
         "excluded_or_uncertain": [
             {
+                "name": "Destroy",
+                "explanation": "урожай не є ворожою загрозою;"
+            },
+            {
                 "name": "Manage",
-                "explanation": "ресурси відсутні"
+                "explanation": "/"
+            },
+            {
+                "name": "Shoot",
+                "explanation": "/"
+            },
+            {
+                "name": "Create",
+                "explanation": "/"
+            },
+            {
+                "name": "Select",
+                "explanation": "/"
+            },
+            {
+                "name": "Write",
+                "explanation": "/"
+            },
+            {
+                "name": "Random",
+                "explanation": "відсутні."
             }
         ]
     },
@@ -1093,17 +2245,45 @@
         "included_mechanics": [
             {
                 "name": "Move",
-                "explanation": "переміщення персонажа;"
+                "explanation": "керування персонажем нахилами;"
             },
             {
                 "name": "Avoid",
-                "explanation": "необхідно ухилятися від падаючих фігур"
+                "explanation": "ухилення від падаючих фігур є core gameplay loop."
             }
         ],
         "excluded_or_uncertain": [
             {
+                "name": "Achieve",
+                "explanation": "локальна ціль не описана;"
+            },
+            {
                 "name": "Destroy",
-                "explanation": "фігури не усуваються гравцем"
+                "explanation": "/"
+            },
+            {
+                "name": "Manage",
+                "explanation": "/"
+            },
+            {
+                "name": "Shoot",
+                "explanation": "/"
+            },
+            {
+                "name": "Create",
+                "explanation": "/"
+            },
+            {
+                "name": "Select",
+                "explanation": "/"
+            },
+            {
+                "name": "Write",
+                "explanation": "/"
+            },
+            {
+                "name": "Random",
+                "explanation": "не підтверджені."
             }
         ]
     }
