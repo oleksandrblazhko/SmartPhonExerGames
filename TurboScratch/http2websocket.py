@@ -10,6 +10,14 @@ import numpy as np
 import os
 import signal
 import winsound
+import argparse
+try:
+    import pydirectinput
+    from key_presser import press_keys
+except ImportError:
+    print("Помилка: бібліотека pydirectinput не встановлена. Будь ласка, встановіть її, виконавши: pip install pydirectinput")
+    pydirectinput = None
+    press_keys = None
 
 # --- Глобальні змінні та налаштування ---
 
@@ -169,7 +177,7 @@ async def register_client(websocket):
         CONNECTED_CLIENTS.remove(websocket)
         print(f"Клієнт від'єднався. Всього клієнтів: {len(CONNECTED_CLIENTS)}")
 
-async def data_loop():
+async def data_loop(use_keys=False):
     """
     Головний цикл програми: періодично запитує дані з HTTP-сервера,
     обчислює кути нахилу та транслює їх усім підключеним клієнтам.
@@ -182,8 +190,11 @@ async def data_loop():
                 async with session.get(HTTP_SERVER_URL) as response:
                     if response.status == 200:
                         data = await response.json()
-                        accX = data.get("buffer", {}).get("accX", {}).get("buffer", [0])[0]
-                        accY = data.get("buffer", {}).get("accY", {}).get("buffer", [0])[0]
+                        raw_accX = data.get("buffer", {}).get("accX", {}).get("buffer", [0])[0]
+                        raw_accY = data.get("buffer", {}).get("accY", {}).get("buffer", [0])[0]
+
+                        accX = raw_accX
+                        accY = raw_accY
 
                         if calibration_state == CalibrationState.CALIBRATING:
                             calibration_data.append((accX, accY))
@@ -192,6 +203,9 @@ async def data_loop():
                         if calibration_state == CalibrationState.DONE:
                             accX -= delta_accX
                             accY -= delta_accY
+
+                        if use_keys and press_keys:
+                            press_keys(raw_accX, raw_accY, delta_accX, delta_accY)
 
                         # Застосовуємо фільтр низьких частот (EMA)
                         filtered_accX = ALPHA * accX + (1 - ALPHA) * filtered_accX
@@ -278,7 +292,7 @@ def input_handler():
         time.sleep(0.1)
 
 
-async def main_async():
+async def main_async(use_keys=False):
     """Основна функція, яка запускає WebSocket-сервер та цикл обробки даних."""
     global HTTP_SERVER_URL
     
@@ -318,7 +332,7 @@ async def main_async():
     print(f"Підключення до сервера: {HTTP_SERVER_URL}")
     
     server = await websockets.serve(register_client, "localhost", 8767)
-    data_task = asyncio.create_task(data_loop())
+    data_task = asyncio.create_task(data_loop(use_keys=use_keys))
 
     print("WebSocket-сервер запущено на ws://localhost:8767")
     print("Клавіші керування: F1 - калібрування стану спокою, Q - завершення роботи")
@@ -333,21 +347,28 @@ async def main_async():
 
 def main():
     global HTTP_SERVER_URL
-    
+
+    parser = argparse.ArgumentParser(description="WebSocket-сервер для трансляції даних з акселерометра.")
+    parser.add_argument("--keys", action="store_true", help="Активувати режим натискання клавіш.")
+    args = parser.parse_args()
+
+    if args.keys and not pydirectinput:
+        return
+
     input_thread = threading.Thread(target=input_handler)
     input_thread.daemon = True
     input_thread.start()
-    
+
     loop = asyncio.get_event_loop()
     try:
-        loop.run_until_complete(main_async())
+        loop.run_until_complete(main_async(use_keys=args.keys))
     except KeyboardInterrupt:
         print("\nПрограму зупинено.")
     finally:
         tasks = asyncio.all_tasks(loop=loop)
         for task in tasks:
             task.cancel()
-        
+
         # Збираємо всі задачі, щоб вони завершилися з CancelledError
         group = asyncio.gather(*tasks, return_exceptions=True)
         loop.run_until_complete(group)
