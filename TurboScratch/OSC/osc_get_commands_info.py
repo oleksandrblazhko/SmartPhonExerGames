@@ -52,6 +52,9 @@ service = services[0]
 ip = service.parsed_addresses()[0]
 port = service.port
 
+print(f"Server : {service.name}")
+print(f"Address: {ip}:{port}")
+
 url = f"http://{ip}:{port}/"
 
 print(f"Connecting to {url}")

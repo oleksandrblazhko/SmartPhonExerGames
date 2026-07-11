@@ -39,9 +39,18 @@ ip = "127.0.0.1"
 
 osc_port = 63213
 
-client = udp_client.SimpleUDPClient(ip, osc_port)
 
-url = f"http://{ip}:{service.port}"
+service = services[0]
+
+ip = service.parsed_addresses()[0]
+osc_port = service.port
+
+print(f"Server : {service.name}")
+print(f"Address: {ip}:{osc_port}")
+
+url = f"http://{ip}:{osc_port}/"
+
+client = udp_client.SimpleUDPClient(ip, osc_port)
 
 response = requests.get(url)
 

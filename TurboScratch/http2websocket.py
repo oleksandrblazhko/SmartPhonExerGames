@@ -14,10 +14,12 @@ import argparse
 try:
     import pydirectinput
     from key_presser import press_keys
+    from osc_commands import OSCCommands
 except ImportError:
-    print("Помилка: бібліотека pydirectinput не встановлена. Будь ласка, встановіть її, виконавши: pip install pydirectinput")
+    print("Помилка імпорту. Переконайтеся, що бібліотеки pydirectinput та python-osc встановлено.")
     pydirectinput = None
     press_keys = None
+    OSCCommands = None
 
 # --- Глобальні змінні та налаштування ---
 
@@ -177,7 +179,7 @@ async def register_client(websocket):
         CONNECTED_CLIENTS.remove(websocket)
         print(f"Клієнт від'єднався. Всього клієнтів: {len(CONNECTED_CLIENTS)}")
 
-async def data_loop(use_keys=False):
+async def data_loop(use_keys=False, osc_sender=None):
     """
     Головний цикл програми: періодично запитує дані з HTTP-сервера,
     обчислює кути нахилу та транслює їх усім підключеним клієнтам.
@@ -206,6 +208,9 @@ async def data_loop(use_keys=False):
 
                         if use_keys and press_keys:
                             press_keys(raw_accX, raw_accY, delta_accX, delta_accY)
+                        
+                        if osc_sender:
+                            osc_sender.send_commands(raw_accX, raw_accY, delta_accX, delta_accY)
 
                         # Застосовуємо фільтр низьких частот (EMA)
                         filtered_accX = ALPHA * accX + (1 - ALPHA) * filtered_accX
@@ -285,14 +290,14 @@ def input_handler():
             if calibration_state != CalibrationState.CALIBRATING:
                 cal_thread = threading.Thread(target=calibration_thread)
                 cal_thread.start()
-        elif key == 'q' or key == 'Q':
+        elif key == 'esc':
             print("Завершення роботи...")
             os.kill(os.getpid(), signal.SIGINT)
             break
         time.sleep(0.1)
 
 
-async def main_async(use_keys=False):
+async def main_async(use_keys=False, osc_sender=None, use_websocket=False):
     """Основна функція, яка запускає WebSocket-сервер та цикл обробки даних."""
     global HTTP_SERVER_URL
     
@@ -331,29 +336,47 @@ async def main_async(use_keys=False):
     HTTP_SERVER_URL = server_url
     print(f"Підключення до сервера: {HTTP_SERVER_URL}")
     
-    server = await websockets.serve(register_client, "localhost", 8767)
-    data_task = asyncio.create_task(data_loop(use_keys=use_keys))
-
-    print("WebSocket-сервер запущено на ws://localhost:8767")
-    print("Клавіші керування: F1 - калібрування стану спокою, Q - завершення роботи")
+    server = None
+    if use_websocket:
+        server = await websockets.serve(register_client, "localhost", 8767)
+        print("WebSocket-сервер запущено на ws://localhost:8767")
+    else:
+        print("WebSocket-сервер не запущено (використовуйте --websocket для активації).")
     
+    # Always print keyboard control hints
+    print("Клавіші керування: F1 - калібрування стану спокою, Esc - завершення роботи")
+
+    data_task = asyncio.create_task(data_loop(use_keys=use_keys, osc_sender=osc_sender))
+
     try:
         await data_task
     except asyncio.CancelledError:
         pass
     finally:
-        server.close()
-        await server.wait_closed()
+        if server:
+            server.close()
+            await server.wait_closed()
 
 def main():
     global HTTP_SERVER_URL
 
     parser = argparse.ArgumentParser(description="WebSocket-сервер для трансляції даних з акселерометра.")
     parser.add_argument("--keys", action="store_true", help="Активувати режим натискання клавіш.")
+    parser.add_argument("--osc", action="store_true", help="Активувати режим надсилання OSC команд.")
+    parser.add_argument("--websocket", action="store_true", help="Активувати WebSocket сервер.")
     args = parser.parse_args()
 
     if args.keys and not pydirectinput:
+        print("Режим --keys неможливий без бібліотеки pydirectinput.")
         return
+    
+    if args.osc and not OSCCommands:
+        print("Режим --osc неможливий, оскільки не вдалося імпортувати OSCCommands.")
+        return
+
+    osc_sender = None
+    if args.osc:
+        osc_sender = OSCCommands()
 
     input_thread = threading.Thread(target=input_handler)
     input_thread.daemon = True
@@ -361,15 +384,21 @@ def main():
 
     loop = asyncio.get_event_loop()
     try:
-        loop.run_until_complete(main_async(use_keys=args.keys))
+        loop.run_until_complete(main_async(use_keys=args.keys, osc_sender=osc_sender, use_websocket=args.websocket))
     except KeyboardInterrupt:
         print("\nПрограму зупинено.")
     finally:
+        if osc_sender:
+            osc_sender.release_all_commands()
+        
+        if press_keys:
+            from key_presser import release_all_keys
+            release_all_keys()
+
         tasks = asyncio.all_tasks(loop=loop)
         for task in tasks:
             task.cancel()
 
-        # Збираємо всі задачі, щоб вони завершилися з CancelledError
         group = asyncio.gather(*tasks, return_exceptions=True)
         loop.run_until_complete(group)
         loop.close()
