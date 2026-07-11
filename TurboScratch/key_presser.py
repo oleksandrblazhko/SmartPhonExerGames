@@ -74,18 +74,18 @@ def press_keys(
 
     if dx > threshold:
 
-        _set_key("a", True)
-        _set_key("d", False)
+        _set_key("w", True)
+        _set_key("s", False)
 
     elif dx < -threshold:
 
-        _set_key("d", True)
-        _set_key("a", False)
+        _set_key("s", True)
+        _set_key("w", False)
 
     else:
 
-        _set_key("a", False)
-        _set_key("d", False)
+        _set_key("w", False)
+        _set_key("s", False)
 
     # -------------------------
     # Y
@@ -93,15 +93,15 @@ def press_keys(
 
     if dy > threshold:
 
-        _set_key("s", True)
-        _set_key("w", False)
+        _set_key("d", True)
+        _set_key("a", False)
 
     elif dy < -threshold:
 
-        _set_key("w", True)
-        _set_key("s", False)
+        _set_key("a", True)
+        _set_key("d", False)
 
     else:
 
-        _set_key("w", False)
-        _set_key("s", False)
+        _set_key("a", False)
+        _set_key("d", False)
