@@ -14,7 +14,15 @@ try:
     while True:
         client.send_message("/input/MoveForward", True)
         print("Sent: /input/MoveForward True")
-        time.sleep(0.1)   # 10 messages per second
+        time.sleep(1)
+        client.send_message("/input/MoveForward", False)
+        print("Sent: /input/MoveForward False")
+        client.send_message("/input/MoveBackward", True)
+        print("Sent: /input/MoveBackward True")
+        time.sleep(1)
+        client.send_message("/input/MoveBackward", False)
+        print("Sent: /input/MoveBackward False")
+
 
 except KeyboardInterrupt:
     print("\nStopped.")
