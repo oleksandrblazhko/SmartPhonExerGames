@@ -71,3 +71,7 @@ https://docs.vrchat.com/docs/keyboard-and-mouse
 Обертання навколо осі Roll	U / O	/input/SpinHoldCwCcw	float (-1…1)
 Обертання навколо осі Pitch	I / K	/input/SpinHoldUD	float (-1…1)
 Обертання навколо осі Yaw	J / L	/input/SpinHoldLR	float (-1…1)
+
+
+Подробиці - 
+https://docs.vrchat.com/docs/osc-as-input-controller
